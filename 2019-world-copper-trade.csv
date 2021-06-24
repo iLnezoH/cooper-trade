@@ -1,0 +1,1154 @@
+Classification,Year,Period,Period Desc.,Aggregate Level,Is Leaf Code,Trade Flow Code,Trade Flow,Reporter Code,Reporter,Reporter ISO,Partner Code,Partner,Partner ISO,2nd Partner Code,2nd Partner,2nd Partner ISO,Customs Proc. Code,Customs,Mode of Transport Code,Mode of Transport,Commodity Code,Commodity,Qty Unit Code,Qty Unit,Qty,Alt Qty Unit Code,Alt Qty Unit,Alt Qty,Netweight (kg),Gross weight (kg),Trade Value (US$),CIF Trade Value (US$),FOB Trade Value (US$),Flag
+H5,2019,2019,2019,6,1,1,Import,31,Azerbaijan,AZE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,35,,,,35,,1087,,,0
+H5,2019,2019,2019,6,1,2,Export,31,Azerbaijan,AZE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,14454509,,,,14454509,,20711447,,,0
+H5,2019,2019,2019,6,1,2,Export,31,Azerbaijan,AZE,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,240829,,,,240829,,419159,,,0
+H5,2019,2019,2019,6,1,2,Export,31,Azerbaijan,AZE,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2400880,,,,2400880,,3043343,,,0
+H5,2019,2019,2019,6,1,1,Import,31,Azerbaijan,AZE,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,0,,,,0,,79,,,0
+H5,2019,2019,2019,6,1,2,Export,31,Azerbaijan,AZE,860,Uzbekistan,UZB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11812800,,,,11812800,,17248944,,,0
+H5,2019,2019,2019,6,1,1,Import,31,Azerbaijan,AZE,899,"Areas, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,34,,,,34,,1007,,,0
+H5,2019,2019,2019,6,1,1,Import,32,Argentina,ARG,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,21,,,6
+H5,2019,2019,2019,6,1,1,Import,32,Argentina,ARG,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,21,,,6
+H5,2019,2019,2019,6,1,1,Import,36,Australia,AUS,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,41800800,,,,41800800,,59103547,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1925623480,,,,1925623480,,4310271390,,,0
+H5,2019,2019,2019,6,1,1,Import,36,Australia,AUS,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,520,,,,520,,952,,,0
+H5,2019,2019,2019,6,1,1,Import,36,Australia,AUS,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,41798632,,,,41798632,,59083233,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1032608000,,,,1032608000,,1585564428,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20400000,,,,20400000,,53758472,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,427619000,,,,427619000,,1435532324,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,70673700,,,,70673700,,254711472,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,17186700,,,,17186700,,46627393,,,0
+H5,2019,2019,2019,6,1,1,Import,36,Australia,AUS,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,32,,,,32,,1014,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,74436000,,,,74436000,,218145568,,,0
+H5,2019,2019,2019,6,1,1,Import,36,Australia,AUS,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,250,,,,250,,899,,,0
+H5,2019,2019,2019,6,1,1,Import,36,Australia,AUS,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1346,,,,1346,,14495,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2154080,,,,2154080,,2114396,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,109115000,,,,109115000,,330824757,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,164431000,,,,164431000,,359986517,,,0
+H5,2019,2019,2019,6,1,2,Export,36,Australia,AUS,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7000000,,,,7000000,,23006060,,,0
+H5,2019,2019,2019,6,1,1,Import,36,Australia,AUS,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19,,,,19,,2953,,,0
+H5,2019,2019,2019,6,1,1,Import,40,Austria,AUT,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3459,,,,3459,,23533,,,0
+H5,2019,2019,2019,6,1,1,Import,40,Austria,AUT,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3026,,,,3026,,17471,,,0
+H5,2019,2019,2019,6,1,1,Import,40,Austria,AUT,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,133,,,,133,,4012,,,0
+H5,2019,2019,2019,6,1,1,Import,40,Austria,AUT,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,249,,,,249,,1430,,,0
+H5,2019,2019,2019,6,1,1,Import,40,Austria,AUT,807,North Macedonia,MKD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,51,,,,51,,618,,,0
+H5,2019,2019,2019,6,1,1,Import,51,Armenia,ARM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10899,,,,10899,,3814,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,562016387,,,,562016387,,626668418,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,226592750,,,,226592750,,205827949,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9728254,,,,9728254,,52547828,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,157119200,,,,157119200,,174415305,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,924491,,,,924491,,2322246,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11450,,,,11450,,586,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,1,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,574,,,,574,,45,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7970,,,,7970,,214,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,167631390,,,,167631390,,191554017,,,0
+H5,2019,2019,2019,6,1,2,Export,51,Armenia,ARM,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,305,,,,305,,224,,,0
+H5,2019,2019,2019,6,1,1,Import,51,Armenia,ARM,899,"Areas, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10899,,,,10899,,3814,,,0
+H5,2019,2019,2019,6,1,1,Import,52,Barbados,BRB,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,10,,,0
+H5,2019,2019,2019,6,1,1,Import,52,Barbados,BRB,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,10,,,0
+H5,2019,2019,2019,6,1,1,Import,56,Belgium,BEL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,117199,,,,117199,,996188,,,0
+H5,2019,2019,2019,6,1,2,Export,56,Belgium,BEL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2059164,,,,2059164,,298693,,,0
+H5,2019,2019,2019,6,1,2,Export,56,Belgium,BEL,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,69896,,,,69896,,37838,,,0
+H5,2019,2019,2019,6,1,2,Export,56,Belgium,BEL,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3630,,,,3630,,5929,,,0
+H5,2019,2019,2019,6,1,2,Export,56,Belgium,BEL,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,77230,,,,77230,,231888,,,0
+H5,2019,2019,2019,6,1,1,Import,56,Belgium,BEL,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,179,,,,179,,307,,,0
+H5,2019,2019,2019,6,1,1,Import,56,Belgium,BEL,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2149,,,,2149,,10336,,,0
+H5,2019,2019,2019,6,1,1,Import,56,Belgium,BEL,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4400,,,,4400,,43111,,,0
+H5,2019,2019,2019,6,1,1,Import,56,Belgium,BEL,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,89459,,,,89459,,899456,,,0
+H5,2019,2019,2019,6,1,2,Export,56,Belgium,BEL,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1906090,,,,1906090,,9816,,,0
+H5,2019,2019,2019,6,1,1,Import,56,Belgium,BEL,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20975,,,,20975,,42705,,,0
+H5,2019,2019,2019,6,1,2,Export,56,Belgium,BEL,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1316,,,,1316,,6334,,,0
+H5,2019,2019,2019,6,1,1,Import,56,Belgium,BEL,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,36,,,,36,,268,,,0
+H5,2019,2019,2019,6,1,2,Export,56,Belgium,BEL,818,Egypt,EGY,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1000,,,,1000,,6885,,,0
+H5,2019,2019,2019,6,1,1,Import,56,Belgium,BEL,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,0,,,,0,,3,,,0
+H5,2019,2019,2019,6,1,1,Import,68,Bolivia (Plurinational State of),BOL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10,,,,8,,334,,,0
+H5,2019,2019,2019,6,1,2,Export,68,Bolivia (Plurinational State of),BOL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9361299,,,,9361299,,8162352,,,0
+H5,2019,2019,2019,6,1,2,Export,68,Bolivia (Plurinational State of),BOL,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1002557,,,,1002557,,845305,,,0
+H5,2019,2019,2019,6,1,1,Import,68,Bolivia (Plurinational State of),BOL,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,3,,137,,,0
+H5,2019,2019,2019,6,1,1,Import,68,Bolivia (Plurinational State of),BOL,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7,,,,4,,182,,,0
+H5,2019,2019,2019,6,1,2,Export,68,Bolivia (Plurinational State of),BOL,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1821436,,,,1821436,,1494748,,,0
+H5,2019,2019,2019,6,1,2,Export,68,Bolivia (Plurinational State of),BOL,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4238045,,,,4238045,,3882938,,,0
+H5,2019,2019,2019,6,1,2,Export,68,Bolivia (Plurinational State of),BOL,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2032850,,,,2032850,,1633623,,,0
+H5,2019,2019,2019,6,1,2,Export,68,Bolivia (Plurinational State of),BOL,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,266411,,,,266411,,305736,,,0
+H5,2019,2019,2019,6,1,1,Import,68,Bolivia (Plurinational State of),BOL,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,13,,,0
+H5,2019,2019,2019,6,1,1,Import,70,Bosnia Herzegovina,BIH,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1000,,,,1000,,4338,,,0
+H5,2019,2019,2019,6,1,2,Export,70,Bosnia Herzegovina,BIH,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,75000,,,,75000,,293515,,,0
+H5,2019,2019,2019,6,1,1,Import,70,Bosnia Herzegovina,BIH,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1000,,,,1000,,4338,,,0
+H5,2019,2019,2019,6,1,2,Export,70,Bosnia Herzegovina,BIH,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,75000,,,,75000,,293515,,,0
+H5,2019,2019,2019,6,1,1,Import,72,Botswana,BWA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10000,,,,10000,,11857,,,0
+H5,2019,2019,2019,6,1,2,Export,72,Botswana,BWA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,148520,,178605,,,6
+H5,2019,2019,2019,6,1,1,Import,72,Botswana,BWA,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10000,,,,10000,,11857,,,0
+H5,2019,2019,2019,6,1,2,Export,72,Botswana,BWA,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,148520,,178605,,,6
+H5,2019,2019,2019,6,1,1,Import,76,Brazil,BRA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,450886405,,,,450886405,,744432600,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1159897394,,,,1159869304,,2325685010,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,40,Austria,AUT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5412,,,,5412,,1399,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,58337800,,,,58337800,,112551636,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,850000,,,,850000,,477614,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3190,,,,3190,,5264,,,0
+H5,2019,2019,2019,6,1,1,Import,76,Brazil,BRA,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,269086388,,,,269086388,,406682387,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4915,,,,4915,,1746,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,275339138,,,,275311048,,442971407,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,208,Denmark,DNK,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10,,,,10,,92,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,28742350,,,,28742350,,43227318,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,23029000,,,,23029000,,54459587,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,229950015,,,,229950015,,485108857,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,162000,,,,162000,,157608,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11764068,,,,11764068,,25921266,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,78105000,,,,78105000,,133041574,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6290246,,,,6290246,,11804610,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,43374000,,,,43374000,,105638586,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,87263000,,,,87263000,,219050674,,,0
+H5,2019,2019,2019,6,1,1,Import,76,Brazil,BRA,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,646560,,,,646560,,642563,,,0
+H5,2019,2019,2019,6,1,1,Import,76,Brazil,BRA,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,151505300,,,,151505300,,291455617,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,502410,,,,502410,,110112,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,120047000,,,,120047000,,296769474,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1440,,,,1440,,2096,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,122738400,,,,122738400,,221814245,,,0
+H5,2019,2019,2019,6,1,2,Export,76,Brazil,BRA,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,73388000,,,,73388000,,172569845,,,0
+H5,2019,2019,2019,6,1,1,Import,76,Brazil,BRA,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,29648157,,,,29648157,,45652033,,,0
+H5,2019,2019,2019,6,1,1,Import,96,Brunei Darussalam,BRN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100000,,,,100000,,16143,,,0
+H5,2019,2019,2019,6,1,1,Import,96,Brunei Darussalam,BRN,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100000,,,,100000,,16143,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,849263785,,,,849263785,,1396673410,,,6
+H5,2019,2019,2019,6,1,2,Export,100,Bulgaria,BGR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,399307510,,,,399307510,,268556127,,,0
+H5,2019,2019,2019,6,1,2,Export,100,Bulgaria,BGR,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,520,,,,520,,875,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11025251,,,,11025251,,27382819,,,6
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,15504800,,,,15504800,,28714923,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21757000,,,,21757000,,30595677,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,74,,,,74,,1850,,,0
+H5,2019,2019,2019,6,1,2,Export,100,Bulgaria,BGR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,255347500,,,,255347500,,71216190,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,188806420,,,,188806420,,315431413,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,47804700,,,,47804700,,103062557,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20354000,,,,20354000,,17813146,,,0
+H5,2019,2019,2019,6,1,2,Export,100,Bulgaria,BGR,516,Namibia,NAM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,86130400,,,,86130400,,128579702,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10876100,,,,10876100,,27337542,,,0
+H5,2019,2019,2019,6,1,2,Export,100,Bulgaria,BGR,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,292850,,,,292850,,487741,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,620,Portugal,PRT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,29300170,,,,29300170,,32250427,,,0
+H5,2019,2019,2019,6,1,2,Export,100,Bulgaria,BGR,688,Serbia,SRB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,57492240,,,,57492240,,68243277,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,382377670,,,,382377670,,663139413,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,64926580,,,,64926580,,60543424,,,0
+H5,2019,2019,2019,6,1,2,Export,100,Bulgaria,BGR,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,44000,,,,44000,,28340,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,807,North Macedonia,MKD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,34758320,,,,34758320,,60029299,,,0
+H5,2019,2019,2019,6,1,1,Import,100,Bulgaria,BGR,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21772700,,,,21772700,,30370915,,,0
+H5,2019,2019,2019,6,1,1,Import,104,Myanmar,MMR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10769,,,,10769,,56062,,,0
+H5,2019,2019,2019,6,1,1,Import,104,Myanmar,MMR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,52,,,,52,,393,,,0
+H5,2019,2019,2019,6,1,1,Import,104,Myanmar,MMR,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,663,,,,663,,5398,,,0
+H5,2019,2019,2019,6,1,1,Import,104,Myanmar,MMR,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10054,,,,10054,,50270,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21414104,,,,21414104,,17600075,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2682460,,,,2682460,,1223810,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,911520,,,,911520,,1436755,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6258250,,,,6258250,,10538998,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1155237,,,,1155237,,576278,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19340,,,,19340,,8102,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,381546,,,,381546,,161157,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,401905,,,,401905,,66288,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1995051,,,,1995051,,978072,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,972353,,,,972353,,309614,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,582776,,,,582776,,369345,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,86828,,,,86828,,90862,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2001300,,,,2001300,,194316,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,326656,,,,326656,,142448,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1026555,,,,1026555,,596290,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1980800,,,,1980800,,655863,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,365305,,,,365305,,145381,,,0
+H5,2019,2019,2019,6,1,1,Import,116,Cambodia,KHM,858,Uruguay,URY,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,266222,,,,266222,,106488,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,42802513,,,,,,490938580,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,498310131,,,,498310131,,2835751422,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,88,,,,88,,357,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,51,Armenia,ARM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,919227,,,,919227,,42818353,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5813030,,,,5813030,,28198445,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,413,,,,0,,1559,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18944034,,,,18944034,,121460233,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5308616,,,,5308616,,30946900,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,36,,,,36,,161,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,137497502,,,,137497502,,764979617,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,203,Czechia,CZE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,136,,,,136,,513,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2838957,,,,2838957,,31435832,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,26768053,,,,26768053,,152253061,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,534339,,,,534339,,8392801,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22120,,,,22120,,811181,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,26971567,,,,26971567,,155879789,,,6
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,110949263,,,,110949263,,612339073,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,398,Kazakhstan,KAZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,16,,,,16,,117,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,85833682,,,,85833682,,495519503,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2515307,,,,2515307,,61744257,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3663794,,,,3663794,,21167625,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2684826,,,,2684826,,15203682,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6652769,,,,6652769,,39787472,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,516,Namibia,NAM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,9,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,5,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2899479,,,,0,,23549777,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6616787,,,,6616787,,61464985,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,14363403,,,,14363403,,85108559,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1829276,,,,1829276,,47191378,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,38427301,,,,38427301,,229112073,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,121,,,,121,,543,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,14504693,,,,14504693,,84604619,,,6
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6710992,,,,6710992,,40491944,,,6
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,419360,,,,419360,,2220391,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1370760,,,,1370760,,7547202,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,248273,,,,,,2617599,,,0
+H5,2019,2019,2019,6,1,1,Import,124,Canada,CAN,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,14594365,,,,0,,154990967,,,0
+H5,2019,2019,2019,6,1,2,Export,124,Canada,CAN,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1210042,,,,1210042,,4849401,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5448478,,,,5448478,,11332145,,,6
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3243962456,,,,3243962456,,18483024752,,,0
+H5,2019,2019,2019,6,1,4,Re-Import,152,Chile,CHL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,305,,,,305,,12251,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,32,Argentina,ARG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19,,,,19,,590,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,28,,,,28,,652,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13993130,,,,13993130,,79010435,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,40,Austria,AUT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18,,,,18,,103,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,401,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,68,Bolivia (Plurinational State of),BOL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,0,,,,0,,0,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4937,,,,4937,,7494,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,66930370,,,,66930370,,374277853,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,64,,,,64,,1991,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,28452230,,,,28452230,,155860814,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,17102,,,,17102,,39118,,,6
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5507440,,,,5507440,,31557457,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,305,,,,305,,12251,,,0
+H5,2019,2019,2019,6,1,4,Re-Import,152,Chile,CHL,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,305,,,,305,,12251,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,341,,,,341,,10647,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1694178000,,,,1694178000,,9649325301,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,170,Colombia,COL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,51,,,,51,,3029,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,218,Ecuador,ECU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,467389,,,,467389,,715936,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,34004830,,,,34004830,,199317118,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18625240,,,,18625240,,103657158,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5112,,,,5112,,1578,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,46193800,,,,46193800,,266438810,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,487,,,,487,,14477,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,595653600,,,,595653600,,3411048785,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,259,,,,259,,6933,,,6
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,292012100,,,,292012100,,1674358743,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19,,,,19,,463,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24953530,,,,24953530,,144428498,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,802855,,,,802855,,3860581,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,33169130,,,,33169130,,189737593,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22,,,,22,,609,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,46801970,,,,46801970,,259315086,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,516,Namibia,NAM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,15577440,,,,15577440,,91259132,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9,,,,9,,207,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,577,"Other Africa, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4,,,,4,,128,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4147250,,,,4147250,,6642008,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,45624915,,,,45624915,,254916390,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18716480,,,,18716480,,102706363,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7,,,,7,,348,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11476160,,,,11476160,,63728817,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13,,,,13,,365,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,147699300,,,,147699300,,834456725,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,108454,,,,108454,,619054,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,91,,,,91,,2593,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,92649320,,,,92649320,,528050244,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7,,,,7,,134,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5848000,,,,5848000,,33918812,,,0
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3236880,,,,3236880,,19412749,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,164,,,,164,,3996,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1908,,,,1908,,4841,,,6
+H5,2019,2019,2019,6,1,2,Export,152,Chile,CHL,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2550119,,,,2550119,,15622702,,,0
+H5,2019,2019,2019,6,1,1,Import,152,Chile,CHL,899,"Areas, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,23,,,,23,,763,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22023819713,,,,22023819713,,34080602511,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1652351,,,,1652351,,1438310,,,6
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,8,Albania,ALB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,14658487,,,,14658487,,17013004,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1051641200,,,,1051641200,,1666113958,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,49,,,,49,,20,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,51,Armenia,ARM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,353146410,,,,353146410,,510563982,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,68,Bolivia (Plurinational State of),BOL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2190032,,,,2190032,,2677980,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,294031320,,,,294031320,,557705819,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,301285,,,,301285,,421799,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,96,Brunei Darussalam,BRN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100000,,,,100000,,5911,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,50,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,104,Myanmar,MMR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3774480,,,,3774480,,2850825,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,942659,,,,942659,,834105,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,522168800,,,,522168800,,910149220,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4082,,,,4082,,613,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7729349000,,,,7729349000,,12076025483,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,170,Colombia,COL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,37260831,,,,37260831,,56382455,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,178,Congo,COG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,335097,,,,335097,,520238,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,155608370,,,,155608370,,386995691,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5286,,,,5286,,5732,,,6
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,212,Dominica,DMA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,57,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,214,Dominican Rep.,DOM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,65042266,,,,65042266,,123783836,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,218,Ecuador,ECU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2882724,,,,2882724,,4952430,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,231,Ethiopia,ETH,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20003,,,,20003,,10326,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,232,Eritrea,ERI,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,61621270,,,,61621270,,105319016,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,50,,,,50,,500,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,292524800,,,,292524800,,618533133,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,364,Iran,IRN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22723615,,,,22723615,,23701028,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,364,Iran,IRN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20,,,,20,,10,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,26000,,,,26000,,57200,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,398,Kazakhstan,KAZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,735882300,,,,735882300,,964109620,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,404,Kenya,KEN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,612625,,,,612625,,501479,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,404,Kenya,KEN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,92920,,,,92920,,92920,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,59,,,,59,,709,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,417,Kyrgyzstan,KGZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,125471,,,,125471,,199725,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,418,Lao People's Dem. Rep.,LAO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,291938700,,,,291938700,,458829040,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,450,Madagascar,MDG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,602045,,,,602045,,440772,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22003565,,,,22003565,,34683639,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,478,Mauritania,MRT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,123732390,,,,123732390,,209832472,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1246956800,,,,1246956800,,1986012762,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,56409560,,,,56409560,,111136358,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,496,Mongolia,MNG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1326698300,,,,1326698300,,1795514292,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,17912198,,,,17912198,,17746697,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,508,Mozambique,MOZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,816461,,,,816461,,2099031,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,516,Namibia,NAM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,50000,,,,50000,,18079,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,566,Nigeria,NGA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,25929,,,,25929,,9853,,,0
+H5,2019,2019,2019,6,1,2,Export,156,China,CHN,566,Nigeria,NGA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,180000,,,,180000,,19500,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,586,Pakistan,PAK,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,386449,,,,386449,,193330,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,591,Panama,PAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,309340900,,,,309340900,,387665029,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,598,Papua New Guinea,PNG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,69498040,,,,69498040,,159701250,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5956183000,,,,5956183000,,9052329871,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,165031509,,,,165031509,,268285022,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,642,Romania,ROU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9369899,,,,9369899,,12115525,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100394310,,,,100394310,,234860468,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,104622370,,,,104622370,,152889096,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,688,Serbia,SRB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,45,,,,45,,111,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,67327031,,,,67327031,,78282781,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13554093,,,,13554093,,22101901,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,706,Somalia,SOM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,286474,,,,286474,,154153,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11995037,,,,11995037,,17009652,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,716,Zimbabwe,ZWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1032492,,,,1032492,,783889,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,638620800,,,,638620800,,872750734,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,124666,,,,124666,,115337,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,784,United Arab Emirates,ARE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,53964805,,,,53964805,,70360785,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,59904304,,,,59904304,,60658162,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,60000,,,,60000,,74307,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,834,United Rep. of Tanzania,TZA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2182580,,,,2182580,,8523190,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9074822,,,,9074822,,13566717,,,0
+H5,2019,2019,2019,6,1,1,Import,156,China,CHN,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18120972,,,,18120972,,23748142,,,0
+H5,2019,2019,2019,6,1,2,Export,170,Colombia,COL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,40661067,,,6
+H5,2019,2019,2019,6,1,2,Export,170,Colombia,COL,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,60000,,,,60000,,31020,,,0
+H5,2019,2019,2019,6,1,2,Export,170,Colombia,COL,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,29838660,,,,29838660,,40352028,,,0
+H5,2019,2019,2019,6,1,2,Export,170,Colombia,COL,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,142066,,,,142066,,151165,,,0
+H5,2019,2019,2019,6,1,2,Export,170,Colombia,COL,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,126854,,,6
+H5,2019,2019,2019,6,1,1,Import,188,Costa Rica,CRI,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,8,,,,8,,123,,,0
+H5,2019,2019,2019,6,1,1,Import,188,Costa Rica,CRI,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,8,,,,8,,123,,,0
+H5,2019,2019,2019,6,1,1,Import,196,Cyprus,CYP,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,108,,,,108,,899,,,0
+H5,2019,2019,2019,6,1,1,Import,196,Cyprus,CYP,300,Greece,GRC,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,108,,,,108,,899,,,0
+H5,2019,2019,2019,6,1,1,Import,203,Czechia,CZE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,36327,,,6
+H5,2019,2019,2019,6,1,1,Import,203,Czechia,CZE,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,1800,,,6
+H5,2019,2019,2019,6,1,1,Import,203,Czechia,CZE,516,Namibia,NAM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24200,,,,24200,,34485,,,0
+H5,2019,2019,2019,6,1,1,Import,203,Czechia,CZE,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,42,,,0
+H5,2019,2019,2019,6,1,2,Export,204,Benin,BEN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18600,,,,18600,,1708,,,0
+H5,2019,2019,2019,6,1,2,Export,204,Benin,BEN,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18600,,,,18600,,1708,,,0
+H5,2019,2019,2019,6,1,2,Export,208,Denmark,DNK,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,34,,,,34,,3459,,,0
+H5,2019,2019,2019,6,1,2,Export,208,Denmark,DNK,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,34,,,,34,,3459,,,0
+H5,2019,2019,2019,6,1,1,Import,218,Ecuador,ECU,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,143,,,0
+H5,2019,2019,2019,6,1,2,Export,218,Ecuador,ECU,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22608080,,,,22608080,,31624096,,,0
+H5,2019,2019,2019,6,1,2,Export,218,Ecuador,ECU,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,460430,,,,460430,,533781,,,0
+H5,2019,2019,2019,6,1,2,Export,218,Ecuador,ECU,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4226870,,,,4226870,,3562481,,,0
+H5,2019,2019,2019,6,1,2,Export,218,Ecuador,ECU,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,410480,,,,410480,,742139,,,0
+H5,2019,2019,2019,6,1,2,Export,218,Ecuador,ECU,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,17270300,,,,17270300,,26709585,,,0
+H5,2019,2019,2019,6,1,2,Export,218,Ecuador,ECU,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,240000,,,,240000,,76108,,,0
+H5,2019,2019,2019,6,1,1,Import,218,Ecuador,ECU,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,143,,,0
+H5,2019,2019,2019,6,1,1,Import,222,El Salvador,SLV,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2079,,,,2079,,9541,,,0
+H5,2019,2019,2019,6,1,1,Import,222,El Salvador,SLV,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3,,,,3,,43,,,0
+H5,2019,2019,2019,6,1,1,Import,222,El Salvador,SLV,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2076,,,,2076,,9497,,,0
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,688638976,,,6
+H5,2019,2019,2019,6,1,2,Export,246,Finland,FIN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,93206489,,,6
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20,,,,20,,920,,,0
+H5,2019,2019,2019,6,1,2,Export,246,Finland,FIN,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6,,,,6,,2,,,0
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,28677462,,,,28677462,,46062858,,,6
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,98572202,,,,98572202,,158326671,,,6
+H5,2019,2019,2019,6,1,2,Export,246,Finland,FIN,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,8,,,,8,,3,,,0
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,133421330,,,,133421330,,214300721,,,6
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,196,Cyprus,CYP,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,6024689,,,6
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6,,,,6,,101,,,0
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,598,Papua New Guinea,PNG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,75,,,,75,,14,,,0
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,52678554,,,,52678554,,84612116,,,6
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,620,Portugal,PRT,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,123877576,,,6
+H5,2019,2019,2019,6,1,2,Export,246,Finland,FIN,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,48,,,,48,,396,,,0
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,5719024,,,6
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30951543,,,,30951543,,49714225,,,6
+H5,2019,2019,2019,6,1,2,Export,246,Finland,FIN,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,93206085,,,6
+H5,2019,2019,2019,6,1,2,Export,246,Finland,FIN,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6,,,,6,,2,,,0
+H5,2019,2019,2019,6,1,1,Import,246,Finland,FIN,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,70,,,,70,,55,,,0
+H5,2019,2019,2019,6,1,1,Import,251,France,FRA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,30067,,,6
+H5,2019,2019,2019,6,1,2,Export,251,France,FRA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5152000,,,,5152000,,14776462,,,0
+H5,2019,2019,2019,6,1,1,Import,251,France,FRA,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,500,,,,500,,3302,,,0
+H5,2019,2019,2019,6,1,1,Import,251,France,FRA,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,6,,,0
+H5,2019,2019,2019,6,1,2,Export,251,France,FRA,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19100,,,,19100,,85539,,,0
+H5,2019,2019,2019,6,1,2,Export,251,France,FRA,376,Israel,ISR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,73,,,,73,,981,,,0
+H5,2019,2019,2019,6,1,2,Export,251,France,FRA,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3962662,,,,3962662,,10715269,,,0
+H5,2019,2019,2019,6,1,2,Export,251,France,FRA,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1170142,,,,1170142,,3974613,,,0
+H5,2019,2019,2019,6,1,2,Export,251,France,FRA,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,23,,,,23,,58,,,0
+H5,2019,2019,2019,6,1,1,Import,251,France,FRA,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,33,,,,33,,53,,,6
+H5,2019,2019,2019,6,1,1,Import,251,France,FRA,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,180,,,,180,,289,,,6
+H5,2019,2019,2019,6,1,1,Import,251,France,FRA,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,24877,,,6
+H5,2019,2019,2019,6,1,1,Import,251,France,FRA,899,"Areas, nes",,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,1537,,,6
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1020012038,,,,1020012038,,1919801760,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,52862775,,,,52862775,,26931710,,,6
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,32,Argentina,ARG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,41,,,,41,,21,,,6
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,42966803,,,,42966803,,182826168,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,51,Armenia,ARM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,108,,,,108,,895,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,61393,,,,61393,,631038,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,240001125,,,,240001125,,510874350,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,86120429,,,,86120429,,174224369,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,71055,,,,71055,,711053,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,177044869,,,,177044869,,299629502,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5112,,,,5112,,391,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6000,,,,6000,,28550,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6638990,,,,6638990,,7449316,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1354,,,,1354,,2487,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11550780,,,,11550780,,17811256,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,60,,,,60,,3727,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22000026,,,,22000026,,46306085,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100,,,,100,,55,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,26,,,,26,,423,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,42697061,,,,42697061,,54625864,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20208274,,,,20208274,,17722507,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2160,,,,2160,,279,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,591,Panama,PAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,47168493,,,,47168493,,55027355,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,598,Papua New Guinea,PNG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10500000,,,,10500000,,34133500,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,298856324,,,,298856324,,504392327,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,620,Portugal,PRT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20870020,,,,20870020,,22155165,,,0
+H5,2019,2019,2019,6,1,2,Export,276,Germany,DEU,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,46083790,,,,46083790,,18138233,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1283,,,,1283,,2400,,,0
+H5,2019,2019,2019,6,1,1,Import,276,Germany,DEU,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19137,,,,19137,,36141,,,0
+H5,2019,2019,2019,6,1,2,Export,288,Ghana,GHA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24730,,,,24730,,49204,,,0
+H5,2019,2019,2019,6,1,2,Export,288,Ghana,GHA,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24730,,,,24730,,49204,,,0
+H5,2019,2019,2019,6,1,1,Import,300,Greece,GRC,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,81,,,,81,,6425,,,0
+H5,2019,2019,2019,6,1,1,Import,300,Greece,GRC,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,422,,,0
+H5,2019,2019,2019,6,1,1,Import,300,Greece,GRC,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,80,,,,80,,6003,,,0
+H5,2019,2019,2019,6,1,1,Import,320,Guatemala,GTM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,50,,,,50,,775,,,0
+H5,2019,2019,2019,6,1,2,Export,320,Guatemala,GTM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4,,,,4,,43,,,0
+H5,2019,2019,2019,6,1,1,Import,320,Guatemala,GTM,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,50,,,,50,,775,,,0
+H5,2019,2019,2019,6,1,2,Export,320,Guatemala,GTM,222,El Salvador,SLV,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4,,,,4,,43,,,0
+H5,2019,2019,2019,6,1,1,Import,344,"China, Hong Kong SAR",HKG,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,334780,,,,334780,,124228,,,0
+H5,2019,2019,2019,6,1,2,Export,344,"China, Hong Kong SAR",HKG,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,414410,,,,414410,,207722,,,0
+H5,2019,2019,2019,6,1,2,Export,344,"China, Hong Kong SAR",HKG,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30620,,,,30620,,33070,,,0
+H5,2019,2019,2019,6,1,1,Import,344,"China, Hong Kong SAR",HKG,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,334780,,,,334780,,124228,,,0
+H5,2019,2019,2019,6,1,2,Export,344,"China, Hong Kong SAR",HKG,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,338620,,,,338620,,152061,,,0
+H5,2019,2019,2019,6,1,2,Export,344,"China, Hong Kong SAR",HKG,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,45170,,,,45170,,22590,,,0
+H5,2019,2019,2019,6,1,1,Import,352,Iceland,ISL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13,,,,13,,341,,,0
+H5,2019,2019,2019,6,1,2,Export,352,Iceland,ISL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,40380,,,,40380,,173292,,,0
+H5,2019,2019,2019,6,1,1,Import,352,Iceland,ISL,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13,,,,13,,341,,,0
+H5,2019,2019,2019,6,1,2,Export,352,Iceland,ISL,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,40380,,,,40380,,173292,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5337964,,,,5337964,,285268,,,6
+H5,2019,2019,2019,6,1,2,Export,360,Indonesia,IDN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,676675200,,,,676675200,,1280054347,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,12,,,,12,,162,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,34545,,,,34545,,19960,,,6
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,74,,,,74,,1207,,,0
+H5,2019,2019,2019,6,1,2,Export,360,Indonesia,IDN,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,302510900,,,,302510900,,599729496,,,0
+H5,2019,2019,2019,6,1,2,Export,360,Indonesia,IDN,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10000000,,,,10000000,,19259581,,,0
+H5,2019,2019,2019,6,1,2,Export,360,Indonesia,IDN,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,103457200,,,,103457200,,180618218,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,110457,,,,110457,,5606,,,0
+H5,2019,2019,2019,6,1,2,Export,360,Indonesia,IDN,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,85665300,,,,85665300,,163346530,,,0
+H5,2019,2019,2019,6,1,2,Export,360,Indonesia,IDN,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,15750000,,,,15750000,,36758161,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,76,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6,,,,6,,51,,,0
+H5,2019,2019,2019,6,1,2,Export,360,Indonesia,IDN,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,99291800,,,,99291800,,153454726,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4204260,,,,4204260,,208111,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3,,,,3,,30,,,0
+H5,2019,2019,2019,6,1,2,Export,360,Indonesia,IDN,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30000000,,,,30000000,,64300632,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4,,,,4,,26,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,988561,,,,988561,,49428,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,12,,,,12,,136,,,0
+H5,2019,2019,2019,6,1,2,Export,360,Indonesia,IDN,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30000000,,,,30000000,,62587003,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4,,,,4,,91,,,0
+H5,2019,2019,2019,6,1,1,Import,360,Indonesia,IDN,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,25,,,,25,,384,,,0
+H5,2019,2019,2019,6,1,1,Import,372,Ireland,IRL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,32181,,,,32181,,473064,,,0
+H5,2019,2019,2019,6,1,1,Import,372,Ireland,IRL,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,205,,,0
+H5,2019,2019,2019,6,1,1,Import,372,Ireland,IRL,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4230,,,,4230,,12611,,,0
+H5,2019,2019,2019,6,1,1,Import,372,Ireland,IRL,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4715,,,,4715,,19297,,,0
+H5,2019,2019,2019,6,1,1,Import,372,Ireland,IRL,398,Kazakhstan,KAZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,421,,,,421,,6967,,,0
+H5,2019,2019,2019,6,1,1,Import,372,Ireland,IRL,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6520,,,,6520,,168762,,,0
+H5,2019,2019,2019,6,1,1,Import,372,Ireland,IRL,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,16290,,,,16290,,265220,,,0
+H5,2019,2019,2019,6,1,1,Import,376,Israel,ISR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,609,,,,609,,1000,,,6
+H5,2019,2019,2019,6,1,2,Export,376,Israel,ISR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1663,,,,1663,,2000,,,6
+H5,2019,2019,2019,6,1,1,Import,376,Israel,ISR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,609,,,,609,,1000,,,6
+H5,2019,2019,2019,6,1,2,Export,376,Israel,ISR,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1663,,,,1663,,2000,,,6
+H5,2019,2019,2019,6,1,1,Import,381,Italy,ITA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,173886,,,,173886,,381472,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,106721,,,,106721,,465402,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,381,Italy,ITA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,664,,,,664,,4657,,,0
+H5,2019,2019,2019,6,1,1,Import,381,Italy,ITA,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13000,,,,13000,,90545,,,0
+H5,2019,2019,2019,6,1,1,Import,381,Italy,ITA,68,Bolivia (Plurinational State of),BOL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,33445,,,,33445,,2610,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,70,Bosnia Herzegovina,BIH,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1000,,,,1000,,4142,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100,,,,100,,540,,,0
+H5,2019,2019,2019,6,1,1,Import,381,Italy,ITA,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,98670,,,,98670,,191103,,,0
+H5,2019,2019,2019,6,1,1,Import,381,Italy,ITA,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,26000,,,,26000,,76428,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9000,,,,9000,,35819,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,203,Czechia,CZE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,31000,,,,31000,,116262,,,0
+H5,2019,2019,2019,6,1,1,Import,381,Italy,ITA,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20,,,,20,,3582,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,664,,,,664,,4657,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,381,Italy,ITA,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,664,,,,664,,4657,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,8292,,,,8292,,41071,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,300,Greece,GRC,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,80,,,,80,,6006,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,348,Hungary,HUN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,350,,,,350,,1724,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,422,Lebanon,LBN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,400,,,,400,,2211,,,0
+H5,2019,2019,2019,6,1,1,Import,381,Italy,ITA,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2350,,,,2350,,9523,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6000,,,,6000,,24875,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10300,,,,10300,,41158,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,620,Portugal,PRT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,59,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,642,Romania,ROU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1000,,,,1000,,5149,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,705,Slovenia,SVN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20000,,,,20000,,85912,,,0
+H5,2019,2019,2019,6,1,1,Import,381,Italy,ITA,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,400,,,,400,,7566,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7010,,,,7010,,27134,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,788,Tunisia,TUN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1675,,,,1675,,8005,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2250,,,,2250,,11329,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,804,Ukraine,UKR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,500,,,,500,,1959,,,0
+H5,2019,2019,2019,6,1,1,Import,381,Italy,ITA,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,111,,,0
+H5,2019,2019,2019,6,1,2,Export,381,Italy,ITA,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7098,,,,7098,,47383,,,0
+H5,2019,2019,2019,6,1,1,Import,384,Côte d'Ivoire,CIV,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11,,,,11,,160,,,0
+H5,2019,2019,2019,6,1,1,Import,384,Côte d'Ivoire,CIV,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11,,,,11,,160,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4789594000,,,,4789594000,,8291557933,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,472525000,,,,472525000,,1598583055,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10870000,,,,10870000,,18608646,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,351612000,,,,351612000,,579673823,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2190660000,,,,2190660000,,3280705201,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,38000,,,,38000,,161894,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,132619000,,,,132619000,,218009764,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,418,Lao People's Dem. Rep.,LAO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10696000,,,,10696000,,14098985,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,60491000,,,,60491000,,88855445,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,16646000,,,,16646000,,47033429,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,598,Papua New Guinea,PNG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,229711000,,,,229711000,,475392546,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,807641000,,,,807641000,,1187990295,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,104544000,,,,104544000,,247084172,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,45380000,,,,45380000,,58812449,,,0
+H5,2019,2019,2019,6,1,1,Import,392,Japan,JPN,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,356161000,,,,356161000,,476548222,,,0
+H5,2019,2019,2019,6,1,1,Import,398,Kazakhstan,KAZ,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,8811245,,,,8811245,,8633768,,,0
+H5,2019,2019,2019,6,1,2,Export,398,Kazakhstan,KAZ,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1072830175,,,,1072830175,,1153833976,,,0
+H5,2019,2019,2019,6,1,1,Import,398,Kazakhstan,KAZ,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,69000,,,,69000,,46845,,,0
+H5,2019,2019,2019,6,1,2,Export,398,Kazakhstan,KAZ,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,664780800,,,,664780800,,738608504,,,0
+H5,2019,2019,2019,6,1,2,Export,398,Kazakhstan,KAZ,372,Ireland,IRL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1925,,,,1925,,360,,,0
+H5,2019,2019,2019,6,1,1,Import,398,Kazakhstan,KAZ,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7236375,,,,7236375,,5367579,,,0
+H5,2019,2019,2019,6,1,2,Export,398,Kazakhstan,KAZ,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,314685230,,,,314685230,,328206744,,,0
+H5,2019,2019,2019,6,1,1,Import,398,Kazakhstan,KAZ,762,Tajikistan,TJK,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1505870,,,,1505870,,3219343,,,0
+H5,2019,2019,2019,6,1,2,Export,398,Kazakhstan,KAZ,860,Uzbekistan,UZB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,93362220,,,,93362220,,87018367,,,0
+H5,2019,2019,2019,6,1,1,Import,404,Kenya,KEN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,60,,,0
+H5,2019,2019,2019,6,1,2,Export,404,Kenya,KEN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100003,,,,100003,,15301,,,0
+H5,2019,2019,2019,6,1,2,Export,404,Kenya,KEN,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100000,,,,100000,,15282,,,0
+H5,2019,2019,2019,6,1,2,Export,404,Kenya,KEN,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3,,,,3,,19,,,0
+H5,2019,2019,2019,6,1,1,Import,404,Kenya,KEN,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,60,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1731067590,,,,1731067590,,3447478239,,,0
+H5,2019,2019,2019,6,1,2,Export,410,Rep. of Korea,KOR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,183716696,,,,183716696,,260669187,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,116314500,,,,116314500,,510469637,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,75034420,,,,75034420,,148138169,,,0
+H5,2019,2019,2019,6,1,2,Export,410,Rep. of Korea,KOR,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1271150,,,,1271150,,245155,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,211560741,,,,211560741,,504674604,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,735266400,,,,735266400,,1163199761,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1238,,,,1238,,30333,,,0
+H5,2019,2019,2019,6,1,2,Export,410,Rep. of Korea,KOR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,182406439,,,,182406439,,260380148,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20729,,,,20729,,46265,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,231,Ethiopia,ETH,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,39,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21,,,,21,,833,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,93817950,,,,93817950,,195125129,,,0
+H5,2019,2019,2019,6,1,2,Export,410,Rep. of Korea,KOR,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,357,,,,357,,1157,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,83910,,,,83910,,81001,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,41491200,,,,41491200,,59612728,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,516,Namibia,NAM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,106571,,,,106571,,65686,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,591,Panama,PAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13287600,,,,13287600,,13885552,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,598,Papua New Guinea,PNG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,56015100,,,,56015100,,129181881,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,278548670,,,,278548670,,539706521,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,15099432,,,,15099432,,34839333,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,16,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,37,,,,37,,1036,,,0
+H5,2019,2019,2019,6,1,2,Export,410,Rep. of Korea,KOR,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,38750,,,,38750,,42727,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,784,United Arab Emirates,ARE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,12486170,,,,12486170,,14319720,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,0,,,,0,,6,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,33,,,0
+H5,2019,2019,2019,6,1,1,Import,410,Rep. of Korea,KOR,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,81932890,,,,81932890,,134099956,,,0
+H5,2019,2019,2019,6,1,1,Import,417,Kyrgyzstan,KGZ,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,41758,,,,41758,,18390,,,0
+H5,2019,2019,2019,6,1,1,Import,417,Kyrgyzstan,KGZ,860,Uzbekistan,UZB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,41758,,,,41758,,18390,,,0
+H5,2019,2019,2019,6,1,1,Import,418,Lao People's Dem. Rep.,LAO,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2620093,,,,2617238,,648450,,,0
+H5,2019,2019,2019,6,1,2,Export,418,Lao People's Dem. Rep.,LAO,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,334239435,,,,320954135,,589377188,,,0
+H5,2019,2019,2019,6,1,2,Export,418,Lao People's Dem. Rep.,LAO,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,333894200,,,,320608900,,589052464,,,0
+H5,2019,2019,2019,6,1,1,Import,418,Lao People's Dem. Rep.,LAO,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,290096,,,,290096,,20622,,,0
+H5,2019,2019,2019,6,1,1,Import,418,Lao People's Dem. Rep.,LAO,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,44160,,,,44160,,8832,,,0
+H5,2019,2019,2019,6,1,1,Import,418,Lao People's Dem. Rep.,LAO,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1785837,,,,1782982,,568995,,,0
+H5,2019,2019,2019,6,1,2,Export,418,Lao People's Dem. Rep.,LAO,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,343335,,,,343335,,323204,,,0
+H5,2019,2019,2019,6,1,1,Import,418,Lao People's Dem. Rep.,LAO,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,500000,,,,500000,,50000,,,0
+H5,2019,2019,2019,6,1,2,Export,418,Lao People's Dem. Rep.,LAO,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1900,,,,1900,,1520,,,0
+H5,2019,2019,2019,6,1,1,Import,440,Lithuania,LTU,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4,,,,4,,37,,,0
+H5,2019,2019,2019,6,1,1,Import,440,Lithuania,LTU,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4,,,,4,,37,,,0
+H5,2019,2019,2019,6,1,2,Export,442,Luxembourg,LUX,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10740,,,,10740,,54767,,,0
+H5,2019,2019,2019,6,1,2,Export,442,Luxembourg,LUX,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10740,,,,10740,,54767,,,0
+H5,2019,2019,2019,6,1,2,Export,450,Madagascar,MDG,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,509900,,,,509900,,511442,,,0
+H5,2019,2019,2019,6,1,2,Export,450,Madagascar,MDG,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,509900,,,,509900,,511442,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,222235709,,,,222235709,,329275386,,,0
+H5,2019,2019,2019,6,1,2,Export,458,Malaysia,MYS,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,250708355,,,6
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,8,Albania,ALB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2713880,,,,2713880,,2350912,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6000000,,,,6000000,,13892449,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3749480,,,,3749480,,6040233,,,0
+H5,2019,2019,2019,6,1,2,Export,458,Malaysia,MYS,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,103749,,,,103749,,196218,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,101210020,,,,101210020,,131900309,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2768773,,,,2768773,,989265,,,0
+H5,2019,2019,2019,6,1,2,Export,458,Malaysia,MYS,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,119008320,,,,119008320,,182078771,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,214,Dominican Rep.,DOM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3000000,,,,3000000,,3100954,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,17359700,,,,17359700,,36412288,,,0
+H5,2019,2019,2019,6,1,2,Export,458,Malaysia,MYS,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,98160,,,,98160,,196579,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1122,,,,1122,,10687,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,340,,,,340,,3395,,,0
+H5,2019,2019,2019,6,1,2,Export,458,Malaysia,MYS,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,716054,,,,716054,,596197,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,194229,,,,194229,,101721,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,23380,,,,23380,,11983,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1980970,,,,1980970,,2113069,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,31026070,,,,31026070,,35745475,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5565500,,,,5565500,,9229998,,,0
+H5,2019,2019,2019,6,1,2,Export,458,Malaysia,MYS,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,42768450,,,,42768450,,67237090,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6887430,,,,6887430,,10256329,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,28733100,,,,28733100,,57412179,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,32350,,,,32350,,119924,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5746170,,,,5746170,,14617656,,,0
+H5,2019,2019,2019,6,1,2,Export,458,Malaysia,MYS,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,591720,,,,591720,,400589,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5092265,,,,5092265,,4845524,,,0
+H5,2019,2019,2019,6,1,1,Import,458,Malaysia,MYS,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,150930,,,,150930,,121026,,,0
+H5,2019,2019,2019,6,1,2,Export,458,Malaysia,MYS,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,2907,,,6
+H5,2019,2019,2019,6,1,2,Export,470,Malta,MLT,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10000,,,,10000,,4005,,,0
+H5,2019,2019,2019,6,1,2,Export,470,Malta,MLT,434,Libya,LBY,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10000,,,,10000,,4005,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,415242000,,,,415242000,,871263366,,,0
+H5,2019,2019,2019,6,1,2,Export,490,"Other Asia, nes",,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,395985396,,,,395985396,,807439417,,,6
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,75544000,,,,75544000,,257901452,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,78412000,,,,78412000,,233570624,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9748000,,,,9748000,,15768270,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,196479000,,,,196479000,,278773826,,,0
+H5,2019,2019,2019,6,1,2,Export,490,"Other Asia, nes",,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,381629000,,,,381629000,,772507869,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,214,Dominican Rep.,DOM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,12137000,,,,12137000,,13202836,,,0
+H5,2019,2019,2019,6,1,2,Export,490,"Other Asia, nes",,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,14356000,,,,14356000,,34930739,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22857000,,,,22857000,,31334661,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,499,Montenegro,MNE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22000,,,,22000,,17022,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,545000,,,,545000,,902825,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,688,Serbia,SRB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1383000,,,,1383000,,1211308,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6369000,,,,6369000,,21663094,,,0
+H5,2019,2019,2019,6,1,2,Export,490,"Other Asia, nes",,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,396,,,,396,,808,,,6
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11391000,,,,11391000,,16564849,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,267000,,,,267000,,87767,,,0
+H5,2019,2019,2019,6,1,1,Import,490,"Other Asia, nes",,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,88000,,,,88000,,264825,,,0
+H5,2019,2019,2019,6,1,1,Import,496,Mongolia,MNG,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,962,,,,962,,13946,,,0
+H5,2019,2019,2019,6,1,2,Export,496,Mongolia,MNG,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1403622300,,,,1403622300,,1795868367,,,0
+H5,2019,2019,2019,6,1,4,Re-Import,496,Mongolia,MNG,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,962,,,,962,,13946,,,0
+H5,2019,2019,2019,6,1,1,Import,496,Mongolia,MNG,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,962,,,,962,,13946,,,0
+H5,2019,2019,2019,6,1,2,Export,496,Mongolia,MNG,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1403622300,,,,1403622300,,1795868367,,,0
+H5,2019,2019,2019,6,1,4,Re-Import,496,Mongolia,MNG,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,962,,,,962,,13946,,,0
+H5,2019,2019,2019,6,1,1,Import,504,Morocco,MAR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2462,,,,2462,,2296,,,0
+H5,2019,2019,2019,6,1,2,Export,504,Morocco,MAR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,117067385,,,,117067385,,95896100,,,0
+H5,2019,2019,2019,6,1,2,Export,504,Morocco,MAR,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10290200,,,,10290200,,7155531,,,0
+H5,2019,2019,2019,6,1,2,Export,504,Morocco,MAR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,27678800,,,,27678800,,21256334,,,0
+H5,2019,2019,2019,6,1,1,Import,504,Morocco,MAR,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2462,,,,2462,,2296,,,0
+H5,2019,2019,2019,6,1,2,Export,504,Morocco,MAR,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30652000,,,,30652000,,24465515,,,0
+H5,2019,2019,2019,6,1,2,Export,504,Morocco,MAR,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1980970,,,,1980970,,1940256,,,0
+H5,2019,2019,2019,6,1,2,Export,504,Morocco,MAR,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24267200,,,,24267200,,19709626,,,0
+H5,2019,2019,2019,6,1,2,Export,504,Morocco,MAR,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,236015,,,,236015,,524153,,,0
+H5,2019,2019,2019,6,1,2,Export,504,Morocco,MAR,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21962200,,,,21962200,,20844683,,,0
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,312496213,,,,312496213,,513005003,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,12038854,,,6
+H5,2019,2019,2019,6,1,3,Re-Export,516,Namibia,NAM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,0,,11980173,,,0
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,111,,,,111,,182,,,6
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,150190263,,,,150190263,,246557729,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,127,,,,127,,153,,,6
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,66946466,,,,66946466,,109901723,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,0,,2991391,,,6
+H5,2019,2019,2019,6,1,3,Re-Export,516,Namibia,NAM,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,0,,2973160,,,0
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4105823,,,,4105823,,6740268,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,203,Czechia,CZE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30294,,,,30294,,36431,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,300,Greece,GRC,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,4,,,0
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,43,,,,43,,71,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,46,,,,46,,55,,,6
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,81263631,,,,81263631,,133405295,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1504,,,,1504,,1809,,,6
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,9,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1565,,,,1565,,1882,,,6
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1039207,,,,1039207,,1705999,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,0,,8957601,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,516,Namibia,NAM,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,0,,8957601,,,0
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,330101,,,,330101,,541906,,,6
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,0,,,,0,,0,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,0,,119,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,0,,,,0,,0,,,6
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,8457834,,,,8457834,,13884684,,,6
+H5,2019,2019,2019,6,1,2,Export,516,Namibia,NAM,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,0,,49410,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,516,Namibia,NAM,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,0,,49410,,,0
+H5,2019,2019,2019,6,1,1,Import,516,Namibia,NAM,899,"Areas, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,162723,,,,162723,,267132,,,6
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,66565,,,,66565,,765216,,,0
+H5,2019,2019,2019,6,1,2,Export,528,Netherlands,NLD,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,915944,,,,915944,,1805912,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,31,Azerbaijan,AZE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3,,,,3,,169,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18,,,,18,,823,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,74,,,,74,,4909,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,109,,,,109,,6113,,,0
+H5,2019,2019,2019,6,1,2,Export,528,Netherlands,NLD,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,43,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,288,Ghana,GHA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3,,,,3,,158,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24,,,,24,,663,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,398,Kazakhstan,KAZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,58,,,,58,,1805,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,39,,,,39,,1079,,,0
+H5,2019,2019,2019,6,1,2,Export,528,Netherlands,NLD,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,270756,,,,270756,,936479,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,248,,,0
+H5,2019,2019,2019,6,1,2,Export,528,Netherlands,NLD,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,620320,,,,620320,,828781,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,66021,,,,66021,,742920,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,162,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,53,,,,53,,1097,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22,,,,22,,295,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,45,,,,45,,696,,,0
+H5,2019,2019,2019,6,1,2,Export,528,Netherlands,NLD,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,288,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3,,,,3,,161,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,182,,,0
+H5,2019,2019,2019,6,1,2,Export,528,Netherlands,NLD,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,21,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,12,,,,12,,626,,,0
+H5,2019,2019,2019,6,1,2,Export,528,Netherlands,NLD,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24865,,,,24865,,40298,,,0
+H5,2019,2019,2019,6,1,1,Import,528,Netherlands,NLD,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,72,,,,72,,3102,,,0
+H5,2019,2019,2019,6,1,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2000,,,,2000,,658,,,0
+H5,2019,2019,2019,6,1,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1045000,,,,1045000,,314633,,,0
+H5,2019,2019,2019,6,1,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1045000,,,,1045000,,314633,,,0
+H5,2019,2019,2019,6,1,1,Import,586,Pakistan,PAK,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2000,,,,2000,,658,,,0
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,43627791,,,,43626631,,68540386,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,12191877269,,,6
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1646442,,,,1646442,,1664336,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1000,,,,1000,,7000,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21028000,,,,21028000,,29764612,,,0
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,68,Bolivia (Plurinational State of),BOL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,56850,,,,56850,,24979,,,0
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,327618,,,,327618,,460704,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,119669188,,,,119669188,,194978027,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,120126410,,,,120126410,,223504824,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,996684,,,,996684,,911906,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10945198,,,,10945198,,20591956,,,0
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22432945,,,,22432945,,28061940,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4929053,,,,4929053,,12637086,,,6
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5909401511,,,,5909401511,,8318062306,,,0
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,170,Colombia,COL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,133978,,,,133978,,157295,,,0
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,218,Ecuador,ECU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,15652276,,,,15651116,,27638593,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30281700,,,,30281700,,52819496,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,78483100,,,,78483100,,85949524,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,303633233,,,,303633233,,526141312,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1883736,,,,1883736,,1613434,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,660484600,,,,660484600,,962396887,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,408,Dem. People's Rep. of Korea,PRK,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2273610,,,,2273610,,2602281,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,535739855,,,,535739855,,804319838,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,58594360,,,,58594360,,66510077,,,0
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1019970,,,,1019970,,6363107,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,50690953,,,,50690953,,70105079,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,11667607,,,6
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,516,Namibia,NAM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,69792900,,,,69792900,,85552830,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,621676,,,,621676,,666433,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,139330900,,,,139330900,,204326485,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,45947600,,,,45947600,,84147857,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,177493370,,,,177493370,,260857640,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,27124896,,,,27124896,,27703562,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,68520700,,,,68520700,,98265509,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20586891,,,,20586891,,27212541,,,0
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,509289,,,,509289,,502966,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,0,,,,0,,0,,,0
+H5,2019,2019,2019,6,1,1,Import,604,Peru,PER,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1848422,,,,1848422,,3666463,,,0
+H5,2019,2019,2019,6,1,2,Export,604,Peru,PER,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,16594371,,,,16594371,,18561148,,,0
+H5,2019,2019,2019,6,1,1,Import,608,Philippines,PHL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19817291,,,,19817291,,33076124,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,289966759,,,,289966759,,580128835,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19,,,,19,,35,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,146000,,,,146000,,49800,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,34772700,,,,34772700,,94972072,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,159432957,,,,159432957,,242323556,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,66388300,,,,66388300,,179224618,,,0
+H5,2019,2019,2019,6,1,1,Import,608,Philippines,PHL,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,681,,,,681,,4906,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10149500,,,,10149500,,22376739,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5500000,,,,5500000,,8843440,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1713640,,,,1713640,,4960229,,,0
+H5,2019,2019,2019,6,1,1,Import,608,Philippines,PHL,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9623750,,,,9623750,,15927376,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11863640,,,,11863640,,27378248,,,0
+H5,2019,2019,2019,6,1,2,Export,608,Philippines,PHL,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3,,,,3,,98,,,0
+H5,2019,2019,2019,6,1,1,Import,608,Philippines,PHL,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10192860,,,,10192860,,17143842,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,133090037,,,,133090037,,339351041,,,6
+H5,2019,2019,2019,6,1,2,Export,616,Poland,POL,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,444,,,,444,,681,,,6
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,70,Bosnia Herzegovina,BIH,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,76000,,,,76000,,315520,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,110960560,,,,110960560,,294996072,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,292850,,,,292850,,495218,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7,,,,7,,220,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,178,Congo,COG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,200,,,,200,,1116,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10783100,,,,10783100,,33575200,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,200,,,,200,,5920,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10937090,,,,10937090,,9791287,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,568,"Other Europe, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,40000,,,,40000,,170411,,,0
+H5,2019,2019,2019,6,1,2,Export,616,Poland,POL,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,441,,,,441,,531,,,6
+H5,2019,2019,2019,6,1,2,Export,616,Poland,POL,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3,,,,3,,150,,,0
+H5,2019,2019,2019,6,1,1,Import,616,Poland,POL,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30,,,,30,,77,,,6
+H5,2019,2019,2019,6,1,1,Import,620,Portugal,PRT,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,495233,,,,495233,,2899530,,,0
+H5,2019,2019,2019,6,1,2,Export,620,Portugal,PRT,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,184014299,,,,184014299,,211929365,,,0
+H5,2019,2019,2019,6,1,2,Export,620,Portugal,PRT,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,26642420,,,,26642420,,31644370,,,0
+H5,2019,2019,2019,6,1,2,Export,620,Portugal,PRT,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,107732160,,,,107732160,,122836877,,,0
+H5,2019,2019,2019,6,1,1,Import,620,Portugal,PRT,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,830,,,0
+H5,2019,2019,2019,6,1,2,Export,620,Portugal,PRT,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,14324950,,,,14324950,,17097441,,,0
+H5,2019,2019,2019,6,1,1,Import,620,Portugal,PRT,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,80,,,,80,,1587,,,0
+H5,2019,2019,2019,6,1,2,Export,620,Portugal,PRT,688,Serbia,SRB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9900000,,,,9900000,,9864460,,,0
+H5,2019,2019,2019,6,1,1,Import,620,Portugal,PRT,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,495151,,,,495151,,2897112,,,0
+H5,2019,2019,2019,6,1,2,Export,620,Portugal,PRT,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,502029,,,,502029,,834469,,,0
+H5,2019,2019,2019,6,1,2,Export,620,Portugal,PRT,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24912740,,,,24912740,,29651746,,,0
+H5,2019,2019,2019,6,1,1,Import,642,Romania,ROU,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4262838,,,,4262838,,2416198,,,6
+H5,2019,2019,2019,6,1,2,Export,642,Romania,ROU,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,55291519,,,,55291519,,62405416,,,0
+H5,2019,2019,2019,6,1,1,Import,642,Romania,ROU,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18,,,,18,,1096,,,0
+H5,2019,2019,2019,6,1,1,Import,642,Romania,ROU,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2967634,,,,2967634,,1696099,,,0
+H5,2019,2019,2019,6,1,1,Import,642,Romania,ROU,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,225000,,,,225000,,112860,,,0
+H5,2019,2019,2019,6,1,1,Import,642,Romania,ROU,300,Greece,GRC,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1066830,,,,1066830,,599543,,,6
+H5,2019,2019,2019,6,1,1,Import,642,Romania,ROU,348,Hungary,HUN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,21,,,0
+H5,2019,2019,2019,6,1,2,Export,642,Romania,ROU,348,Hungary,HUN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21651,,,,21651,,83333,,,0
+H5,2019,2019,2019,6,1,1,Import,642,Romania,ROU,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3355,,,,3355,,6576,,,0
+H5,2019,2019,2019,6,1,2,Export,642,Romania,ROU,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,297828,,,,297828,,463879,,,0
+H5,2019,2019,2019,6,1,2,Export,642,Romania,ROU,688,Serbia,SRB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,54972040,,,,54972040,,61858203,,,0
+H5,2019,2019,2019,6,1,1,Import,643,Russian Federation,RUS,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,486257400,,,,486257400,,615090439,,,0
+H5,2019,2019,2019,6,1,2,Export,643,Russian Federation,RUS,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,122197510,,,,122197510,,235332144,,,0
+H5,2019,2019,2019,6,1,1,Import,643,Russian Federation,RUS,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,44808400,,,,44808400,,59588643,,,0
+H5,2019,2019,2019,6,1,2,Export,643,Russian Federation,RUS,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,106152175,,,,106152175,,224055289,,,0
+H5,2019,2019,2019,6,1,2,Export,643,Russian Federation,RUS,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,436830,,,,436830,,548305,,,0
+H5,2019,2019,2019,6,1,1,Import,643,Russian Federation,RUS,398,Kazakhstan,KAZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,338796300,,,,338796300,,375721336,,,0
+H5,2019,2019,2019,6,1,2,Export,643,Russian Federation,RUS,398,Kazakhstan,KAZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,12908505,,,,12908505,,8842327,,,0
+H5,2019,2019,2019,6,1,1,Import,643,Russian Federation,RUS,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,54053900,,,,54053900,,92417775,,,0
+H5,2019,2019,2019,6,1,1,Import,643,Russian Federation,RUS,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,48598800,,,,48598800,,87362684,,,0
+H5,2019,2019,2019,6,1,2,Export,643,Russian Federation,RUS,860,Uzbekistan,UZB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2700000,,,,2700000,,1886221,,,0
+H5,2019,2019,2019,6,1,1,Import,646,Rwanda,RWA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,150,,,0
+H5,2019,2019,2019,6,1,1,Import,646,Rwanda,RWA,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,150,,,0
+H5,2019,2019,2019,6,1,1,Import,688,Serbia,SRB,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,191680900,,,,191680900,,296606938,,,0
+H5,2019,2019,2019,6,1,2,Export,688,Serbia,SRB,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,551765,,,,551765,,416573,,,0
+H5,2019,2019,2019,6,1,1,Import,688,Serbia,SRB,51,Armenia,ARM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,97275140,,,,97275140,,164610384,,,0
+H5,2019,2019,2019,6,1,1,Import,688,Serbia,SRB,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,25984460,,,,25984460,,39989266,,,0
+H5,2019,2019,2019,6,1,2,Export,688,Serbia,SRB,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,241,,,,241,,41,,,0
+H5,2019,2019,2019,6,1,2,Export,688,Serbia,SRB,499,Montenegro,MNE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,550624,,,,550624,,416442,,,0
+H5,2019,2019,2019,6,1,1,Import,688,Serbia,SRB,620,Portugal,PRT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9171540,,,,9171540,,11862554,,,0
+H5,2019,2019,2019,6,1,1,Import,688,Serbia,SRB,642,Romania,ROU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,49362220,,,,49362220,,64994886,,,0
+H5,2019,2019,2019,6,1,1,Import,688,Serbia,SRB,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4341940,,,,4341940,,7293732,,,0
+H5,2019,2019,2019,6,1,2,Export,688,Serbia,SRB,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,900,,,,900,,90,,,0
+H5,2019,2019,2019,6,1,1,Import,688,Serbia,SRB,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5545600,,,,5545600,,7856116,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,772073476,,,,772073476,,1187735424,,,6
+H5,2019,2019,2019,6,1,2,Export,699,India,IND,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,286749281,,,,286749281,,409408479,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,72317000,,,,72317000,,93047765,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20398000,,,,20398000,,36801912,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,469179000,,,,469179000,,740005491,,,0
+H5,2019,2019,2019,6,1,2,Export,699,India,IND,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,226911120,,,,226911120,,293533475,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30164000,,,,30164000,,68117732,,,0
+H5,2019,2019,2019,6,1,2,Export,699,India,IND,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2759161,,,,2759161,,2676018,,,0
+H5,2019,2019,2019,6,1,2,Export,699,India,IND,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,28733000,,,,28733000,,53868231,,,0
+H5,2019,2019,2019,6,1,2,Export,699,India,IND,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,28237000,,,,28237000,,59280524,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,566,Nigeria,NGA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10000,,,,10000,,10229,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,591,Panama,PAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,29119000,,,,29119000,,33247285,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,88985000,,,,88985000,,119437115,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10659300,,,,10659300,,21500478,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,41313000,,,,41313000,,59818391,,,0
+H5,2019,2019,2019,6,1,2,Export,699,India,IND,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,109000,,,,109000,,50228,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9929000,,,,9929000,,15748767,,,0
+H5,2019,2019,2019,6,1,1,Import,699,India,IND,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,176,,,,176,,254,,,6
+H5,2019,2019,2019,6,1,1,Import,702,Singapore,SGP,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,80936,,,6
+H5,2019,2019,2019,6,1,2,Export,702,Singapore,SGP,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,748604,,,6
+H5,2019,2019,2019,6,1,2,Export,702,Singapore,SGP,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,105590,,,,105590,,98199,,,0
+H5,2019,2019,2019,6,1,1,Import,702,Singapore,SGP,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2300,,,,2300,,18176,,,0
+H5,2019,2019,2019,6,1,1,Import,702,Singapore,SGP,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,140,,,,140,,7485,,,0
+H5,2019,2019,2019,6,1,2,Export,702,Singapore,SGP,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10,,,,10,,26,,,0
+H5,2019,2019,2019,6,1,1,Import,702,Singapore,SGP,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,320,,,,320,,10693,,,0
+H5,2019,2019,2019,6,1,2,Export,702,Singapore,SGP,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24930,,,,24930,,52985,,,0
+H5,2019,2019,2019,6,1,2,Export,702,Singapore,SGP,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1201060,,,,1201060,,549450,,,0
+H5,2019,2019,2019,6,1,1,Import,702,Singapore,SGP,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,9,,,6
+H5,2019,2019,2019,6,1,2,Export,702,Singapore,SGP,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20,,,,20,,183,,,0
+H5,2019,2019,2019,6,1,2,Export,702,Singapore,SGP,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,291,,,,291,,153,,,6
+H5,2019,2019,2019,6,1,2,Export,702,Singapore,SGP,699,India,IND,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,47606,,,6
+H5,2019,2019,2019,6,1,1,Import,702,Singapore,SGP,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,44570,,,6
+H5,2019,2019,2019,6,1,1,Import,704,Viet Nam,VNM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,156832,,,,156832,,257461,,,6
+H5,2019,2019,2019,6,1,2,Export,704,Viet Nam,VNM,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,59429,,,,59429,,71467,,,6
+H5,2019,2019,2019,6,1,1,Import,704,Viet Nam,VNM,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,670,,,,670,,1100,,,6
+H5,2019,2019,2019,6,1,2,Export,704,Viet Nam,VNM,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,59429,,,,59429,,71467,,,6
+H5,2019,2019,2019,6,1,1,Import,704,Viet Nam,VNM,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5723,,,,5723,,9396,,,6
+H5,2019,2019,2019,6,1,1,Import,704,Viet Nam,VNM,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5840,,,,5840,,9588,,,6
+H5,2019,2019,2019,6,1,1,Import,704,Viet Nam,VNM,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2310,,,,2310,,3793,,,6
+H5,2019,2019,2019,6,1,1,Import,704,Viet Nam,VNM,418,Lao People's Dem. Rep.,LAO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19906,,,,19906,,32680,,,6
+H5,2019,2019,2019,6,1,1,Import,704,Viet Nam,VNM,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9850,,,,9850,,16170,,,6
+H5,2019,2019,2019,6,1,1,Import,704,Viet Nam,VNM,616,Poland,POL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,111563,,,,111563,,183146,,,6
+H5,2019,2019,2019,6,1,1,Import,704,Viet Nam,VNM,642,Romania,ROU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,966,,,,966,,1587,,,6
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,511443,,,,511443,,963965,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,254223588,,232540221,,,6
+H5,2019,2019,2019,6,1,3,Re-Export,710,South Africa,ZAF,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,177,,,,177,,1812,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,64,,,,64,,7,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,105,,,,105,,151,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,36,,,,36,,19,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1485,,,,1485,,436,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,561,,,,561,,976,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,372,,,,372,,767,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4797,,,,4797,,1245,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,8,,,,8,,181,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,23963100,,,,23963100,,31830175,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,26744,,,,26744,,3827,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,296,,,,296,,4235,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,710,South Africa,ZAF,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,177,,,,177,,1812,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,214,Dominican Rep.,DOM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,257,,,,257,,169,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,124,,,,124,,90,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6,,,,6,,5,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,43,,,,43,,6,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2489340,,,,2489340,,2330675,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,384,Côte d'Ivoire,CIV,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,149,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24000000,,,,24000000,,2561660,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,522525,,,,522525,,553553,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,496,Mongolia,MNG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,826,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,508,Mozambique,MOZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,193987600,,,,193987600,,188415263,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,512,Oman,OMN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1444,,,,1444,,49,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,516,Namibia,NAM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,176,,,,176,,44,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,5,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100000,,,,100000,,106735,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,51,,,,51,,113,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,35821,,,,35821,,36104,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,716,Zimbabwe,ZWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30000,,,,30000,,5898,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9117868,,,,9117868,,6694636,,,6
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,58,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11,,,,11,,3585,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,834,United Rep. of Tanzania,TZA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,167,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,173,,,,173,,950,,,0
+H5,2019,2019,2019,6,1,1,Import,710,South Africa,ZAF,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,445542,,,,445542,,945497,,,0
+H5,2019,2019,2019,6,1,2,Export,710,South Africa,ZAF,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,6467,,5915,,,6
+H5,2019,2019,2019,6,1,2,Export,716,Zimbabwe,ZWE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,132000,,,,132000,,74677,,,0
+H5,2019,2019,2019,6,1,2,Export,716,Zimbabwe,ZWE,899,"Areas, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,132000,,,,132000,,74677,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1493079757,,,,1493079757,,2330908277,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1031205090,,,,1031205090,,1432647723,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,31,Azerbaijan,AZE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,567340,,,,567340,,1100536,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,432,,,,432,,111,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,40,Austria,AUT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,122350,,,,122350,,669405,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,51,Armenia,ARM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,63010500,,,,63010500,,84048788,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,165780,,,,165780,,211810,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,195825210,,,,195825210,,384341799,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,385238000,,,,385238000,,663557291,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,100245460,,,,100245460,,174411845,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,429988218,,,,429988218,,646525440,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,188,,,,188,,20613,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,633941004,,,,633941004,,746141115,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,170,Colombia,COL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,8,,,,8,,259,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,196,Cyprus,CYP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,16323000,,,,16323000,,18355047,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,208,Denmark,DNK,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,73618,,,,73618,,377446,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,218,Ecuador,ECU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,188140,,,,188140,,58828,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,299380,,,,299380,,453659,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,75,,,,75,,232,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20874600,,,,20874600,,27652258,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7201,,,,7201,,135148,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1902750,,,,1902750,,10562951,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,340,Honduras,HND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,1158,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,15,,,,15,,185,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,33000900,,,,33000900,,62002840,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7000,,,,7000,,25500,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21737600,,,,21737600,,22241664,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,504,Morocco,MAR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24925500,,,,24925500,,25336648,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2073370,,,,2073370,,4057604,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,591,Panama,PAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,78028400,,,,78028400,,90448921,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,166024700,,,,166024700,,291357713,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,620,Portugal,PRT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,492280,,,,492280,,820786,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,620,Portugal,PRT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,243761,,,,243761,,1376590,,,0
+H5,2019,2019,2019,6,1,2,Export,724,Spain,ESP,752,Sweden,SWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9683080,,,,9683080,,9961234,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,645260,,,,645260,,531413,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,434020,,,,434020,,461778,,,0
+H5,2019,2019,2019,6,1,1,Import,724,Spain,ESP,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,338215702,,,,338215702,,496307369,,,0
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,250728082,,,,250728082,,440812943,,,6
+H5,2019,2019,2019,6,1,2,Export,752,Sweden,SWE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,29345221,,,,29345221,,41981501,,,6
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6969000,,,,6969000,,21419228,,,0
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,246000,,,,246000,,228582,,,0
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,45840000,,,,45840000,,105728134,,,0
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,61596000,,,,61596000,,127887878,,,0
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21731120,,,,21731120,,28602672,,,6
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,63790000,,,,63790000,,100496209,,,0
+H5,2019,2019,2019,6,1,2,Export,752,Sweden,SWE,246,Finland,FIN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,29345000,,,,29345000,,41981183,,,0
+H5,2019,2019,2019,6,1,2,Export,752,Sweden,SWE,360,Indonesia,IDN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,147,,,,147,,211,,,6
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,404,Kenya,KEN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,601,,,,601,,1057,,,6
+H5,2019,2019,2019,6,1,2,Export,752,Sweden,SWE,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,73,,,,73,,105,,,6
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22542000,,,,22542000,,25010897,,,0
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,620,Portugal,PRT,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,17944000,,,,17944000,,19899501,,,0
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5062000,,,,5062000,,7718530,,,0
+H5,2019,2019,2019,6,1,1,Import,752,Sweden,SWE,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5007360,,,,5007360,,3820251,,,6
+H5,2019,2019,2019,6,1,1,Import,757,Switzerland,CHE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5653,,,,5653,,11714,,,6
+H5,2019,2019,2019,6,1,2,Export,757,Switzerland,CHE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9450,,,,9450,,13852,,,6
+H5,2019,2019,2019,6,1,1,Import,757,Switzerland,CHE,50,Bangladesh,BGD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,36,,,0
+H5,2019,2019,2019,6,1,2,Export,757,Switzerland,CHE,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20,,,,20,,30,,,6
+H5,2019,2019,2019,6,1,2,Export,757,Switzerland,CHE,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,206,,,,206,,301,,,6
+H5,2019,2019,2019,6,1,1,Import,757,Switzerland,CHE,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,110,,,,110,,585,,,6
+H5,2019,2019,2019,6,1,2,Export,757,Switzerland,CHE,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9221,,,,9221,,13500,,,6
+H5,2019,2019,2019,6,1,1,Import,757,Switzerland,CHE,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,100,,,0
+H5,2019,2019,2019,6,1,1,Import,757,Switzerland,CHE,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5500,,,,5500,,10043,,,0
+H5,2019,2019,2019,6,1,2,Export,757,Switzerland,CHE,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,20,,,0
+H5,2019,2019,2019,6,1,1,Import,757,Switzerland,CHE,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,41,,,,41,,948,,,0
+H5,2019,2019,2019,6,1,1,Import,764,Thailand,THA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,105009,,,,105009,,27302,,,6
+H5,2019,2019,2019,6,1,2,Export,764,Thailand,THA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,446,,,,446,,8436,,,6
+H5,2019,2019,2019,6,1,2,Export,764,Thailand,THA,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,427,,,,427,,7868,,,6
+H5,2019,2019,2019,6,1,1,Import,764,Thailand,THA,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,101239,,,,101239,,26322,,,6
+H5,2019,2019,2019,6,1,1,Import,764,Thailand,THA,586,Pakistan,PAK,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,359,,,,359,,93,,,6
+H5,2019,2019,2019,6,1,2,Export,764,Thailand,THA,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18,,,,18,,568,,,6
+H5,2019,2019,2019,6,1,1,Import,764,Thailand,THA,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3410,,,,3410,,886,,,6
+H5,2019,2019,2019,6,1,1,Import,784,United Arab Emirates,ARE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,54151,,,,54151,,50930,,,0
+H5,2019,2019,2019,6,1,2,Export,784,United Arab Emirates,ARE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2204305,,,,2204305,,1876386,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,784,United Arab Emirates,ARE,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1877305,,,,1877305,,125456,,,0
+H5,2019,2019,2019,6,1,1,Import,784,United Arab Emirates,ARE,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,25730,,,,25730,,6170,,,0
+H5,2019,2019,2019,6,1,1,Import,784,United Arab Emirates,ARE,512,Oman,OMN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18000,,,,18000,,1727,,,0
+H5,2019,2019,2019,6,1,2,Export,784,United Arab Emirates,ARE,512,Oman,OMN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,275105,,,,275105,,1747933,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,784,United Arab Emirates,ARE,512,Oman,OMN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,105,,,,105,,430,,,0
+H5,2019,2019,2019,6,1,2,Export,784,United Arab Emirates,ARE,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1929200,,,,1929200,,128453,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,784,United Arab Emirates,ARE,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1877200,,,,1877200,,125026,,,0
+H5,2019,2019,2019,6,1,1,Import,784,United Arab Emirates,ARE,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4884,,,,4884,,4433,,,0
+H5,2019,2019,2019,6,1,1,Import,784,United Arab Emirates,ARE,706,Somalia,SOM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,27,,,,27,,92,,,0
+H5,2019,2019,2019,6,1,1,Import,784,United Arab Emirates,ARE,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3110,,,,3110,,19839,,,0
+H5,2019,2019,2019,6,1,1,Import,784,United Arab Emirates,ARE,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2386,,,,2386,,17934,,,0
+H5,2019,2019,2019,6,1,1,Import,784,United Arab Emirates,ARE,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13,,,,13,,732,,,0
+H5,2019,2019,2019,6,1,1,Import,788,Tunisia,TUN,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1700,,,,1700,,8973,,,0
+H5,2019,2019,2019,6,1,1,Import,788,Tunisia,TUN,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1700,,,,1700,,8973,,,0
+H5,2019,2019,2019,6,1,1,Import,792,Turkey,TUR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,16017041,,,6
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,187941484,,,,187941484,,174832575,,,0
+H5,2019,2019,2019,6,1,1,Import,792,Turkey,TUR,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,146,,,,146,,301,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,300,,,,300,,100,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,232,,,,232,,219,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,70,Bosnia Herzegovina,BIH,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,194,,,,194,,183,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,85845900,,,,85845900,,83578686,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,363200,,,,363200,,266775,,,0
+H5,2019,2019,2019,6,1,1,Import,792,Turkey,TUR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,250,,,,250,,1343,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,86924900,,,,86924900,,76043743,,,0
+H5,2019,2019,2019,6,1,1,Import,792,Turkey,TUR,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10289600,,,,10289600,,15965340,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,50880,,,,50880,,31489,,,0
+H5,2019,2019,2019,6,1,1,Import,792,Turkey,TUR,381,Italy,ITA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2000,,,,2000,,10984,,,0
+H5,2019,2019,2019,6,1,1,Import,792,Turkey,TUR,398,Kazakhstan,KAZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,43800,,,,43800,,19930,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,518770,,,,518770,,518770,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6743470,,,,6743470,,5977424,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,288160,,,,288160,,79345,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,516,Namibia,NAM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2174320,,,,2174320,,1663881,,,0
+H5,2019,2019,2019,6,1,1,Import,792,Turkey,TUR,642,Romania,ROU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22000,,,,22000,,17153,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,642,Romania,ROU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1388900,,,,1388900,,1346983,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,688,Serbia,SRB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3426460,,,,3426460,,5059545,,,0
+H5,2019,2019,2019,6,1,2,Export,792,Turkey,TUR,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,215798,,,,215798,,265432,,,0
+H5,2019,2019,2019,6,1,1,Import,792,Turkey,TUR,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,1990,,,6
+H5,2019,2019,2019,6,1,2,Export,807,North Macedonia,MKD,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,34883900,,,,34883900,,51271100,,,0
+H5,2019,2019,2019,6,1,2,Export,807,North Macedonia,MKD,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,34883900,,,,34883900,,51271100,,,0
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,314337,,,6
+H5,2019,2019,2019,6,1,2,Export,826,United Kingdom,GBR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,1780320,,,6
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,51,Armenia,ARM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3335,,,,3335,,37,,,0
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,8902,,,6
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3172,,,,3172,,8194,,,6
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,372,Ireland,IRL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,108020,,,,108020,,272273,,,0
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1,,,,1,,30,,,0
+H5,2019,2019,2019,6,1,2,Export,826,United Kingdom,GBR,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,700,,,,700,,4116,,,0
+H5,2019,2019,2019,6,1,2,Export,826,United Kingdom,GBR,579,Norway,NOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,289634,,,,289634,,1758367,,,0
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,591,Panama,PAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,48,,,,48,,1117,,,0
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,68,,,,68,,1890,,,0
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,18153,,,6
+H5,2019,2019,2019,6,1,2,Export,826,United Kingdom,GBR,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,48,,,,48,,1973,,,0
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,1202,,,6
+H5,2019,2019,2019,6,1,2,Export,826,United Kingdom,GBR,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,3984,,,6
+H5,2019,2019,2019,6,1,2,Export,826,United Kingdom,GBR,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,354,,,,354,,4448,,,0
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4,,,,4,,1162,,,0
+H5,2019,2019,2019,6,1,2,Export,826,United Kingdom,GBR,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,7430,,,6
+H5,2019,2019,2019,6,1,1,Import,826,United Kingdom,GBR,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,89,,,,89,,1372,,,0
+H5,2019,2019,2019,6,1,1,Import,842,USA,USA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,28243069,,,,28243069,,153450027,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,2337862230,,,6
+H5,2019,2019,2019,6,1,3,Re-Export,842,USA,USA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4203947,,,,4203947,,23920277,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,32,Argentina,ARG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,855,,,,855,,4394,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,44,Bahamas,BHS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2183,,,,2183,,11223,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,56,Belgium,BEL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,160563,,,,160563,,655084,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9023519,,,,9023519,,47517306,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,84,Belize,BLZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6510,,,,6510,,32059,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,16278776,,,,16278776,,90283719,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,116,Cambodia,KHM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,166375,,,,166375,,61906,,,0
+H5,2019,2019,2019,6,1,1,Import,842,USA,USA,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1210042,,,,1210042,,4864246,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,31317976,,,,31317976,,179984246,,,6
+H5,2019,2019,2019,6,1,3,Re-Export,842,USA,USA,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4194082,,,,4194082,,23893655,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7555836,,,,7555836,,4248920,,,6
+H5,2019,2019,2019,6,1,1,Import,842,USA,USA,170,Colombia,COL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,25000,,,,25000,,125075,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,214,Dominican Rep.,DOM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,108229,,,,108229,,640942,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,16577,,,,16577,,9283,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,842,USA,USA,251,France,FRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9264,,,,9264,,5188,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2598597,,,,2598597,,15700000,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,2603,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,505319,,,,505319,,332934,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,16327577,,,,16327577,,94673744,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13265813,,,,13265813,,77134857,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2777833,,,,2777833,,1744276,,,6
+H5,2019,2019,2019,6,1,1,Import,842,USA,USA,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,27005800,,,,27005800,,148448526,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,247081721,,,,247081721,,1607787698,,,6
+H5,2019,2019,2019,6,1,3,Re-Export,842,USA,USA,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,163,,,,163,,3532,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11385,,,,11385,,159390,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,499,Montenegro,MNE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1397090,,,,1397090,,6625262,,,0
+H5,2019,2019,2019,6,1,1,Import,842,USA,USA,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,26,,,,26,,5355,,,0
+H5,2019,2019,2019,6,1,1,Import,842,USA,USA,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,205,,,,205,,4250,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4896905,,,,4896905,,31173574,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,12318316,,,,12318316,,66010974,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,699,India,IND,,,,,,,,260300,Copper ores and concentrates,1,No Quantity,0,,,,,,61482,,,6
+H5,2019,2019,2019,6,1,1,Import,842,USA,USA,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1996,,,,1996,,2575,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,702,Singapore,SGP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,3104187,,,,3104187,,1796858,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,19486044,,,,19486044,,111145694,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6869,,,,6869,,41700,,,6
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,784,United Arab Emirates,ARE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,500,,,,500,,4200,,,0
+H5,2019,2019,2019,6,1,2,Export,842,USA,USA,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,438,,,,438,,17902,,,0
+H5,2019,2019,2019,6,1,3,Re-Export,842,USA,USA,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,438,,,,438,,17902,,,0
+H5,2019,2019,2019,6,1,1,Import,860,Uzbekistan,UZB,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,204268580,,,,204268580,,219029528,,,0
+H5,2019,2019,2019,6,1,2,Export,860,Uzbekistan,UZB,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,63810,,,,63810,,20174,,,0
+H5,2019,2019,2019,6,1,1,Import,860,Uzbekistan,UZB,31,Azerbaijan,AZE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4315590,,,,4315590,,7018627,,,0
+H5,2019,2019,2019,6,1,1,Import,860,Uzbekistan,UZB,268,Georgia,GEO,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2260160,,,,2260160,,3744061,,,0
+H5,2019,2019,2019,6,1,1,Import,860,Uzbekistan,UZB,398,Kazakhstan,KAZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,187750880,,,,187750880,,195024442,,,0
+H5,2019,2019,2019,6,1,2,Export,860,Uzbekistan,UZB,417,Kyrgyzstan,KGZ,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,41740,,,,41740,,18390,,,0
+H5,2019,2019,2019,6,1,1,Import,860,Uzbekistan,UZB,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,4812350,,,,4812350,,4291081,,,0
+H5,2019,2019,2019,6,1,2,Export,860,Uzbekistan,UZB,643,Russian Federation,RUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22070,,,,22070,,1784,,,0
+H5,2019,2019,2019,6,1,1,Import,860,Uzbekistan,UZB,762,Tajikistan,TJK,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5129600,,,,5129600,,8951317,,,0
+H5,2019,2019,2019,6,1,1,Import,894,Zambia,ZMB,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,119966825,,,,119966825,,154151812,,,6
+H5,2019,2019,2019,6,1,2,Export,894,Zambia,ZMB,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7802750,,,,7802750,,1752515,,,0
+H5,2019,2019,2019,6,1,2,Export,894,Zambia,ZMB,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,31840,,,,31840,,4754,,,0
+H5,2019,2019,2019,6,1,1,Import,894,Zambia,ZMB,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2,,,,2,,24,,,0
+H5,2019,2019,2019,6,1,2,Export,894,Zambia,ZMB,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,7121485,,,,7121485,,1657677,,,0
+H5,2019,2019,2019,6,1,1,Import,894,Zambia,ZMB,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,119613103,,,,119613103,,153798643,,,0
+H5,2019,2019,2019,6,1,2,Export,894,Zambia,ZMB,180,Dem. Rep. of the Congo,COD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30220,,,,30220,,425,,,0
+H5,2019,2019,2019,6,1,2,Export,894,Zambia,ZMB,528,Netherlands,NLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,20,,,,20,,33,,,0
+H5,2019,2019,2019,6,1,1,Import,894,Zambia,ZMB,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,65713,,,,65713,,126262,,,6
+H5,2019,2019,2019,6,1,2,Export,894,Zambia,ZMB,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,139446,,,,139446,,41691,,,0
+H5,2019,2019,2019,6,1,1,Import,894,Zambia,ZMB,716,Zimbabwe,ZWE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,252000,,,,252000,,130698,,,0
+H5,2019,2019,2019,6,1,2,Export,894,Zambia,ZMB,757,Switzerland,CHE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,33000,,,,33000,,16194,,,0
+H5,2019,2019,2019,6,1,2,Export,894,Zambia,ZMB,764,Thailand,THA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,446679,,,,446679,,31539,,,0
+H5,2019,2019,2019,6,1,1,Import,894,Zambia,ZMB,818,Egypt,EGY,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,36007,,,,36007,,96185,,,0
+H5,2019,2019,2019,6,1,2,Export,894,Zambia,ZMB,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,60,,,,60,,202,,,0
+H4,2019,2019,2019,6,1,1,Import,180,Dem. Rep. of the Congo,COD,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,31650,,,,31650,,7091,,,0
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,687525634,,,,687525634,,1114468092,,,6
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,14527,,,,14527,,627,,,0
+H4,2019,2019,2019,6,1,1,Import,180,Dem. Rep. of the Congo,COD,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,244,,,,244,,3821,,,0
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,627,,,,627,,70,,,0
+H4,2019,2019,2019,6,1,1,Import,180,Dem. Rep. of the Congo,COD,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,5,,,,5,,539,,,0
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,240942949,,,,240942949,,566480615,,,0
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,344,"China, Hong Kong SAR",HKG,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,33600,,,,33600,,51736,,,0
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,36,,,,36,,20,,,0
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,710,South Africa,ZAF,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,12861051,,,,12861051,,28812817,,,6
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,804,Ukraine,UKR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,108,,,,108,,6,,,0
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,104,,,,104,,87,,,0
+H4,2019,2019,2019,6,1,1,Import,180,Dem. Rep. of the Congo,COD,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1361,,,,1361,,1088,,,0
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,648,,,,648,,134,,,0
+H4,2019,2019,2019,6,1,1,Import,180,Dem. Rep. of the Congo,COD,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,30040,,,,30040,,1642,,,0
+H4,2019,2019,2019,6,1,2,Export,180,Dem. Rep. of the Congo,COD,894,Zambia,ZMB,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,433671984,,,,433671984,,519121977,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,369297835,,,,369297835,,603692478,,,0
+H4,2019,2019,2019,6,1,2,Export,268,Georgia,GEO,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,373691994,,,,373691994,,649446389,,,0
+H4,2019,2019,2019,6,1,3,Re-Export,268,Georgia,GEO,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,233881730,,,,233881730,,394590270,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,31,Azerbaijan,AZE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1892110,,,,1892110,,4333140,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,36,Australia,AUS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,26945100,,,,26945100,,74433958,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,51,Armenia,ARM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,178830400,,,,178830400,,214312231,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,76,Brazil,BRA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,21303800,,,,21303800,,57070024,,,0
+H4,2019,2019,2019,6,1,2,Export,268,Georgia,GEO,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,142331660,,,,142331660,,263608899,,,0
+H4,2019,2019,2019,6,1,3,Re-Export,268,Georgia,GEO,100,Bulgaria,BGR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,83591600,,,,83591600,,146095303,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,75807200,,,,75807200,,125337033,,,0
+H4,2019,2019,2019,6,1,2,Export,268,Georgia,GEO,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,102010750,,,,102010750,,171641028,,,0
+H4,2019,2019,2019,6,1,3,Re-Export,268,Georgia,GEO,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,39373400,,,,39373400,,65397569,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,262,Djibouti,DJI,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,35991,,,,35991,,29962,,,0
+H4,2019,2019,2019,6,1,2,Export,268,Georgia,GEO,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,602554,,,,602554,,1781473,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,484,Mexico,MEX,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,24289,,,,24289,,22275,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,45289000,,,,45289000,,65373542,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10139300,,,,10139300,,27161762,,,0
+H4,2019,2019,2019,6,1,2,Export,268,Georgia,GEO,642,Romania,ROU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,101243400,,,,101243400,,167007733,,,0
+H4,2019,2019,2019,6,1,3,Re-Export,268,Georgia,GEO,642,Romania,ROU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,83413100,,,,83413100,,137690143,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,140285,,,,140285,,287808,,,0
+H4,2019,2019,2019,6,1,2,Export,268,Georgia,GEO,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18156600,,,,18156600,,31657011,,,0
+H4,2019,2019,2019,6,1,3,Re-Export,268,Georgia,GEO,724,Spain,ESP,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,18156600,,,,18156600,,31657011,,,0
+H4,2019,2019,2019,6,1,2,Export,268,Georgia,GEO,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9347030,,,,9347030,,13750243,,,0
+H4,2019,2019,2019,6,1,3,Re-Export,268,Georgia,GEO,792,Turkey,TUR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9347030,,,,9347030,,13750243,,,0
+H4,2019,2019,2019,6,1,1,Import,268,Georgia,GEO,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,8890360,,,,8890360,,35330739,,,0
+H4,2019,2019,2019,6,1,2,Export,478,Mauritania,MRT,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,136440500,,,,136440500,,195646154,,,0
+H4,2019,2019,2019,6,1,2,Export,478,Mauritania,MRT,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,136440500,,,,136440500,,195646154,,,0
+H4,2019,2019,2019,6,1,1,Import,484,Mexico,MEX,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,442042826,,,,442042826,,780369161,,,0
+H4,2019,2019,2019,6,1,2,Export,484,Mexico,MEX,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1554475750,,,,1554475750,,2339268612,,,0
+H4,2019,2019,2019,6,1,1,Import,484,Mexico,MEX,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,9615529,,,,9615529,,19470030,,,0
+H4,2019,2019,2019,6,1,2,Export,484,Mexico,MEX,124,Canada,CAN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,10316480,,,,10316480,,53497087,,,0
+H4,2019,2019,2019,6,1,1,Import,484,Mexico,MEX,152,Chile,CHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,120925050,,,,120925050,,173042984,,,0
+H4,2019,2019,2019,6,1,1,Import,484,Mexico,MEX,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6491795,,,,6491795,,10878113,,,0
+H4,2019,2019,2019,6,1,2,Export,484,Mexico,MEX,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1393670000,,,,1393670000,,2067770798,,,0
+H4,2019,2019,2019,6,1,2,Export,484,Mexico,MEX,410,Rep. of Korea,KOR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,22446400,,,,22446400,,45308916,,,0
+H4,2019,2019,2019,6,1,2,Export,484,Mexico,MEX,490,"Other Asia, nes",,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,13741700,,,,13741700,,24563037,,,0
+H4,2019,2019,2019,6,1,1,Import,484,Mexico,MEX,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,40769193,,,,40769193,,57094930,,,0
+H4,2019,2019,2019,6,1,2,Export,484,Mexico,MEX,604,Peru,PER,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2827090,,,,2827090,,9723929,,,0
+H4,2019,2019,2019,6,1,2,Export,484,Mexico,MEX,704,Viet Nam,VNM,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,1035760,,,,1035760,,164216,,,0
+H4,2019,2019,2019,6,1,1,Import,484,Mexico,MEX,826,United Kingdom,GBR,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,17,,,,17,,54,,,0
+H4,2019,2019,2019,6,1,1,Import,484,Mexico,MEX,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,264241242,,,,264241242,,519883050,,,0
+H4,2019,2019,2019,6,1,2,Export,484,Mexico,MEX,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,110438320,,,,110438320,,138240629,,,0
+H4,2019,2019,2019,6,1,2,Export,566,Nigeria,NGA,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,862000,,,,862000,,180058,,,0
+H4,2019,2019,2019,6,1,2,Export,566,Nigeria,NGA,276,Germany,DEU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,862000,,,,862000,,180058,,,0
+H4,2019,2019,2019,6,1,1,Import,682,Saudi Arabia,SAU,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2161200,,,,2161200,,811931,,,0
+H4,2019,2019,2019,6,1,2,Export,682,Saudi Arabia,SAU,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,266029400,,,,266029400,,381135872,,,0
+H4,2019,2019,2019,6,1,2,Export,682,Saudi Arabia,SAU,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,97894700,,,,97894700,,135065597,,,0
+H4,2019,2019,2019,6,1,2,Export,682,Saudi Arabia,SAU,392,Japan,JPN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,68390300,,,,68390300,,98693513,,,0
+H4,2019,2019,2019,6,1,2,Export,682,Saudi Arabia,SAU,458,Malaysia,MYS,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,6770000,,,,6770000,,9844374,,,0
+H4,2019,2019,2019,6,1,2,Export,682,Saudi Arabia,SAU,608,Philippines,PHL,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,11966300,,,,11966300,,18019355,,,0
+H4,2019,2019,2019,6,1,2,Export,682,Saudi Arabia,SAU,699,India,IND,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,81008100,,,,81008100,,119513031,,,0
+H4,2019,2019,2019,6,1,1,Import,682,Saudi Arabia,SAU,784,United Arab Emirates,ARE,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,2028200,,,,2028200,,133847,,,0
+H4,2019,2019,2019,6,1,1,Import,682,Saudi Arabia,SAU,842,USA,USA,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,133000,,,,133000,,678083,,,0
+H4,2019,2019,2019,6,1,1,Import,804,Ukraine,UKR,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,750,,,,750,,3199,,,0
+H4,2019,2019,2019,6,1,1,Import,804,Ukraine,UKR,156,China,CHN,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,750,,,,750,,3199,,,0
+H4,2019,2019,2019,6,1,2,Export,818,Egypt,EGY,0,World,WLD,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,820,,,,820,,1039,,,0
+H4,2019,2019,2019,6,1,2,Export,818,Egypt,EGY,682,Saudi Arabia,SAU,,,,,,,,260300,Copper ores and concentrates,8,Weight in kilograms,820,,,,820,,1039,,,0
