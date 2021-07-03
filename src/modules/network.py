@@ -1,10 +1,14 @@
 import networkx as nx
 import matplotlib.pyplot as plt
+import collections
+
+from src.modules.utils import getEntropy
 
 
 class Net():
     def __init__(self, data) -> None:
         self.data = data
+        self.initialEdges = []
         self.G = self._generateNet(data)
 
     def _generateNet(self, data):
@@ -18,7 +22,11 @@ class Net():
                 for log in selfImportLog.itertuples():
                     G.add_node(log._3, label=log.Partner)
                     G.add_node(log._1, label=log.Reporter)
-                    G.add_edge(log._3, log._1, tradeValue=log._6)
+                    if (self._repeatEdgeCheck(log._3, log._1)):
+                        continue
+                    self.initialEdges.append([log._3, log._1])
+                    # G.add_edge(log._3, log._1, tradeValue=log._6)
+                    G.add_edge(log._3, log._1)
             except KeyError:
                 None
 
@@ -28,16 +36,51 @@ class Net():
                 for log in exportPartnerLog.itertuples():
                     G.add_node(log._3, label=log.Partner)
                     G.add_node(log._1, label=log.Reporter)
-                    G.add_edge(log._1, log._3, tradeValue=log._6)
+                    if (self._repeatEdgeCheck(log._1, log._3)):
+                        continue
+                    self.initialEdges.append([log._1, log._3])
+                    # G.add_edge(log._1, log._3, tradeValue=log._6)
+                    G.add_edge(log._1, log._3)
             except KeyError:
                 None
 
         return G
 
-    def draw(self):
+    def _repeatEdgeCheck(self, u, v):
+        for (_u, _v) in self.initialEdges:
+            if _u == u and _v == v:
+                return True
+        return False
+
+    def getEntropy(self):
+
+        degreeCount = self.getDegreeCount()
+
+        distribute = list(degreeCount.values())
+        amount = sum(distribute)
+
+        E0 = getEntropy([x/amount for x in distribute])
+
+        return E0
+
+    def getDegreeCount(self):
+        degree_sequence = sorted(
+            [d for n, d in self.G.degree()], reverse=True)  # degree sequence
+
+        return collections.Counter(degree_sequence)
+
+    def degreeDisBar(self, width=0.8, color="b"):
         G = self.G
 
-        nodesDict = dict(G.nodes(data=True))
+        degreeCount = self.getDegreeCount()
+
+        deg, cnt = zip(*degreeCount.items())
+
+        plt.bar(deg, cnt, width=width, color=color)
+        plt.show()
+
+    def draw(self):
+        G = self.G
 
         nodeStrength = list(G.degree(weight="tradeValue"))
 
@@ -62,6 +105,6 @@ class Net():
         nx.draw_networkx_labels(G, pos, labels=node_labels, font_size=20)
 
         # edge_labels = nx.get_edge_attributes(G, 'tradeValue')
-        #nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=20)
+        # nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=20)
 
         plt.show()
