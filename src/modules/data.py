@@ -8,6 +8,7 @@ class Data():
         self._allReporters = None
         self._allPartners = None
         self._allParticipants = None
+        self._mergedData = None
 
     def _preProcessing(self, path) -> DataFrame:
         resourceData = pd.read_csv(path)
@@ -59,6 +60,11 @@ class Data():
 
         return self._allParticipants
 
+    def getCountryName(self, code):
+        allParticipants = self.getAllParticipants()
+        target = allParticipants[allParticipants["Code"] == code]
+        return target.iat[0, 1]
+
     def _getGroupLog(self, type, by):
         allImportLog = pd.concat([
             self.data[self.data["Trade Flow"] == "Import"],
@@ -81,3 +87,39 @@ class Data():
             return (self._getGroupLog(type, "Reporter Code")).get_group(code)
         else:
             return (self._getGroupLog(type, "Partner Code")).get_group(code)
+
+    def getMergedData(self):
+        if (self._mergedData is not None):
+            return self._mergedData
+        allParticipants = self.getAllParticipants()
+        tradeRecords = {}
+
+        def getCooperationLog(u, v):
+            for (partners, tradeLog) in tradeRecords.items():
+                if u == partners[0] and v == partners[1]:
+                    return tradeLog
+            tradeRecords[(u, v)] = {"Import": 0, "Export": 0}
+            return tradeRecords[(u, v)]
+
+        for row in allParticipants.itertuples():
+            try:
+                selfImportLog = self.getCountryLog(row.Code, "Import", "self")
+                for log in selfImportLog.itertuples():
+                    getCooperationLog(log._3, log._1)["Import"] += log._6
+            except KeyError:
+                None
+
+            try:
+                exportPartnerLog = self.getCountryLog(
+                    row.Code, "Export", "partner")
+                for log in exportPartnerLog.itertuples():
+                    getCooperationLog(log._1, log._3)["Export"] += log._6
+            except KeyError:
+                None
+
+        for key, value in tradeRecords.items():
+            tradeRecords[key] = int((value["Import"] + value["Export"]) / 2)
+
+        self._mergedData = tradeRecords
+
+        return tradeRecords

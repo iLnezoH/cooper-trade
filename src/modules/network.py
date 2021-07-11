@@ -14,8 +14,15 @@ class Net():
     def _generateNet(self, data):
 
         G = nx.DiGraph()
-        allParticipants = data.getAllParticipants()
+        tradeLogs = data.getMergedData()
 
+        for tradeObj, tradeValue in tradeLogs.items():
+            G.add_node(tradeObj[0], label = data.getCountryName(tradeObj[0]))
+            G.add_node(tradeObj[1], label = data.getCountryName(tradeObj[1]))
+            G.add_edge(tradeObj[0], tradeObj[1], weight = tradeValue)
+
+        '''
+        allParticipants = data.getAllParticipants()
         for row in allParticipants.itertuples():
             try:
                 selfImportLog = data.getCountryLog(row.Code, "Import", "self")
@@ -43,6 +50,7 @@ class Net():
                     G.add_edge(log._1, log._3)
             except KeyError:
                 None
+            '''
 
         return G
 
