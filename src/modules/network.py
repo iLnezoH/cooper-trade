@@ -176,7 +176,7 @@ class Net():
             Es.append(item["E"])
 
         plt.figure(figsize=(20, 5))
-        plt.bar(countries[:20], Es[:20], width=width, color=color)
+        plt.bar(countries[:count], Es[:count], width=width, color=color)
 
     def getDegreeCount(self):
         degree_sequence = sorted(

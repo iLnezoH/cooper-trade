@@ -161,3 +161,25 @@ def hierarchical_clustering(samples, dist_fn, k, _recursion_call=False):
     samples[min_dist_index[0]].extend(to_merge)
 
     return hierarchical_clustering(samples, dist_fn, k, True)
+
+
+def classifyByKey(collection, key):
+    """classify "collection" by "key"
+
+    Args:
+        collection: list<dict>, to be classified
+        key: string, the key of dict which devide "collection" by
+
+    Returns: dict<key: list<dict>>
+        a dict classfied by "key"
+    """
+
+    traveledKeys = []
+    res = {}
+    for item in collection:
+        value = item[key]
+        if (item[key] not in traveledKeys):
+            res[value] = []
+            traveledKeys.append(value)
+        res[value].append(item)
+    return res
