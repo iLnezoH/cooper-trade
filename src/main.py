@@ -85,6 +85,20 @@ def set_attributes(nodes):
     return nodes
 
 
+def show_cluster_list(nodes, label_name):
+    def join_value(value):
+        return ",".join(value)
+
+    label_group = pd.DataFrame(nodes)
+    label_group[["code"]] = label_group[["code"]].astype('str')
+    # res = label_group.groupby(label_name).apply(lambda x: ",".join(x["code"]))
+
+    res = label_group.groupby(label_name).aggregate(
+        {"code": join_value, "name": join_value})
+
+    return res
+
+
 def show_nodes_attribute(nodes):
     pd.DataFrame(nodes).head(len(nodes))
 
