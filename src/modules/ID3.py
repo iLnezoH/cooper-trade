@@ -1,6 +1,8 @@
 import copy
 import math
 
+from src.modules.utils import distance
+
 
 class ID3():
     def __init__(self):
@@ -36,6 +38,29 @@ class ID3():
                 traveledKeys.append(value)
             res[value].append(item)
         return res
+
+    @staticmethod
+    def generateList(tree):
+        decisionList = [{}]
+
+        def recursion_fn(tree, decisionList=[]):
+
+            if tree["label"] is not None:
+                decisionList[-1]["label"] = tree["label"]
+
+            else:
+                prefix = copy.deepcopy(decisionList[-1])
+
+                for j, subTree in enumerate(tree["children"]):
+                    if j > 0:
+                        decisionList.append(prefix)
+
+                    decisionList[-1][tree["key"]] = subTree["value"]
+                    recursion_fn(subTree, decisionList)
+
+        recursion_fn(tree, decisionList)
+
+        return decisionList
 
     def _getEntropy(self, collection, labelName="label"):
         amount = len(collection)

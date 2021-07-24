@@ -64,7 +64,7 @@ def cluster_nodes(nodes, indictor, label_name, layers=6):
     for cluster in clusters:
         count = len(cluster)
         for i in range(cursor, cursor + count):
-            nodes[i][label_name] = label_value
+            nodes[i][label_name] = int(label_value)
 
         cursor += count
         label_value += 1
@@ -136,3 +136,7 @@ def check_dt_precesion(data, tree):
 
 def show_dt_accuracy(data, tree):
     print("决策树的正确率：", check_dt_precesion(data, tree) / len(data) * 100, "%")
+
+
+def generate_list(tree):
+    return ID3.generateList(tree)
