@@ -64,7 +64,7 @@ def cluster_nodes(nodes, indictor, label_name, layers=6):
     for cluster in clusters:
         count = len(cluster)
         for i in range(cursor, cursor + count):
-            nodes[i][label_name] = int(label_value)
+            nodes[i][label_name] = label_value
 
         cursor += count
         label_value += 1
@@ -100,7 +100,7 @@ def show_cluster_list(nodes, label_name):
 
 
 def show_nodes_attribute(nodes):
-    pd.DataFrame(nodes).head(len(nodes))
+    print(pd.DataFrame(nodes))
 
 
 def generate_Decision_Tree(data):

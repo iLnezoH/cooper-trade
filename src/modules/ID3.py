@@ -53,7 +53,7 @@ class ID3():
 
                 for j, subTree in enumerate(tree["children"]):
                     if j > 0:
-                        decisionList.append(prefix)
+                        decisionList.append(copy.deepcopy(prefix))
 
                     decisionList[-1][tree["key"]] = subTree["value"]
                     recursion_fn(subTree, decisionList)
