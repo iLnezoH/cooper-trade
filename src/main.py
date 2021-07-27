@@ -114,28 +114,9 @@ def generate_Decision_Tree(data):
     return dt.generateTree(data, attribute_ranges)
 
 
-def check_dt_precesion(data, tree):
-    correct_num = 0
-
-    if (tree["label"] is not None):
-        for item in data:
-            correct_num += 1 if tree["label"] == item["label"] else 0
-        return correct_num
-
-    children = ID3.classifyByKey(data, tree["key"])
-
-    for value, child in children.items():
-        subtree = {}
-        for st in tree["children"]:
-            if st["value"] == value:
-                subtree = st
-        correct_num += check_dt_precesion(child, subtree)
-
-    return correct_num
-
 
 def show_dt_accuracy(data, tree):
-    print("决策树的正确率：", check_dt_precesion(data, tree) / len(data) * 100, "%")
+    print("决策树的正确率：", ID3.checkPrecesion(data, tree) / len(data) * 100, "%")
 
 
 def generate_list(tree):

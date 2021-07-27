@@ -62,6 +62,39 @@ class ID3():
 
         return decisionList
 
+    @staticmethod
+    def checkPrecesion(data, tree):
+        correct_num = 0
+
+        if (tree["label"] is not None):
+            for item in data:
+                correct_num += 1 if tree["label"] == item["label"] else 0
+            return correct_num
+
+        children = ID3.classifyByKey(data, tree["key"])
+
+        for value, child in children.items():
+            subtree = {}
+            for st in tree["children"]:
+                if st["value"] == value:
+                    subtree = st
+            correct_num += ID3.checkPrecesion(child, subtree)
+
+        return correct_num
+    
+    @staticmethod
+    def getAttributeDistribution(data, tree):
+        if (tree["label"] is not None):
+            return
+        
+        children = ID3.classifyByKey(data, tree["key"])
+
+        for value, child in children.items():
+            subtree = {}
+            for st in tree["children"]:
+                if st["value"] == value:
+                    subtree = st
+
     def _getEntropy(self, collection, labelName="label"):
         amount = len(collection)
         devidedCollection = ID3.classifyByKey(collection, labelName)
