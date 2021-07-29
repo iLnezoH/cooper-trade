@@ -60,7 +60,15 @@ class ID3():
 
         recursion_fn(tree, decisionList)
 
-        return decisionList
+        def drop_duplicates(dicts):
+            res = []
+            for item in dicts:
+                if item not in res:
+                    res.append(item)
+
+            return res
+
+        return drop_duplicates(decisionList)
 
     @staticmethod
     def checkPrecesion(data, tree):
@@ -81,12 +89,12 @@ class ID3():
             correct_num += ID3.checkPrecesion(child, subtree)
 
         return correct_num
-    
+
     @staticmethod
     def getAttributeDistribution(data, tree):
         if (tree["label"] is not None):
             return
-        
+
         children = ID3.classifyByKey(data, tree["key"])
 
         for value, child in children.items():

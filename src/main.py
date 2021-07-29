@@ -1,10 +1,11 @@
+import numpy as np
 from networkx.algorithms.dag import root_to_leaf_paths
 from src.modules.data import Data
 from src.modules.network import Net
 from src.modules.utils import distance_avg, hierarchical_clustering
 from src.modules.ID3 import ID3
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 data = Data("src/data/2019-world-copper-2063-trade.csv")
 
@@ -82,7 +83,14 @@ def set_attributes(nodes):
         node["in_degree"] = G.in_degree(node["code"])
         node["out_degree"] = G.out_degree(node["code"])
 
-    return nodes
+    attributes = {
+        "in_degree": {"layer": 6},
+        "out_degree": {"layer": 6},
+        "in_strength": {"layer": 6},
+        "out_strength": {"layer": 6}
+    }
+
+    return nodes, attributes
 
 
 def show_cluster_list(nodes, label_name):
@@ -114,10 +122,65 @@ def generate_Decision_Tree(data):
     return dt.generateTree(data, attribute_ranges)
 
 
-
 def show_dt_accuracy(data, tree):
     print("决策树的正确率：", ID3.checkPrecesion(data, tree) / len(data) * 100, "%")
 
 
 def generate_list(tree):
     return ID3.generateList(tree)
+
+
+def set_decision_probability(list, attributes):
+    for item in list:
+        p = 1
+        for attr, value in item.items():
+            if attr not in attributes.keys(): continue
+            p *= attributes[attr]['p'][int(value) - 1]
+
+        item['p'] = p
+
+    return list
+
+
+def decision_probability_bar(decision_list):
+    ps = [[] for _ in range(6)]
+
+    for item in decision_list:
+        ps[int(item['label']) - 1].append(item['p'])
+
+    plt.figure(figsize=(20, 20))
+
+    width = 1
+    group_gap = 5
+
+    fig, ax = plt.subplots()
+
+    last_index = 0
+    ind = []
+    xs = []
+
+    for i in range(0, 6):
+        group_len = len(ps[i])
+
+        x = np.arange(group_len) + last_index + group_gap
+        xs.append(x)
+
+        last_index = x[-1]
+
+        _ = ax.bar(x, ps[i], width)
+
+    ind = [x for j in xs for x in j]
+
+    x_labels = ['' for _ in range(len(ind))]
+
+    former_index = 0
+    for i, x in enumerate(xs):
+        x_labels[former_index + int(len(x) / 2)] = i + 1
+        former_index += len(x)
+
+    ax.set_xticklabels(x_labels, fontsize=14)
+
+    ax.set_ylabel('Probability', fontsize=14)
+    ax.set_xticks(ind)
+
+    plt.show()
