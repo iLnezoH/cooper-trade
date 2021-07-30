@@ -1,3 +1,4 @@
+from os import replace
 import numpy as np
 from networkx.algorithms.dag import root_to_leaf_paths
 from src.modules.data import Data
@@ -6,6 +7,9 @@ from src.modules.utils import distance_avg, hierarchical_clustering
 from src.modules.ID3 import ID3
 import pandas as pd
 import matplotlib.pyplot as plt
+
+pd.set_option('expand_frame_repr', False)
+
 
 data = Data("src/data/2019-world-copper-2063-trade.csv")
 
@@ -108,7 +112,8 @@ def show_cluster_list(nodes, label_name):
 
 
 def show_nodes_attribute(nodes):
-    print(pd.DataFrame(nodes))
+    print(pd.DataFrame(nodes)[['code', 'name', 'in_degree', 'out_strength',
+          'in_strength', 'out_degree', 'label']].sort_values('label'))
 
 
 def generate_Decision_Tree(data):
@@ -130,16 +135,45 @@ def generate_list(tree):
     return ID3.generateList(tree)
 
 
-def set_decision_probability(list, attributes):
-    for item in list:
+def set_attribute_probability(nodes, attributes):
+    for attr_values in attributes.values():
+        attr_values['p'] = [len(item) / len(nodes)
+                            for item in attr_values["cluster"]]
+
+    return attributes
+
+
+def show_attributes_distribution(attributes):
+    dis = [{
+        'Name': name,
+        'Probability': [format(p, '.4f') for p in value['p']]
+    } for name, value in attributes.items()]
+    print(pd.DataFrame(dis))
+
+def set_decision_probability(decision_list, attributes):
+    for item in decision_list:
         p = 1
         for attr, value in item.items():
-            if attr not in attributes.keys(): continue
+            if attr not in attributes.keys():
+                continue
             p *= attributes[attr]['p'][int(value) - 1]
 
         item['p'] = p
 
-    return list
+    return decision_list
+
+def show_decision_probability(decision_list):
+    table = pd.DataFrame(decision_list)[attribute_names + ['p']]
+    print(table)
+
+
+def get_hierarchical_risk(decision_list):
+    risk = [0 for _ in range(6)]
+
+    for item in decision_list:
+        risk[int(item['label']) - 1] += item['p']
+
+    return risk
 
 
 def decision_probability_bar(decision_list):
@@ -182,5 +216,10 @@ def decision_probability_bar(decision_list):
 
     ax.set_ylabel('Probability', fontsize=14)
     ax.set_xticks(ind)
+
+    plt.show()
+
+def hierarchical_risk_bar(risks):
+    plt.bar([i for i in range(6)], risks)
 
     plt.show()
