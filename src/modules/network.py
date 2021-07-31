@@ -10,6 +10,8 @@ from src.modules.utils import getEntropy, getAdjacencyDegree, getStrength, getSe
 
 
 class Net():
+    nx = nx
+
     def __init__(self, data) -> None:
         self.data = data
         self.initialEdges = []

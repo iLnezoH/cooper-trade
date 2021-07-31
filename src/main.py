@@ -1,6 +1,10 @@
-from os import replace
+from os import close, replace
+from networkx.algorithms.centrality.betweenness import betweenness_centrality
+from networkx.algorithms.centrality.closeness import closeness_centrality
+from networkx.algorithms.centrality.degree_alg import degree_centrality
 import numpy as np
 from networkx.algorithms.dag import root_to_leaf_paths
+import networkx as nx
 from src.modules.data import Data
 from src.modules.network import Net
 from src.modules.utils import distance_avg, hierarchical_clustering
@@ -77,9 +81,36 @@ def cluster_nodes(nodes, indictor, label_name, layers=6):
     return (clusters, nodes)
 
 
-attribute_names = ["in_strength", "out_strength", "in_degree", "out_degree"]
+# attribute_names = ["in_strength", "out_strength", "in_degree", "out_degree"]
+attribute_names = ["IS", "OS", "DC", "BC", "CC"]
 
 
+def set_attributes(nodes):
+    degree_centralities = nx.degree_centrality(G)
+    betweenness_centralities = nx.betweenness_centrality(G)
+    closeness_centralities = nx.closeness_centrality(G)
+    in_strengths = G.in_degree(weight="weight")
+    out_strengths = G.out_degree(weight="weight")
+
+    for node in nodes:
+        node['IS'] = in_strengths[node['code']]
+        node['OS'] = out_strengths[node['code']]
+        node['DC'] = degree_centralities[node['code']]
+        node['BC'] = betweenness_centralities[node['code']]
+        node['CC'] = closeness_centralities[node['code']]
+
+    attributes = {
+        "IS": {"layer": 6},
+        "OS": {"layer": 6},
+        "BC": {"layer": 6},
+        "DC": {"layer": 6},
+        "CC": {"layer": 6},
+    }
+
+    return nodes, attributes
+
+
+'''
 def set_attributes(nodes):
     for node in nodes:
         node["in_strength"] = G.in_degree(node["code"], weight="weight")
@@ -95,6 +126,7 @@ def set_attributes(nodes):
     }
 
     return nodes, attributes
+'''
 
 
 def show_cluster_list(nodes, label_name):
@@ -112,18 +144,29 @@ def show_cluster_list(nodes, label_name):
 
 
 def show_nodes_attribute(nodes):
-    print(pd.DataFrame(nodes)[['code', 'name', 'in_degree', 'out_strength',
-          'in_strength', 'out_degree', 'label']].sort_values('label'))
+    print(pd.DataFrame(nodes)[
+        ['code', 'name'] +
+        attribute_names + ['label']
+    ].sort_values('label'))
 
 
-def generate_Decision_Tree(data):
+def generate_Decision_Tree(data, attributes):
     dt = ID3()
+    '''
     attribute_ranges = {
         "in_strength": [1, 2, 3, 4, 5, 6],
         "out_strength": [1, 2, 3, 4, 5, 6],
         "in_degree": [1, 2, 3, 4, 5, 6],
         "out_degree": [1, 2, 3, 4, 5, 6],
     }
+    '''
+
+    attribute_ranges = {}
+    for name, value in attributes.items():
+        attribute_ranges[name] = [i+1 for i in range(value['layer'])]
+
+    print(attribute_ranges)
+
     return dt.generateTree(data, attribute_ranges)
 
 
@@ -150,6 +193,7 @@ def show_attributes_distribution(attributes):
     } for name, value in attributes.items()]
     print(pd.DataFrame(dis))
 
+
 def set_decision_probability(decision_list, attributes):
     for item in decision_list:
         p = 1
@@ -161,6 +205,7 @@ def set_decision_probability(decision_list, attributes):
         item['p'] = p
 
     return decision_list
+
 
 def show_decision_probability(decision_list):
     table = pd.DataFrame(decision_list)[attribute_names + ['p']]
@@ -219,7 +264,8 @@ def decision_probability_bar(decision_list):
 
     plt.show()
 
+
 def hierarchical_risk_bar(risks):
-    plt.bar([i for i in range(6)], risks)
+    plt.bar([i + 1 for i in range(6)], risks)
 
     plt.show()
