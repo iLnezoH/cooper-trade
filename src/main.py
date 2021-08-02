@@ -1,9 +1,7 @@
-from os import close, replace
 from networkx.algorithms.centrality.betweenness import betweenness_centrality
 from networkx.algorithms.centrality.closeness import closeness_centrality
 from networkx.algorithms.centrality.degree_alg import degree_centrality
 import numpy as np
-from networkx.algorithms.dag import root_to_leaf_paths
 import networkx as nx
 from src.modules.data import Data
 from src.modules.network import Net

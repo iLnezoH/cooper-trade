@@ -1169,18 +1169,27 @@ view_logs_about_china()
 
 ## 2. 构建网络
 
-根据以上数据和分析，构建网络：
+根据以上数据和分析，构建有向加权网络是合适的，具体如下：
 
-1. 以国家为节点，进出口关系为指向（出口国 -> 进口国），构建有向无权图
+1. 以国家为节点，进出口关系为指向（出口国 -> 进口国），贸易金额为权重，构建有向加权图
 
 2. 对于进出口关系，忽略各个国家之间上报数据的差异，即只要在任何一条记录中出现进出口关系即双方存在贸易关系，则为对应节点添加连边
+
+3. 对于贸易金额，若两方上报金额不一致则取两者均值
+  
 
 绘制网络：
 
 
 ```python
-# net.draw()
+net.draw()
 ```
+
+
+    
+![png](main_files/main_11_0.png)
+    
+
 
 ## 3. 基于连接信息熵的节点重要性
 
@@ -1228,6 +1237,8 @@ $$
 
 ### 4.1 求各节点的连接信息熵
 根据第 3 节给出的定义，求各节点的连接信息熵，并将前 20 的连接信息熵绘图如下：
+
+*实验中取 $\theta, \lambda = 0.7$.*
 
 
 ```python
@@ -1326,40 +1337,43 @@ show_cluster_list(nodes, "label")
 
 选取以下属性，并选择聚类层数：
 
-* in_degree：入度, 6 层
-* out_degree: 出度，6 层
-* in_strength: 入强度，6 层
-* out_strength: 出强度，6 层
+* IS：入强度, 6 层，反应进口贸易总额
+* OS: 出强度，6 层，反应出口贸易总额
+* DC: 度中心性，6 层，反应贸易伙伴的数量
+* BC: 中介中心性，6 层，反应在贸易网络中的枢纽性质（不考虑权重）
+* CC: 接近中心性，6 层，反应与其他贸易者之间的平均距离（不考虑权重）
 
 属性值由大到小标记为 1-6
 
 
 ```python
-cluster_attributes = [{
-  "name": "in_degree",
-  "layer": 6,
-}, {
-  "name": "out_degree",
-  "layer": 6,
-}, {
-  "name": "in_strength",
-  "layer": 6,
-}, {
-  "name": "out_strength",
-  "layer": 6,
-}]
-```
+nodes, attributes = set_attributes(nodes)
 
-
-```python
-nodes = set_attributes(nodes)
-_, nodes = cluster_nodes(nodes, "in_degree", "in_degree", 6)
-_, nodes = cluster_nodes(nodes, "out_degree", "out_degree", 6)
-_, nodes = cluster_nodes(nodes, "in_strength", "in_strength", 6)
-_, nodes = cluster_nodes(nodes, "out_strength", "out_strength", 6)
+for attr, values in attributes.items():
+    cluster, nodes = cluster_nodes(
+        nodes, attr, attr, values["layer"])
+      
+    values["cluster"] = cluster
 
 show_nodes_attribute(nodes)
+
 ```
+
+         code                name  IS  OS  DC  BC  CC  label
+    0     156               China   1   6   1   1   1      1
+    2     152               Chile   6   1   2   2   2      2
+    4     724               Spain   4   5   3   4   2      3
+    28    757         Switzerland   6   6   5   5   3      4
+    27    392               Japan   2   6   5   6   3      4
+    ..    ...                 ...  ..  ..  ..  ..  ..    ...
+    52     40             Austria   6   6   6   6   4      6
+    49    642             Romania   6   6   5   5   4      6
+    48    643  Russian Federation   5   6   5   6   3      6
+    117   212            Dominica   6   6   6   6   6      6
+    118    50          Bangladesh   6   6   6   6   6      6
+    
+    [119 rows x 8 columns]
+
 
 ### 4.5 生成决策树
 
@@ -1367,103 +1381,255 @@ show_nodes_attribute(nodes)
 
 
 ```python
-decision_tree = generate_Decision_Tree(nodes)
+decision_tree = generate_Decision_Tree(nodes, attributes)
 show_dt_accuracy(nodes, decision_tree)
 ```
 
-    决策树的正确率： 93.27731092436974 %
+    {'IS': [1, 2, 3, 4, 5, 6], 'OS': [1, 2, 3, 4, 5, 6], 'BC': [1, 2, 3, 4, 5, 6], 'DC': [1, 2, 3, 4, 5, 6], 'CC': [1, 2, 3, 4, 5, 6]}
+    决策树的正确率： 94.9579831932773 %
 
-
-决策树简图如下：
-![](./doc/img/decision_tree.png)
 
 根据决策树生成决策表：
 
 
 ```python
-a = ID3.generateList(decision_tree)
-a = pd.DataFrame(a)
-a = a[['in_degree', 'out_strength', 'in_strength', 'out_degree', 'label']].drop_duplicates()
-pd.set_option('display.max_rows', None)
-print(a.reset_index(drop=True))
+decision_list = ID3.generateList(decision_tree)
+pd.DataFrame(decision_list)[attribute_names + ['label']].sort_values('label')
 ```
 
-        in_degree  out_strength  in_strength  out_degree  label
-    0           1           NaN          NaN         NaN      1
-    1           2           1.0          NaN         NaN      2
-    2           2           2.0          NaN         NaN      4
-    3           2           3.0          NaN         NaN      4
-    4           2           4.0          NaN         NaN      5
-    5           2           5.0          NaN         NaN      3
-    6           2           6.0          1.0         NaN      4
-    7           2           6.0          2.0         NaN      4
-    8           2           6.0          3.0         NaN      4
-    9           2           6.0          4.0         NaN      4
-    10          2           6.0          5.0         NaN      4
-    11          2           6.0          6.0         NaN      5
-    12          3           NaN          NaN         1.0      5
-    13          3           NaN          NaN         2.0      5
-    14          3           NaN          NaN         3.0      5
-    15          3           NaN          NaN         4.0      5
-    16          3           NaN          1.0         5.0      5
-    17          3           NaN          2.0         5.0      5
-    18          3           NaN          3.0         5.0      5
-    19          3           NaN          4.0         5.0      4
-    20          3           NaN          5.0         5.0      5
-    21          3           NaN          6.0         5.0      5
-    22          3           NaN          NaN         6.0      4
-    23          4           1.0          NaN         NaN      4
-    24          4           2.0          NaN         NaN      4
-    25          4           3.0          NaN         NaN      5
-    26          4           4.0          NaN         NaN      4
-    27          4           5.0          NaN         NaN      6
-    28          4           6.0          1.0         NaN      4
-    29          4           6.0          2.0         NaN      4
-    30          4           6.0          3.0         NaN      4
-    31          4           6.0          4.0         NaN      4
-    32          4           6.0          5.0         1.0      4
-    33          4           6.0          5.0         2.0      4
-    34          4           6.0          5.0         3.0      4
-    35          4           6.0          5.0         4.0      4
-    36          4           6.0          5.0         5.0      5
-    37          4           6.0          5.0         6.0      4
-    38          4           6.0          6.0         1.0      4
-    39          4           6.0          6.0         2.0      4
-    40          4           6.0          6.0         3.0      4
-    41          4           6.0          6.0         4.0      4
-    42          4           6.0          6.0         5.0      4
-    43          4           6.0          6.0         6.0      4
-    44          5           1.0          NaN         NaN      6
-    45          5           2.0          NaN         NaN      4
-    46          5           3.0          NaN         NaN      6
-    47          5           4.0          NaN         NaN      5
-    48          5           5.0          NaN         NaN      6
-    49          5           6.0          1.0         NaN      6
-    50          5           6.0          2.0         NaN      6
-    51          5           6.0          3.0         NaN      6
-    52          5           6.0          4.0         NaN      6
-    53          5           6.0          5.0         1.0      6
-    54          5           6.0          5.0         2.0      6
-    55          5           6.0          5.0         3.0      6
-    56          5           6.0          5.0         4.0      6
-    57          5           6.0          5.0         5.0      5
-    58          5           6.0          5.0         6.0      6
-    59          5           6.0          6.0         NaN      6
-    60          6           1.0          NaN         NaN      6
-    61          6           2.0          NaN         NaN      6
-    62          6           3.0          NaN         NaN      6
-    63          6           4.0          NaN         NaN      6
-    64          6           5.0          NaN         NaN      5
-    65          6           6.0          NaN         1.0      6
-    66          6           6.0          NaN         2.0      6
-    67          6           6.0          NaN         3.0      6
-    68          6           6.0          NaN         4.0      6
-    69          6           6.0          NaN         5.0      6
-    70          6           6.0          NaN         6.0      6
-
-
-## 5. 层次风险模型
 
 
 
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>IS</th>
+      <th>OS</th>
+      <th>DC</th>
+      <th>BC</th>
+      <th>CC</th>
+      <th>label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>NaN</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>NaN</td>
+      <td>2.0</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>NaN</td>
+      <td>3.0</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>NaN</td>
+      <td>5.0</td>
+      <td>2</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>1.0</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>64</th>
+      <td>6.0</td>
+      <td>NaN</td>
+      <td>5</td>
+      <td>6.0</td>
+      <td>1.0</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>65</th>
+      <td>6.0</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>67</th>
+      <td>6.0</td>
+      <td>3.0</td>
+      <td>5</td>
+      <td>6.0</td>
+      <td>2.0</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>85</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>6</td>
+      <td>6.0</td>
+      <td>6.0</td>
+      <td>6</td>
+    </tr>
+  </tbody>
+</table>
+<p>86 rows × 6 columns</p>
+</div>
+
+
+
+### 4.6 层次风险模型
+
+1. 条件属性的概率分布
+
+$$
+p_{jA_i} = \frac{\#jA_i}{N}
+$$
+
+其中 $A_i$ 表示条件属性，$jA_i$ 表示条件属性 $A_i$ 的属性取值. $\#jA_i$ 表示属性 $A_i$ 取 $j$ 时的样本数，$N$ 表示总样本数。
+
+
+
+```python
+attributes = set_attribute_probability(nodes, attributes)
+show_attributes_distribution(attributes)
+```
+
+      Name                                       Probability
+    0   IS  [0.0084, 0.0084, 0.0084, 0.0420, 0.1008, 0.8319]
+    1   OS  [0.0084, 0.0084, 0.0084, 0.0336, 0.0336, 0.9076]
+    2   BC  [0.0084, 0.0168, 0.0252, 0.0336, 0.1176, 0.7983]
+    3   DC  [0.0084, 0.0168, 0.0672, 0.0672, 0.2101, 0.6303]
+    4   CC  [0.0084, 0.1261, 0.2773, 0.2773, 0.1008, 0.2101]
+
+
+2. 决策规则的概率分布
+
+$$
+    P_{\text{Rule}l} = p_{jA_i}\cdots p_{jA_p}
+$$
+
+其中，$p_{jA_k}$ 表示在决策规则 $l$ 中对应的各条件属性 $A_k$ 的取值为 $j$ 的概率.
+
+*这里将各条件属性的分布近似看做为相互独立，即某条件属性的取值不受其他条件属性取值的影响*
+
+
+```python
+decision_list = set_decision_probability(decision_list, attributes)
+show_decision_probability(decision_list)
+```
+
+        IS   OS  DC   BC   CC         p
+    0  NaN  NaN   1  NaN  NaN  0.008403
+    1  NaN  1.0   2  NaN  NaN  0.000141
+    2  NaN  2.0   2  NaN  NaN  0.000141
+    3  NaN  3.0   2  NaN  NaN  0.000141
+    4  NaN  4.0   2  NaN  NaN  0.000565
+    ..  ..  ...  ..  ...  ...       ...
+    81 NaN  NaN   6  6.0  2.0  0.063421
+    82 NaN  NaN   6  6.0  3.0  0.139527
+    83 NaN  NaN   6  6.0  4.0  0.139527
+    84 NaN  NaN   6  6.0  5.0  0.050737
+    85 NaN  NaN   6  6.0  6.0  0.105702
+    
+    [86 rows x 6 columns]
+
+
+
+```python
+decision_probability_bar(decision_list)
+```
+
+    /Users/hozen/Workspace/research-of-cooper-trade/src/main.py:260: UserWarning: FixedFormatter should only be used together with FixedLocator
+      ax.set_xticklabels(x_labels, fontsize=14)
+
+
+
+    <Figure size 1440x1440 with 0 Axes>
+
+
+
+    
+![png](main_files/main_37_2.png)
+    
+
+
+3. 节点脆弱性风险
+
+节点脆弱性在对应离散分区下的层次风险：
+
+$$
+  P_j = \sum_{l=1}^MP_{\text{Rule}l}(j_{A_n})
+$$
+  
+
+
+```python
+risks = get_hierarchical_risk(decision_list)
+```
+
+
+```python
+hierarchical_risk_bar(risks)
+```
+
+
+    
+![png](main_files/main_40_0.png)
+    
 

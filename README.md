@@ -1,0 +1,1 @@
+jupyter nbconvert --to <output format> <input notebook>
