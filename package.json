@@ -1,0 +1,11 @@
+{
+  "name": "cooper-trade",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@iLnezoH:iLnezoH/cooper-trade.git",
+  "author": "Hozen <hozen@live.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "orgchart": "^3.1.1"
+  }
+}

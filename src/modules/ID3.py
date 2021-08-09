@@ -1,5 +1,6 @@
 import copy
 import math
+from json import dump
 
 from src.modules.utils import distance
 
@@ -7,7 +8,7 @@ from src.modules.utils import distance
 class ID3():
     def __init__(self):
         None
-
+    
     def getAttributeRanges(self, data, attributes):
         ranges = {}
         for attr in attributes:
@@ -102,6 +103,11 @@ class ID3():
             for st in tree["children"]:
                 if st["value"] == value:
                     subtree = st
+    
+    @staticmethod
+    def saveDesicionTree(tree, to):
+        with open(to, 'w') as f:
+            dump(tree, f)
 
     def _getEntropy(self, collection, labelName="label"):
         amount = len(collection)

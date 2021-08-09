@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decisiont Tree generate</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/orgchart/3.1.1/css/jquery.orgchart.css">
+  <style>
+    .orgchart {
+      top: 40px;
+    }
+
+    .orgchart .node .title .symbol::before,
+    .orgchart .node .title .symbol::after {
+      display: none;
+    }
+
+    .orgchart>ul>li>ul li>.node::before,
+    .orgchart .node:not(:only-child)::after {
+      background-color: #000;
+    }
+
+    .orgchart .node:not(:only-child)::after,
+    .orgchart>ul>li>ul li>.node::before,
+    .orgchart .hierarchy::before {
+      border-color: #000;
+    }
+
+    .orgchart .node.leaf-node .title {
+      background-color: #1a9b70;
+    }
+
+    .orgchart .node.leaf-node .content {
+      border-color: #1a9b70;
+    }
+
+    #chartContainer {
+      position: relative;
+      /* margin-top: 40px; */
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <label for="file">Choose JSON file:</label>
+    <input name="file" type="file" id="file" accept="text/json">
+  </div>
+  <div id="chartContainer"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/orgchart/3.1.1/js/jquery.orgchart.min.js"></script>
+  <script src="./html2canvas.js"></script>
+  <script>
+    $('#file').change(importFile)
+
+    function importFile() {
+      const file = this.files[0]
+      reader = new FileReader()
+      reader.readAsText(file)
+      reader.onload = function () {
+        drawTress(JSON.parse(this.result))
+      }
+    }
+
+    function drawTress(json) {
+      $('#chartContainer').orgchart({
+        data: hanlderData(json),
+        nodeContent: 'title',
+        direction: 'l2r',
+        exportButton: true,
+        exportFilename: 'decision_tree',
+      })
+    }
+
+    function hanlderData(tree) {
+      const recursion = (subtree, key) => {
+        if (subtree.children && subtree.children.length) {
+          subtree.children.forEach(child => recursion(child, subtree.key))
+        }
+        subtree.name = `${key}: ${subtree.value}`
+        if (subtree.label) {
+          subtree.title = `label: ${subtree.label}`
+          subtree.className = 'leaf-node'
+        } else {
+          subtree.title = `${subtree.key} = ?`
+        }
+
+      }
+      recursion(tree)
+      tree.name = 'Start'
+      tree.title = tree.key
+      console.log(tree)
+      return tree
+    }
+  </script>
+</body>
+
+</html>

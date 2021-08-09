@@ -148,7 +148,7 @@ def show_nodes_attribute(nodes):
     ].sort_values('label'))
 
 
-def generate_Decision_Tree(data, attributes):
+def generate_decision_tree(data, attributes):
     dt = ID3()
     '''
     attribute_ranges = {
@@ -163,9 +163,11 @@ def generate_Decision_Tree(data, attributes):
     for name, value in attributes.items():
         attribute_ranges[name] = [i+1 for i in range(value['layer'])]
 
-    print(attribute_ranges)
-
     return dt.generateTree(data, attribute_ranges)
+
+
+def save_decision_tree(tree, to):
+    ID3.saveDesicionTree(tree, to)
 
 
 def show_dt_accuracy(data, tree):
@@ -206,7 +208,7 @@ def set_decision_probability(decision_list, attributes):
 
 
 def show_decision_probability(decision_list):
-    table = pd.DataFrame(decision_list)[attribute_names + ['p']]
+    table = pd.DataFrame(decision_list)[attribute_names + ['label', 'p']]
     print(table)
 
 
