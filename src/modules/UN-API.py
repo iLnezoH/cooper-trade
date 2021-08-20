@@ -59,4 +59,31 @@ def valide_response(res):
 
     return False
 
-get_cooper_trade_data(['2017','2018','2020'])
+
+def split_data():
+    with open('../data/2017,2018,2020-world-copper-2063-trade.json', 'r') as f:
+        data = json.load(f)
+    data_2017 = [ [ log for log in logs if log['yr'] == 2017 ] for logs in data ]
+    data_2018 = [ [ log for log in logs if log['yr'] == 2018 ] for logs in data ]
+    data_2020 = [ [ log for log in logs if log['yr'] == 2020 ] for logs in data ]
+
+    with open('../data/2017-world-copper-2063-trade.json', 'w') as f:
+        json.dump(data_2017, f)
+    with open('../data/2018-world-copper-2063-trade.json', 'w') as f:
+        json.dump(data_2018, f)
+    with open('../data/2020-world-copper-2063-trade.json', 'w') as f:
+        json.dump(data_2020, f)
+
+def format_data(path):
+    with open('../data/' + path, 'r') as f:
+        data = json.load(f)
+        data = [log for logs in data for log in logs]
+    with open('../data/format-' + path, 'w') as f:
+        json.dump(data, f)
+
+
+format_data('2016-world-copper-2063-trade.json')
+
+# split_data()
+
+# get_cooper_trade_data(['2017','2018','2020'])
