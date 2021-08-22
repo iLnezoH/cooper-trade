@@ -13,13 +13,23 @@ import matplotlib.pyplot as plt
 pd.set_option('expand_frame_repr', False)
 
 
-data = Data("src/data/2019-world-copper-2063-trade.csv")
+# data = Data("src/data/2019-world-copper-2063-trade.csv")
+data = {}
 
-net = Net(data)
-G = net.G
+#net = Net(data)
+net = {}
+
+#G = net.G
+G = {}
 
 
-def data_overview():
+def data_overview(path="src/data/2019-world-copper-2063-trade.csv"):
+    global data
+    global net
+    global G
+    data = Data(path)
+    net = Net(data)
+    G = net.G
     return data.data
 
 

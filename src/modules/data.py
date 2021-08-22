@@ -1,3 +1,4 @@
+import pathlib
 import pandas as pd
 from pandas.core.frame import DataFrame
 
@@ -11,7 +12,13 @@ class Data():
         self._mergedData = None
 
     def _preProcessing(self, path) -> DataFrame:
-        resourceData = pd.read_csv(path)
+        extentionName = pathlib.Path(path).suffix.lower()
+        print(extentionName == '.csv')
+        if extentionName == '.csv':
+            resourceData = pd.read_csv(path)
+        elif extentionName == '.json':
+            resourceData = pd.read_json(path)
+        print(resourceData)
         data = (
             resourceData[resourceData["Partner Code"] != 0]
             .loc[:, ["Reporter Code", "Reporter", "Partner Code", "Partner", "Trade Flow", "Trade Value (US$)"]]
