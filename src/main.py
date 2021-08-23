@@ -13,30 +13,49 @@ import matplotlib.pyplot as plt
 pd.set_option('expand_frame_repr', False)
 
 
-# data = Data("src/data/2019-world-copper-2063-trade.csv")
-data = {}
+class _G():
+    def __init__(self) -> None:
+        pass
 
-#net = Net(data)
-net = {}
+    @property
+    def G(self):
+        return self._G
 
-#G = net.G
-G = {}
+    @G.setter
+    def G(self, value):
+        self._G = value
+
+    @property
+    def data(self):
+        return self._data
+
+    @data.setter
+    def data(self, value):
+        self._data = value
+
+    @property
+    def net(self):
+        return self._net
+
+    @net.setter
+    def net(self, value):
+        self._net = value
+
+
+G = _G()
 
 
 def data_overview(path="src/data/2019-world-copper-2063-trade.csv"):
-    global data
-    global net
-    global G
-    data = Data(path)
-    net = Net(data)
-    G = net.G
-    return data.data
+    G.data = Data(path)
+    G.net = Net(G.data)
+    G.G = G.net.G
+    return G.data.data
 
 
 def check_data():
-    allParticipants = data.getAllParticipants()
-    allReporters = data.getAllReporters()
-    allPartners = data.getAllPartners()
+    allParticipants = G.data.getAllParticipants()
+    allReporters = G.data.getAllReporters()
+    allPartners = G.data.getAllPartners()
 
     print("上报进贸易记录的国家总数（不含重复）: ", allReporters.shape[0])
     print("上报进贸易记录的中的贸易对象国家总数（不含重复）: ", allPartners.shape[0])
@@ -44,7 +63,7 @@ def check_data():
 
 
 def view_logs_by_china():
-    chinaImportLog = data.getCountryLog(156, "Import")
+    chinaImportLog = G.data.getCountryLog(156, "Import")
     partnerNum1 = chinaImportLog.shape[0]
 
     print("中国上报的进口记录中，涉及出口国家的个数: ", partnerNum1)
@@ -52,7 +71,7 @@ def view_logs_by_china():
 
 
 def view_logs_about_china():
-    exportToChinaLog = data.getCountryLog(156, "Export", "parter")
+    exportToChinaLog = G.data.getCountryLog(156, "Export", "parter")
     partnerNum2 = exportToChinaLog.shape[0]
 
     print("全球上报了对中国有出口记录的国家", partnerNum2)
@@ -94,11 +113,11 @@ attribute_names = ["IS", "OS", "DC", "BC", "CC"]
 
 
 def set_attributes(nodes):
-    degree_centralities = nx.degree_centrality(G)
-    betweenness_centralities = nx.betweenness_centrality(G)
-    closeness_centralities = nx.closeness_centrality(G)
-    in_strengths = G.in_degree(weight="weight")
-    out_strengths = G.out_degree(weight="weight")
+    degree_centralities = nx.degree_centrality(G.G)
+    betweenness_centralities = nx.betweenness_centrality(G.G)
+    closeness_centralities = nx.closeness_centrality(G.G)
+    in_strengths = G.G.in_degree(weight="weight")
+    out_strengths = G.G.out_degree(weight="weight")
 
     for node in nodes:
         node['IS'] = in_strengths[node['code']]

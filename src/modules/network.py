@@ -144,6 +144,8 @@ class Net():
             E = 0
             strength = strengths[i]
             for neighbor in neighbors:
+                if strength == 0:
+                    continue
                 p = strength / adjacencyDegrees[neighbor]
                 E += abs(p * math.log(p, 2))
 
