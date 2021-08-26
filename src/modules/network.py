@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 import collections
 import math
 
-from networkx.classes.function import neighbors
-from networkx.readwrite.json_graph import adjacency
-
 from src.modules.utils import getEntropy, getAdjacencyDegree, getStrength, getSelectionProbability, getAdjacencyEntropy
 
 
@@ -29,37 +26,6 @@ class Net():
             G.add_node(tradeObj[0], label=data.getCountryName(tradeObj[0]))
             G.add_node(tradeObj[1], label=data.getCountryName(tradeObj[1]))
             G.add_edge(tradeObj[0], tradeObj[1], weight=tradeValue)
-
-        '''
-        allParticipants = data.getAllParticipants()
-        for row in allParticipants.itertuples():
-            try:
-                selfImportLog = data.getCountryLog(row.Code, "Import", "self")
-                for log in selfImportLog.itertuples():
-                    G.add_node(log._3, label=log.Partner)
-                    G.add_node(log._1, label=log.Reporter)
-                    if (self._repeatEdgeCheck(log._3, log._1)):
-                        continue
-                    self.initialEdges.append([log._3, log._1])
-                    # G.add_edge(log._3, log._1, tradeValue=log._6)
-                    G.add_edge(log._3, log._1)
-            except KeyError:
-                None
-
-            try:
-                exportPartnerLog = data.getCountryLog(
-                    row.Code, "Export", "partner")
-                for log in exportPartnerLog.itertuples():
-                    G.add_node(log._3, label=log.Partner)
-                    G.add_node(log._1, label=log.Reporter)
-                    if (self._repeatEdgeCheck(log._1, log._3)):
-                        continue
-                    self.initialEdges.append([log._1, log._3])
-                    # G.add_edge(log._1, log._3, tradeValue=log._6)
-                    G.add_edge(log._1, log._3)
-            except KeyError:
-                None
-            '''
 
         return G
 
@@ -181,6 +147,7 @@ class Net():
 
         plt.figure(figsize=(20, 5))
         plt.bar(countries[:count], Es[:count], width=width, color=color)
+        plt.show()
 
     def getDegreeCount(self):
         degree_sequence = sorted(

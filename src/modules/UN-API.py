@@ -98,9 +98,9 @@ def format_data(path):
 
 
 format_data('2016-world-copper-2063-trade.json')
-# format_data('2017-world-copper-2063-trade.json')
-# format_data('2018-world-copper-2063-trade.json')
-# format_data('2020-world-copper-2063-trade.json')
+format_data('2017-world-copper-2063-trade.json')
+format_data('2018-world-copper-2063-trade.json')
+format_data('2020-world-copper-2063-trade.json')
 
 # split_data()
 
