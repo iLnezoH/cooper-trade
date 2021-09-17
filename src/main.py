@@ -183,7 +183,7 @@ class Report():
 
         for item in self.decision_list:
             risk[int(item['label']) - 1] += item['p']
-        
+
         self.hierarchical_risk = risk
 
     def decision_probability_bar(self):
@@ -232,8 +232,15 @@ class Report():
     def hierarchical_risk_bar(self):
         plt.bar([i + 1 for i in range(6)], self.hierarchical_risk)
 
-
         plt.show()
+
+    def draw_entropy_plot(self, rank=20,  ylabel="adjacency information entropy"):
+        entropies = self.net.getSortedEntropies()
+        x = [i for i in range(1, len(entropies) + 1)]
+        y = [item['E'] for item in entropies]
+
+        plt.plot(x[0: rank], y[0: rank], '.-')
+        plt.ylabel(ylabel)
 
 
 def show_cluster_list(reports, label_name="label"):
