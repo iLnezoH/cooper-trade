@@ -153,10 +153,10 @@ class Report():
                 try:
                     if path[attr]:
                         None
-                    distribute[attr] += 1
+                    distribute[attr] += 1 / len(self.decision_list)
                 except KeyError:
                     None
-        return [count / len(self.decision_list) for count in distribute.values()]
+        return distribute
 
     '''
     def generate_decision_tree(self):
@@ -179,6 +179,7 @@ class Report():
     def decision_list(self):
         return ID3.generateList(self.decision_tree)
 
+    # @decision_list.setter
     '''
     def generate_decision_list(self):
         self.decision_list = ID3.generateList(self.decision_tree)
@@ -196,16 +197,6 @@ class Report():
         } for name, value in self.attributes.items()]
         print(pd.DataFrame(dis))
 
-    def set_decision_probability(self):
-        for item in self.decision_list:
-            p = 1
-            for attr, value in item.items():
-                if attr not in self.attributes.keys():
-                    continue
-                p *= self.attributes[attr]['p'][int(value) - 1]
-
-            item['p'] = p
-
     def show_decision_probability(self):
         table = pd.DataFrame(self.decision_list)[
             Report.attribute_names + ['label', 'p']]
@@ -220,17 +211,26 @@ class Report():
         self.hierarchical_risk = risk
 
     def decision_probability_bar(self):
+
         ps = [[] for _ in range(6)]
 
         for item in self.decision_list:
-            ps[int(item['label']) - 1].append(item['p'])
+            p = 1
+            for attr, value in item.items():
+                if attr not in self.attributes.keys():
+                    continue
+                p *= self.attributes[attr]['p'][int(value) - 1]
+
+            ps[int(item['label']) - 1].append(p)
+        
+        print(ps)
 
         plt.figure(figsize=(20, 20))
 
         width = 1
         group_gap = 5
 
-        fig, ax = plt.subplots()
+        # fig, ax = plt.subplots()
 
         last_index = 0
         ind = []
@@ -244,7 +244,8 @@ class Report():
 
             last_index = x[-1]
 
-            _ = ax.bar(x, ps[i], width)
+            plt.bar(x, ps[i], width)
+
 
         ind = [x for j in xs for x in j]
 
@@ -255,10 +256,11 @@ class Report():
             x_labels[former_index + int(len(x) / 2)] = i + 1
             former_index += len(x)
 
-        ax.set_xticklabels(x_labels, fontsize=14)
+        # plt.xticklabels(x_labels, fontsize=14)
 
-        ax.set_ylabel('Probability', fontsize=14)
-        ax.set_xticks(ind)
+        plt.ylabel(r'P_{$\text{Path}_l$', fontsize=14)
+        plt.xticks(x_labels, [i + 1 for i in range(len(xs))])
+
 
         plt.show()
 
@@ -273,7 +275,7 @@ class Report():
         y = [item['E'] for item in entropies]
 
         if rank is None:
-            plt.plot(x, y, '-')
+            plt.plot(x, y, '-', label=self.name)
         else:
             plt.plot(x[0: rank], y[0: rank], '-', label=self.name)
         plt.ylabel(ylabel)
@@ -304,3 +306,13 @@ def write_to_excel(dataFrame, path):
     writer = pd.ExcelWriter(path)
     dataFrame.to_excel(writer, float_format='%.5f')
     writer.save()
+
+
+def get_decision_attribute_distribute(reports):
+
+    attribute_distribute = {}
+
+    for report in reports:
+        attribute_distribute[report.name] = report.decision_attribute_distribute
+
+    return pd.DataFrame(attribute_distribute)
