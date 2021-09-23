@@ -40,6 +40,13 @@ class ID3():
             res[value].append(item)
         return res
 
+    """generate decistion list acrod decision tree
+
+    Args:
+        tree: dict, decision tree
+
+    Returns: list<dict>, decision list
+    """
     @staticmethod
     def generateList(tree):
         decisionList = [{}]

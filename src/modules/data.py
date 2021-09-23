@@ -65,9 +65,13 @@ class Data():
 
         return self._allParticipants
 
-    def getCountryName(self, code):
+    def getByCode(self, code):
         allParticipants = self.getAllParticipants()
         target = allParticipants[allParticipants["Code"] == code]
+        return target
+
+    def getCountryName(self, code):
+        target = self.getByCode(code)
         return target.iat[0, 1]
 
     def _getGroupLog(self, type, by):

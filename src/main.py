@@ -32,7 +32,7 @@ class Report():
             "DC": {"layer": 6},
             "CC": {"layer": 6},
         }
-        self.decision_list = []
+        # self.decision_list = []
         self.hierarchical_risk = []
 
     def data_overview(self, path="src/data/2019-world-copper-2063-trade.csv"):
@@ -100,7 +100,7 @@ class Report():
         print(pd.DataFrame(self.nodes)[
             ['code', 'name'] +
             Report.attribute_names + ['label']
-        ].sort_values('label'))
+        ].sort_values('label').reset_index(drop=True))
 
     @staticmethod
     def cluster_nodes_by(nodes, indictor, label_name, layers=6):
@@ -133,6 +133,32 @@ class Report():
 
         return (clusters, nodes)
 
+    @property
+    def decision_tree(self):
+        dt = ID3()
+        attribute_ranges = {}
+        for name, value in self.attributes.items():
+            attribute_ranges[name] = [i+1 for i in range(value['layer'])]
+
+        return dt.generateTree(self.nodes, attribute_ranges)
+
+    @property
+    def decision_attribute_distribute(self):
+        distribute = {}
+        for attr in self.attribute_names:
+            distribute[attr] = 0
+
+        for attr in self.attribute_names:
+            for path in self.decision_list:
+                try:
+                    if path[attr]:
+                        None
+                    distribute[attr] += 1
+                except KeyError:
+                    None
+        return [count / len(self.decision_list) for count in distribute.values()]
+
+    '''
     def generate_decision_tree(self):
         dt = ID3()
         attribute_ranges = {}
@@ -140,6 +166,7 @@ class Report():
             attribute_ranges[name] = [i+1 for i in range(value['layer'])]
 
         self.decision_tree = dt.generateTree(self.nodes, attribute_ranges)
+    '''
 
     def save_decision_tree(self, to):
         ID3.saveDesicionTree(self.decision_tree, to)
@@ -148,8 +175,14 @@ class Report():
         print("决策树的正确率：", ID3.checkPrecesion(
             self.nodes, self.decision_tree) / len(self.nodes) * 100, "%")
 
+    @property
+    def decision_list(self):
+        return ID3.generateList(self.decision_tree)
+
+    '''
     def generate_decision_list(self):
         self.decision_list = ID3.generateList(self.decision_tree)
+    '''
 
     def set_attribute_probability(self):
         for attr_values in self.attributes.values():
@@ -234,18 +267,25 @@ class Report():
 
         plt.show()
 
-    def draw_entropy_plot(self, rank=20,  ylabel="adjacency information entropy"):
+    def draw_entropy_plot(self, rank=None,  ylabel="adjacency information entropy"):
         entropies = self.net.getSortedEntropies()
         x = [i for i in range(1, len(entropies) + 1)]
         y = [item['E'] for item in entropies]
 
-        plt.plot(x[0: rank], y[0: rank], '.-')
+        if rank is None:
+            plt.plot(x, y, '-')
+        else:
+            plt.plot(x[0: rank], y[0: rank], '-', label=self.name)
         plt.ylabel(ylabel)
 
 
 def show_cluster_list(reports, label_name="label"):
     def join_value(value):
-        return ",".join(value)
+        length = len(value)
+        if length < 10:
+            return ",".join(value)
+        else:
+            return ",".join(value[0:4]) + ",等" + str(length) + "项"
 
     res = []
     for _nodes in [r.nodes for r in reports]:
@@ -258,3 +298,9 @@ def show_cluster_list(reports, label_name="label"):
             {"code": join_value}))
 
     return pd.concat(res, axis=1)
+
+
+def write_to_excel(dataFrame, path):
+    writer = pd.ExcelWriter(path)
+    dataFrame.to_excel(writer, float_format='%.5f')
+    writer.save()
