@@ -33,7 +33,7 @@ class Report():
             "CC": {"layer": 6},
         }
         # self.decision_list = []
-        self.hierarchical_risk = []
+        # self.hierarchical_risk = []
 
     def data_overview(self, path="src/data/2019-world-copper-2063-trade.csv"):
         return self.data.data
@@ -177,7 +177,17 @@ class Report():
 
     @property
     def decision_list(self):
-        return ID3.generateList(self.decision_tree)
+        _list = ID3.generateList(self.decision_tree)
+        for item in _list:
+            p = 1
+            for attr, value in item.items():
+                if attr not in self.attributes.keys():
+                    continue
+                p *= self.attributes[attr]['p'][int(value) - 1]
+
+            item['p'] = p
+
+        return _list
 
     # @decision_list.setter
     '''
@@ -202,28 +212,21 @@ class Report():
             Report.attribute_names + ['label', 'p']]
         print(table)
 
-    def get_hierarchical_risk(self):
+    @property
+    def hierarchical_risk(self):
         risk = [0 for _ in range(6)]
 
         for item in self.decision_list:
             risk[int(item['label']) - 1] += item['p']
 
-        self.hierarchical_risk = risk
+        return risk
 
     def decision_probability_bar(self):
 
         ps = [[] for _ in range(6)]
 
         for item in self.decision_list:
-            p = 1
-            for attr, value in item.items():
-                if attr not in self.attributes.keys():
-                    continue
-                p *= self.attributes[attr]['p'][int(value) - 1]
-
-            ps[int(item['label']) - 1].append(p)
-        
-        print(ps)
+            ps[int(item['label']) - 1].append(item['p'])
 
         plt.figure(figsize=(20, 20))
 
@@ -246,7 +249,6 @@ class Report():
 
             plt.bar(x, ps[i], width)
 
-
         ind = [x for j in xs for x in j]
 
         x_labels = ['' for _ in range(len(ind))]
@@ -258,9 +260,9 @@ class Report():
 
         # plt.xticklabels(x_labels, fontsize=14)
 
-        plt.ylabel(r'P_{$\text{Path}_l$', fontsize=14)
-        plt.xticks(x_labels, [i + 1 for i in range(len(xs))])
-
+        plt.ylabel(r'$P_{Path_l}$', fontsize=24)
+        plt.xlabel(r'j', fontsize=24)
+        plt.xticks(ind, x_labels)
 
         plt.show()
 
@@ -316,3 +318,17 @@ def get_decision_attribute_distribute(reports):
         attribute_distribute[report.name] = report.decision_attribute_distribute
 
     return pd.DataFrame(attribute_distribute)
+
+
+def show_hierarchical_risk_bar(reports):
+    plt.figure(figsize=(13, 10))
+
+    x = np.arange(len(reports[0].hierarchical_risk)) + 1
+    print(x)
+    width = 0.12
+    for i, report in enumerate(reports):
+        plt.bar(x + (-2 + i) * width, report.hierarchical_risk,
+                width=width, label=report.name)
+
+    plt.legend()
+    plt.show()
