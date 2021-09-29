@@ -21,7 +21,19 @@ class Data():
             resourceData[resourceData["Partner Code"] != 0]
             .loc[:, ["Reporter Code", "Reporter", "Partner Code", "Partner", "Trade Flow", "Trade Value (US$)"]]
         )
+        data = self._drop_self_lop_data(data)
+        data = self._drop_union_data(data)
         return data
+
+    def _drop_self_lop_data(self, data):
+        return data[data["Reporter Code"] != data["Partner Code"]]
+
+    def _drop_union_data(self, data):
+        union_codes = [
+            "490", "899", "975", "97", "568",
+            490, 899, 975, 97, 568
+        ]
+        return data[~(data["Reporter Code"].isin(union_codes) | data["Partner Code"].isin(union_codes))]
 
     def getAllReporters(self) -> DataFrame:
         if (self._allReporters is not None):

@@ -24,7 +24,7 @@ class Report():
         self.data = Data(path)
         self.net = Net(self.data)
         self.G = self.net.G
-        self.nodes = self.net.getSortedEntropies()
+        self.nodes = self.net.sortedNodes
         self.attributes = {
             "IS": {"layer": 6},
             "OS": {"layer": 6},
@@ -97,10 +97,10 @@ class Report():
             values["cluster"] = cluster
 
     def show_nodes_attribute(self):
-        print(pd.DataFrame(self.nodes)[
+        return pd.DataFrame(self.nodes)[
             ['code', 'name'] +
             Report.attribute_names + ['label']
-        ].sort_values('label').reset_index(drop=True))
+        ].sort_values('label').reset_index(drop=True)
 
     @staticmethod
     def cluster_nodes_by(nodes, indictor, label_name, layers=6):
@@ -115,7 +115,6 @@ class Report():
         Returns: (list, list)
         """
 
-        # nodes = net.getSortedEntropies()
         nodes = sorted(nodes, key=lambda e: e[indictor], reverse=True)
         indictor_range = [item[indictor] for item in nodes]
         clusters = hierarchical_clustering(
@@ -228,12 +227,10 @@ class Report():
         for item in self.decision_list:
             ps[int(item['label']) - 1].append(item['p'])
 
-        plt.figure(figsize=(20, 20))
+        fig, ax = plt.subplots(figsize=(20, 20))
 
         width = 1
         group_gap = 5
-
-        # fig, ax = plt.subplots()
 
         last_index = 0
         ind = []
@@ -242,12 +239,24 @@ class Report():
         for i in range(0, 6):
             group_len = len(ps[i])
 
-            x = np.arange(group_len) + last_index + group_gap
+            offset = last_index + group_gap
+
+            x = np.arange(group_len) + offset
             xs.append(x)
 
-            last_index = x[-1]
+            ax.bar(x, ps[i], width)
 
-            plt.bar(x, ps[i], width)
+            # label max probability in the cluster
+            max_p = max(ps[i])
+            max_p_x = ps[i].index(max_p) + offset
+            ax.text(max_p_x, max_p + 0.001, round(max_p, 3), ha="center")
+
+            # label num of paths of the cluster
+            ps_i_num = len(ps[i])
+            ax.text((ps_i_num - 1) / 2 + offset, max_p +
+                    0.006, ps_i_num, ha="center", fontsize=20)
+
+            last_index = x[-1]
 
         ind = [x for j in xs for x in j]
 
@@ -258,11 +267,14 @@ class Report():
             x_labels[former_index + int(len(x) / 2)] = i + 1
             former_index += len(x)
 
-        # plt.xticklabels(x_labels, fontsize=14)
+        ax.set_ylabel(r'$P_{Path_l}$', fontsize=24)
+        ax.set_xlabel(r'j', fontsize=24)
+        # ax.set_xticks(ind, x_labels)
+        ax.set_xticks(ind)
+        ax.set_xticklabels(x_labels)
 
-        plt.ylabel(r'$P_{Path_l}$', fontsize=24)
-        plt.xlabel(r'j', fontsize=24)
-        plt.xticks(ind, x_labels)
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
 
         plt.show()
 
@@ -272,7 +284,7 @@ class Report():
         plt.show()
 
     def draw_entropy_plot(self, rank=None,  ylabel="adjacency information entropy"):
-        entropies = self.net.getSortedEntropies()
+        entropies = self.net.sortedNodes
         x = [i for i in range(1, len(entropies) + 1)]
         y = [item['E'] for item in entropies]
 
@@ -322,13 +334,18 @@ def get_decision_attribute_distribute(reports):
 
 def show_hierarchical_risk_bar(reports):
     plt.figure(figsize=(13, 10))
+    fig, axes = plt.subplots(figsize=(12, 10))
 
     x = np.arange(len(reports[0].hierarchical_risk)) + 1
-    print(x)
     width = 0.12
     for i, report in enumerate(reports):
-        plt.bar(x + (-2 + i) * width, report.hierarchical_risk,
-                width=width, label=report.name)
+        axes.bar(x + (-2 + i) * width, report.hierarchical_risk,
+                 width=width, label=report.name)
 
-    plt.legend()
+    axes.legend()
+    axes.set_xlabel(r'$j$', fontsize=20)
+    axes.set_ylabel(r'$P_j$', fontsize=20)
+    axes.spines['right'].set_visible(False)
+    axes.spines['top'].set_visible(False)
+
     plt.show()

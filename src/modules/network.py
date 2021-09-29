@@ -119,7 +119,8 @@ class Net():
 
         return Es
 
-    def getSortedEntropies(self):
+    @property
+    def sortedNodes(self):
         entropiesDict = self.getAdjacencyEntropies()
         entropiesArr = [
             {
@@ -138,7 +139,7 @@ class Net():
         return set((*successors, *predecessors))
 
     def drawEntropiesBar(self, count=20, width=0.8, color="b"):
-        sortedEntropies = self.getSortedEntropies()
+        sortedEntropies = self.sortedNodes
         countries = []
         Es = []
         for item in sortedEntropies:
