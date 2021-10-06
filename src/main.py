@@ -237,22 +237,24 @@ class Report():
         xs = []
 
         for i in range(0, 6):
-            group_len = len(ps[i])
+            _ps_i = ps[i] or [0]
+
+            group_len = len(_ps_i)
 
             offset = last_index + group_gap
 
             x = np.arange(group_len) + offset
             xs.append(x)
 
-            ax.bar(x, ps[i], width)
+            ax.bar(x, _ps_i, width)
 
             # label max probability in the cluster
-            max_p = max(ps[i])
-            max_p_x = ps[i].index(max_p) + offset
-            ax.text(max_p_x, max_p + 0.001, round(max_p, 3), ha="center")
+            max_p = max(_ps_i)
+            max_p_x = _ps_i.index(max_p) + offset
+            ax.text(max_p_x, max_p + 0.001, round(max_p, 4), ha="center")
 
             # label num of paths of the cluster
-            ps_i_num = len(ps[i])
+            ps_i_num = len(_ps_i)
             ax.text((ps_i_num - 1) / 2 + offset, max_p +
                     0.006, ps_i_num, ha="center", fontsize=20)
 
@@ -336,10 +338,13 @@ def show_hierarchical_risk_bar(reports):
     plt.figure(figsize=(13, 10))
     fig, axes = plt.subplots(figsize=(12, 10))
 
+    years = len(reports)
+    offset = -(years - 1) / 2
+
     x = np.arange(len(reports[0].hierarchical_risk)) + 1
-    width = 0.12
+    width = 0.08
     for i, report in enumerate(reports):
-        axes.bar(x + (-2 + i) * width, report.hierarchical_risk,
+        axes.bar(x + (offset + i) * width, report.hierarchical_risk,
                  width=width, label=report.name)
 
     axes.legend()

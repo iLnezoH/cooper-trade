@@ -183,7 +183,7 @@ class Net():
             for item in nodeStrength
         ]
 
-        plt.figure(figsize=(30, 30))
+        plt.figure(figsize=(30, 20))
         pos = nx.random_layout(G)
         # pos = nx.spiral_layout(G)
         nx.draw(G, pos, with_labels=False, node_size=node_sizes)

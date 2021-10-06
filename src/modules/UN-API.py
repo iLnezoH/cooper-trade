@@ -24,9 +24,10 @@ def _get_UN_codes():
     return UN_code[1:]
 
 
-def _save_data(year, data):
-    t = time.time()
-    with open('../data/response/' + str(int(t)) + '-' + str(year) + '-world-copper-2063-trade.json', 'w') as f:
+def _save_data(name, data, path=None):
+    if path is None:
+        path = os.path.join(data_dir, 'response/')
+    with open(path + name + '.json', 'w') as f:
         json.dump(data, f)
 
 
@@ -34,8 +35,8 @@ def get_trade_data_by_reporter(code, year, params=None):
     """get trade data by reporter code
 
     Args:
-        code: number | string, reporter code
-        year: number | string, report year
+        code: string, reporter code(s): 1,2
+        year: string, report year(s): 2011,2012
         params?: dict, API params
 
     Returns: dict | None  API response data if success else None
@@ -46,7 +47,7 @@ def get_trade_data_by_reporter(code, year, params=None):
         'freq': 'A',
         'px': 'HS',
         'cc': 2603,
-        'rg': 'all',
+        'rg': '1,2',  # 1: Import, 2: export, all: all
         'p': 'all',
         'ps': year,
         'r': code
@@ -78,7 +79,7 @@ def _valide_response(res):
     return False
 
 
-def get_trade_data(year, params=None):
+def get_trade_data(year, codes, params=None):
     """get trade data by year and save to file
     Args:
         year: list, years
@@ -87,36 +88,41 @@ def get_trade_data(year, params=None):
     """
     _year = ','.join(year)
     trade_data = []
-    to_iter_cods = _get_UN_codes()
     failed_req = []
+    save_name = _year + \
+        '(' + str(codes[0]['id']) + '-' + str(codes[-1]['id']) + ')'
     try:
-        for item in to_iter_cods:
-            res = get_trade_data_by_reporter(item['id'], _year, params)
+        for i in range(0, len(codes), 5):
+            code = ','.join([item['id'] for item in codes[i:i+5]])
+            res = get_trade_data_by_reporter(code, _year, params)
             if res is None:
-                print('failed: ', item['id'])
-                failed_req.append(item)
+                print('failed: ', code, '. API request times: ' + str(i))
+                failed_req.append(code)
             else:
-                print('success: ', item['id'])
+                print('success: ', code, '. API request times: ' + str(i))
                 trade_data.append(res)
 
     except Exception as e:
         print(traceback.print_exc())
-        _save_data(_year, trade_data)
+        _save_data(save_name, trade_data)
     else:
-        _save_data(_year, trade_data)
+        _save_data(save_name, trade_data)
 
 
 def _merge_data(dir):
     merged_data = []
     for name in os.listdir(dir):
         if os.path.splitext(name)[1] == ".json":
+            print('merging ' + name + "...")
             with open(os.path.join(dir, name), 'r') as f:
                 # with open('../data/2017,2018,2020-world-copper-2063-trade.json', 'r') as f:
                 data = json.load(f)
                 merged_data += data
+                print('appden data length: ' + str(len(data)))
+                print('merged data length: ' + str(len(merged_data)))
 
-    with open(os.path.join(dir, 'merged_data.json'), 'w') as f:
-        json.dump(data, f)
+    with open(os.path.join(dir, 'merged_data/merged_data.json'), 'w') as f:
+        json.dump(merged_data, f)
 
 
 def split_data_by_year(file_path):
@@ -124,10 +130,11 @@ def split_data_by_year(file_path):
         data = json.load(f)
 
     years = set([log['yr'] for logs in data for log in logs])
+    print("data years: ", years)
 
     for year in years:
-        year_data = [[log for log in logs if log['yr'] == year]
-                     for logs in data]
+        year_data = [log for logs in data for log in logs if log['yr'] == year]
+
         with open(os.path.join(data_dir, 'year_origin_data', str(year) + '.json'), 'w') as f:
             json.dump(year_data, f)
 
@@ -135,21 +142,36 @@ def split_data_by_year(file_path):
 def format_data(file, to):
     with open(file, 'r') as f:
         data = json.load(f)
+        print('forming ' + file + '... data length: ' + str(len(data)))
         data = [{
-            **log,
+            # **log,
             'Reporter Code': log['rtCode'],
             'Reporter': log['rtTitle'],
             'Partner Code': log['ptCode'],
             'Partner': log['ptTitle'],
             'Trade Flow': log['rgDesc'],
-            'Trade Value (US$)': log['TradeValue']
-        } for logs in data for log in logs]
+            'Trade Value (US$)': log['TradeValue'],
+            'Trade Quantity': log['TradeQuantity'],
+            'NetWeight': log['NetWeight'],
+        } for log in data]
     with open(to, 'w') as f:
         json.dump(data, f)
 
 ###########################################
 
 
-for year in ['2011', '2012', '2013', '2014', '2015']:
-    format_data(os.path.join(data_dir, 'year_origin_data', year+'.json'),
-                os.path.join(data_dir, year+'-world-copper-2063-trade.json'))
+years = ['2011', '2012', '2013', '2014', '2015',
+         '2016', '2017', '2018', '2019', '2020']
+
+for year in years[5:]:
+    format_data(os.path.join(data_dir, 'year_origin_data', year + '.json'),
+                os.path.join(data_dir, 'format-' + year + '-world-copper-2063-trade.json'))
+
+# _merge_data(os.path.join(data_dir, 'tmp'))
+# split_data_by_year(os.path.join(data_dir, 'tmp/merged_data/merged_data.json'))
+# split_data_by_year(os.path.join(data_dir, 'response/2011,2012,2013,2014,2015(4-975).json'))
+# split_data_by_year(os.path.join(
+#    data_dir, 'response/2016,2017,2018,2019,2020(4-975).json'))
+
+# get_trade_data(['2011', '2012', '2013', '2014', '2015'], _get_UN_codes())
+# get_trade_data(['2016', '2017', '2018', '2019', '2020'], _get_UN_codes())
