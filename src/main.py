@@ -12,6 +12,7 @@ from src.modules.utils import distance_avg, hierarchical_clustering
 from src.modules.ID3 import ID3
 import pandas as pd
 import matplotlib.pyplot as plt
+import json
 
 pd.set_option('expand_frame_repr', False)
 
@@ -19,12 +20,11 @@ pd.set_option('expand_frame_repr', False)
 class Report():
     attribute_names = ["IS", "OS", "DC", "BC", "CC"]
 
-    def __init__(self, path, name) -> None:
+    def __init__(self, path, name, filling) -> None:
         self.name = name
-        self.data = Data(path)
+        self.data = Data(path, name, filling)
         self.net = Net(self.data)
         self.G = self.net.G
-        self.nodes = self.net.sortedNodes
         self.attributes = {
             "IS": {"layer": 6},
             "OS": {"layer": 6},
@@ -34,6 +34,20 @@ class Report():
         }
         # self.decision_list = []
         # self.hierarchical_risk = []
+
+    @property
+    def nodes(self):
+        try:
+            with open('src/data/network' + str(self.data.fillingMethod) + '/' + self.name + '-nodes.json') as f:
+                return json.load(f)
+        except:
+            nodes = self.net.sortedNodes
+            nodes = self.set_attributes(nodes)
+            nodes = self.cluster_nodes(nodes)
+
+            with open('src/data/network' + str(self.data.fillingMethod) + '/' + self.name + '-nodes.json', 'w') as f:
+                json.dump(nodes, f)
+            return nodes
 
     def data_overview(self, path="src/data/2019-world-copper-2063-trade.csv"):
         return self.data.data
@@ -61,14 +75,14 @@ class Report():
         print("全球上报了对中国有出口记录的国家", partnerNum2)
         return exportToChinaLog.head(partnerNum2)
 
-    def set_attributes(self, attributes=None):
+    def set_attributes(self, nodes, attributes=None):
         degree_centralities = nx.degree_centrality(self.G)
         betweenness_centralities = nx.betweenness_centrality(self.G)
         closeness_centralities = nx.closeness_centrality(self.G)
         in_strengths = self.G.in_degree(weight="weight")
         out_strengths = self.G.out_degree(weight="weight")
 
-        for node in self.nodes:
+        for node in nodes:
             node['IS'] = in_strengths[node['code']]
             node['OS'] = out_strengths[node['code']]
             node['DC'] = degree_centralities[node['code']]
@@ -82,19 +96,24 @@ class Report():
                 "BC": {"layer": 6},
                 "DC": {"layer": 6},
                 "CC": {"layer": 6},
+                "E": {"layer": 6},
             }
         else:
             self.attributes = attributes
 
-    def cluster_nodes(self):
-        Report.cluster_nodes_by(self.nodes, 'E', 'label', 6)
-        self.set_attributes()
+        return nodes
+
+    def cluster_nodes(self, nodes):
+        # _, nodes = Report.cluster_nodes_by(nodes, 'E', 'label', 6)
+        # self.set_attributes()
 
         for attr, values in self.attributes.items():
-            cluster, self.nodes = Report.cluster_nodes_by(
-                self.nodes, attr, attr, values["layer"])
+            cluster, nodes = Report.cluster_nodes_by(
+                nodes, attr, attr, values["layer"])
 
             values["cluster"] = cluster
+
+        return nodes
 
     def show_nodes_attribute(self):
         return pd.DataFrame(self.nodes)[

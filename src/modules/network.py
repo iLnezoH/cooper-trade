@@ -3,7 +3,12 @@ import matplotlib.pyplot as plt
 import collections
 import math
 
+from networkx.algorithms.swap import connected_double_edge_swap
+
 from src.modules.utils import getEntropy, getAdjacencyDegree, getStrength, getSelectionProbability, getAdjacencyEntropy
+
+import time
+import json
 
 
 class Net():
@@ -12,21 +17,29 @@ class Net():
     def __init__(self, data) -> None:
         self.data = data
         self.initialEdges = []
-        self.G = self._generateNet(data)
         self._strengths = None
         self._adjacencyDegrees = None
         self._Es = None
+        with open('src/data/database/country.json') as f:
+            self.countries = json.load(f)
+
+        self.G = self._generateNet(data)
 
     def _generateNet(self, data):
 
         G = nx.DiGraph()
-        tradeLogs = data.getMergedData()
+        netData = data.netData
 
-        for tradeObj, tradeValue in tradeLogs.items():
-            G.add_node(tradeObj[0], label=data.getCountryName(tradeObj[0]))
-            G.add_node(tradeObj[1], label=data.getCountryName(tradeObj[1]))
-            G.add_edge(tradeObj[0], tradeObj[1], weight=tradeValue)
+        for line in netData:
+            exportNode = int(line[0])
+            importNode = int(line[1])
+            # G.add_node(line[0], label=data.getCountryName(line[0]))
+            # G.add_node(line[1], label=data.getCountryName(line[1]))
+            G.add_node(exportNode, label=self.countries[str(exportNode)])
+            G.add_node(importNode, label=self.countries[str(importNode)])
 
+            G.add_edge(exportNode, importNode,
+                       weight=line[3])
         return G
 
     def freshGraph(self):
@@ -195,3 +208,17 @@ class Net():
         # nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=20)
 
         plt.show()
+
+    def removeTest(self, to_remove_series=None):
+        G = nx.DiGraph.copy(self.G)
+        connected_components_num_series = [
+            len(list(nx.weakly_connected_components(G)))]
+        for node in to_remove_series:
+            G.remove_node(node)
+            connected_components_num_series.append(
+                len(list(nx.weakly_connected_components(G))))
+
+        max_num = max(connected_components_num_series)
+
+        # return [item / max_num for item in connected_components_num_series]
+        return connected_components_num_series

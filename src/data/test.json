@@ -1,0 +1,62 @@
+[
+    {
+        "Reporter Code": 8,
+        "Reporter": "Albania",
+        "Partner Code": 156,
+        "Partner": "China",
+        "Trade Flow": "Export",
+        "Trade Value (US$)": 18299657,
+        "Trade Quantity": 13450450,
+        "NetWeight": 13450450
+    },
+    {
+        "Reporter Code": 156,
+        "Reporter": "China",
+        "Partner Code": 8,
+        "Partner": "Albania",
+        "Trade Flow": "Import",
+        "Trade Value (US$)": 56982504,
+        "Trade Quantity": 39963806,
+        "NetWeight": 39963806
+    },
+    {
+        "Reporter Code": 156,
+        "Reporter": "China",
+        "Partner Code": 32,
+        "Partner": "Argentina",
+        "Trade Flow": "Import",
+        "Trade Value (US$)": 2074102,
+        "Trade Quantity": 2437248,
+        "NetWeight": 2437248
+    },
+    {
+        "Reporter Code": 68,
+        "Reporter": "Bolivia (Plurinational State of)",
+        "Partner Code": 124,
+        "Partner": "Canada",
+        "Trade Flow": "Import",
+        "Trade Value (US$)": 459,
+        "Trade Quantity": 1,
+        "NetWeight": null
+    },
+    {
+        "Reporter Code": 191,
+        "Reporter": "Croatia",
+        "Partner Code": 0,
+        "Partner": "World",
+        "Trade Flow": "Import",
+        "Trade Value (US$)": 254,
+        "Trade Quantity": null,
+        "NetWeight": null
+    },
+    {
+        "Reporter Code": 191,
+        "Reporter": "Croatia",
+        "Partner Code": 842,
+        "Partner": "USA",
+        "Trade Flow": "Import",
+        "Trade Value (US$)": 254,
+        "Trade Quantity": null,
+        "NetWeight": null
+    }
+]

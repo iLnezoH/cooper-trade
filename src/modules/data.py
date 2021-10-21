@@ -1,13 +1,18 @@
 import pathlib
+from matplotlib.pyplot import fill
+from numpy import isnan
+import numpy as np
 import pandas as pd
+import json
 from pandas.core.frame import DataFrame
 
 
 class Data():
-    def __init__(self, path) -> None:
+    def __init__(self, path, name, filling) -> None:
         self.data = self._preProcessing(path)
-        self._allParticipants = None
-        self._mergedData = None
+        self._averagePrice = None
+        self.fillingMethod = filling
+        self.name = name
 
     def _preProcessing(self, path) -> DataFrame:
         extentionName = pathlib.Path(path).suffix.lower()
@@ -29,11 +34,16 @@ class Data():
 
     def _drop_union_data(self, data):
         union_codes = [
-            "0", "490", "899", "975", "97", "568",
-            0, 490, 899, 975, 97, 568
+            "0", "490", "899", "975", "97", "568", "839", "581", "838", "837", "577",
+            0, 490, 899, 975, 97, 568, 839, 581, 838, 837, 577
         ]
 
         return data[~(data["Reporter Code"].isin(union_codes) | data["Partner Code"].isin(union_codes))]
+
+    @property
+    def meanPrice(self):
+        # TODO get average price
+        None
 
     @property
     def allReporters(self):
@@ -80,6 +90,16 @@ class Data():
 
         return allParticipants
 
+    @property
+    def averagePrice(self):
+        if self._averagePrice is None:
+            logs = self._getNetData(0)
+            sums = np.sum(logs, axis=0)
+            print(sums)
+
+            self._averagePrice = sums[2] / sums[3]
+        return self._averagePrice
+
     def getByCode(self, code):
         allParticipants = self.allParticipants
         target = allParticipants[allParticipants["Code"] == code]
@@ -120,9 +140,25 @@ class Data():
         else:
             raise ValueError("who_report must be self, others or None")
 
-    def getMergedData(self):
-        if (self._mergedData is not None):
-            return self._mergedData
+    @property
+    def netData(self):
+        try:
+            return np.loadtxt('src/data/network' + str(self.fillingMethod) + '/' + self.name + '.csv', delimiter=",")
+        except OSError:
+            return self._getNetData(self.fillingMethod)
+
+    def _getNetData(self, fillingMethod=None):
+        """ merge data from importer and partner and process *TradeQuantity* Nan value
+        Args: 
+            hanlde_nan: 0 | 1 | 2, 
+                0: drop nan
+                1: replace TradeQuantity nan with NetWeight and others 0;
+                2: replace TradeQuantity nan with NetWeight and remianing nan with TradeValue/avaragePrice
+        Returns: merged and processed data 
+        """
+        if fillingMethod is None:
+            fillingMethod = self.fillingMethod
+
         allParticipants = self.allParticipants
         tradeRecords = {}
 
@@ -143,23 +179,55 @@ class Data():
             return tradeRecords[(u, v)]
 
         for row in allParticipants.itertuples():
-            try:
-                selfImportLog = self.getCountryLog(row.Code, "Export", "self")
+            # selfImportLog = self.getCountryLog(row.Code, "Export", "self")
+            if fillingMethod == 0:
+                selfImportLog = self.getCountryLog(
+                    row.Code, "Export", "self").dropna()
                 for log in selfImportLog.itertuples():
-                    _log = getCooperationLog(log._1, log._3)
-                    _log["Trade Value"]["reportFromU"] += log._6
-                    _log["Trade Quantity"]["reportFromU"] += log._7
-            except KeyError:
-                None
+                    couple_log = getCooperationLog(log._1, log._3)
+                    couple_log["Trade Value"]["reportFromU"] += log._6
+                    couple_log["Trade Quantity"]["reportFromU"] += log._7
 
-            try:
-                selfExportLog = self.getCountryLog(row.Code, "Import", "self")
-                for log in selfExportLog.itertuples():
-                    _log = getCooperationLog(log._3, log._1)
-                    _log["Trade Value"]["reportFromV"] += log._6
-                    _log["Trade Quantity"]["reportFromV"] += log._7
-            except KeyError:
-                None
+            else:
+                selfImportLog = self.getCountryLog(
+                    row.Code, "Export", "self")
+                for log in selfImportLog.itertuples():
+                    couple_log = getCooperationLog(log._1, log._3)
+                    if fillingMethod == 1:
+                        couple_log["Trade Value"]["reportFromU"] += log._6
+                        couple_log["Trade Quantity"]["reportFromU"] += \
+                            (0 if isnan(log.NetWeight) else log.NetWeight) \
+                            if isnan(log._7) else log._7
+                    if fillingMethod == 2:
+                        couple_log["Trade Value"]["reportFromU"] += log._6
+                        couple_log["Trade Quantity"]["reportFromU"] += \
+                            ((log._6 / self.averagePrice) if isnan(log.NetWeight) else log.NetWeight) \
+                            if isnan(log._7) else log._7
+
+            # selfExportLog = self.getCountryLog(row.Code, "Import", "self")
+            if fillingMethod == 0:
+                selfImportLog = self.getCountryLog(
+                    row.Code, "Import", "self").dropna()
+                for log in selfImportLog.itertuples():
+                    couple_log = getCooperationLog(log._3, log._1)
+                    couple_log["Trade Value"]["reportFromU"] += log._6
+                    couple_log["Trade Quantity"]["reportFromU"] += log._7
+
+            else:
+                selfImportLog = self.getCountryLog(
+                    row.Code, "Import", "self")
+                for log in selfImportLog.itertuples():
+                    couple_log = getCooperationLog(log._3, log._1)
+                    if fillingMethod == 1:
+                        couple_log["Trade Value"]["reportFromV"] += log._6
+                        couple_log["Trade Quantity"]["reportFromV"] += \
+                            (0 if isnan(log.NetWeight) else log.NetWeight) \
+                            if isnan(log._7) else log._7
+                    if fillingMethod == 2:
+                        couple_log["Trade Value"]["reportFromV"] += log._6
+                        couple_log["Trade Quantity"]["reportFromV"] += \
+                            ((log._6 / self.averagePrice) if isnan(log.NetWeight) else log.NetWeight) \
+                            if isnan(log._7) else log._7
 
         def get_mean(arr):
             if arr[0] != 0 and arr[1] != 0:
@@ -173,6 +241,9 @@ class Data():
             tradeRecords[key]["Trade Quantity"] =\
                 get_mean(list(value["Trade Quantity"].values()))
 
-        self._mergedData = tradeRecords
+        netData = [[k[0], k[1], v['Trade Value'], v['Trade Quantity']]
+                   for k, v in tradeRecords.items()]
+        np.savetxt('src/data/network' + str(fillingMethod) +
+                   '/' + self.name + '.csv', netData, delimiter=',')
 
-        return tradeRecords
+        return netData
