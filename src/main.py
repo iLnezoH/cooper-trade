@@ -20,30 +20,57 @@ pd.set_option('expand_frame_repr', False)
 class Report():
     attribute_names = ["IS", "OS", "DC", "BC", "CC"]
 
-    def __init__(self, path, name, filling) -> None:
+    def __init__(self, path, name, filling, attributes=None) -> None:
         self.name = name
         self.data = Data(path, name, filling)
         self.net = Net(self.data)
         self.G = self.net.G
-        self.attributes = {
-            "IS": {"layer": 6},
-            "OS": {"layer": 6},
-            "BC": {"layer": 6},
-            "DC": {"layer": 6},
-            "CC": {"layer": 6},
-        }
+        self._set_attributes(attributes)
         # self.decision_list = []
         # self.hierarchical_risk = []
+
+    def _set_attributes(self, attributes):
+
+        if attributes is None:
+            try:
+                with open('src/data/network' + str(self.data.fillingMethod) + '/' + self.name + '-attributes.json') as f:
+                    self.attributes = json.load(f)
+
+            except:
+                self.attributes = {
+                    "IS": {"layer": 6},
+                    "OS": {"layer": 6},
+                    "BC": {"layer": 6},
+                    "DC": {"layer": 6},
+                    "CC": {"layer": 6},
+                }
+
+        else:
+            self.attributes = attributes
 
     @property
     def nodes(self):
         try:
             with open('src/data/network' + str(self.data.fillingMethod) + '/' + self.name + '-nodes.json') as f:
                 return json.load(f)
+
         except:
             nodes = self.net.sortedNodes
             nodes = self.set_attributes(nodes)
             nodes = self.cluster_nodes(nodes)
+
+            degree_centralities = nx.degree_centrality(self.G)
+            betweenness_centralities = nx.betweenness_centrality(self.G)
+            closeness_centralities = nx.closeness_centrality(self.G)
+            in_strengths = self.G.in_degree(weight="weight")
+            out_strengths = self.G.out_degree(weight="weight")
+
+            for node in nodes:
+                node['IS'] = in_strengths[node['code']]
+                node['OS'] = out_strengths[node['code']]
+                node['DC'] = degree_centralities[node['code']]
+                node['BC'] = betweenness_centralities[node['code']]
+                node['CC'] = closeness_centralities[node['code']]
 
             with open('src/data/network' + str(self.data.fillingMethod) + '/' + self.name + '-nodes.json', 'w') as f:
                 json.dump(nodes, f)
@@ -53,9 +80,9 @@ class Report():
         return self.data.data
 
     def check_data(self):
-        allParticipants = self.data.getAllParticipants()
-        allReporters = self.data.getAllReporters()
-        allPartners = self.data.getAllPartners()
+        allParticipants = self.data.allParticipants
+        allReporters = self.data.allReporters
+        allPartners = self.data.allPartners
 
         print("上报进贸易记录的国家总数（不含重复）: ", allReporters.shape[0])
         print("上报进贸易记录的中的贸易对象国家总数（不含重复）: ", allPartners.shape[0])
@@ -69,39 +96,11 @@ class Report():
         return chinaImportLog.head(partnerNum1)
 
     def view_logs_about_china(self):
-        exportToChinaLog = self.data.getCountryLog(156, "Export", "parter")
+        exportToChinaLog = self.data.getCountryLog(156, "Export", "others")
         partnerNum2 = exportToChinaLog.shape[0]
 
         print("全球上报了对中国有出口记录的国家", partnerNum2)
         return exportToChinaLog.head(partnerNum2)
-
-    def set_attributes(self, nodes, attributes=None):
-        degree_centralities = nx.degree_centrality(self.G)
-        betweenness_centralities = nx.betweenness_centrality(self.G)
-        closeness_centralities = nx.closeness_centrality(self.G)
-        in_strengths = self.G.in_degree(weight="weight")
-        out_strengths = self.G.out_degree(weight="weight")
-
-        for node in nodes:
-            node['IS'] = in_strengths[node['code']]
-            node['OS'] = out_strengths[node['code']]
-            node['DC'] = degree_centralities[node['code']]
-            node['BC'] = betweenness_centralities[node['code']]
-            node['CC'] = closeness_centralities[node['code']]
-
-        if attributes is None:
-            self.attributes = {
-                "IS": {"layer": 6},
-                "OS": {"layer": 6},
-                "BC": {"layer": 6},
-                "DC": {"layer": 6},
-                "CC": {"layer": 6},
-                "E": {"layer": 6},
-            }
-        else:
-            self.attributes = attributes
-
-        return nodes
 
     def cluster_nodes(self, nodes):
         # _, nodes = Report.cluster_nodes_by(nodes, 'E', 'label', 6)
@@ -113,13 +112,17 @@ class Report():
 
             values["cluster"] = cluster
 
+        # save attributes
+        with open('src/data/network' + str(self.data.fillingMethod) + '/' + self.name + '-attributes.json') as f:
+            json.dump(self.attributes, f)
+
         return nodes
 
     def show_nodes_attribute(self):
         return pd.DataFrame(self.nodes)[
             ['code', 'name'] +
-            Report.attribute_names + ['label']
-        ].sort_values('label').reset_index(drop=True)
+            Report.attribute_names + ['E']
+        ].sort_values('E').reset_index(drop=True)
 
     @staticmethod
     def cluster_nodes_by(nodes, indictor, label_name, layers=6):
@@ -156,6 +159,8 @@ class Report():
         dt = ID3()
         attribute_ranges = {}
         for name, value in self.attributes.items():
+            if name == "E":
+                continue
             attribute_ranges[name] = [i+1 for i in range(value['layer'])]
 
         return dt.generateTree(self.nodes, attribute_ranges)

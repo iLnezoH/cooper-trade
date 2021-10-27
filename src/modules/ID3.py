@@ -8,7 +8,7 @@ from src.modules.utils import distance
 class ID3():
     def __init__(self):
         None
-    
+
     def getAttributeRanges(self, data, attributes):
         ranges = {}
         for attr in attributes:
@@ -79,12 +79,12 @@ class ID3():
         return drop_duplicates(decisionList)
 
     @staticmethod
-    def checkPrecesion(data, tree):
+    def checkPrecesion(data, tree, label_name="E"):
         correct_num = 0
 
         if (tree["label"] is not None):
             for item in data:
-                correct_num += 1 if tree["label"] == item["label"] else 0
+                correct_num += 1 if tree["label"] == item[label_name] else 0
             return correct_num
 
         children = ID3.classifyByKey(data, tree["key"])
@@ -110,13 +110,13 @@ class ID3():
             for st in tree["children"]:
                 if st["value"] == value:
                     subtree = st
-    
+
     @staticmethod
     def saveDesicionTree(tree, to):
         with open(to, 'w') as f:
             dump(tree, f)
 
-    def _getEntropy(self, collection, labelName="label"):
+    def _getEntropy(self, collection, labelName="E"):
         amount = len(collection)
         devidedCollection = ID3.classifyByKey(collection, labelName)
 
@@ -156,7 +156,7 @@ class ID3():
 
         return (bestAttr, bestDeviding, minEntropy)
 
-    def generateTree(self, data, attributeRanges, value=None, labelName="label"):
+    def generateTree(self, data, attributeRanges, value=None, labelName="E"):
         attributeNames = list(attributeRanges.keys())
 
         ys = [item[labelName] for item in data]
@@ -166,6 +166,7 @@ class ID3():
         if (len(ysSet) <= 1):
             return {"label": ysSet.pop(), "value": value}
 
+        # case 2: 如果所有属性都判断完毕，则返回 data 中样本数最多的标签
         mostLabel = ys[0]
         mostNum = -1
 
@@ -175,10 +176,10 @@ class ID3():
                 mostLabel = y
                 mostNum = num
 
-        # case 2: 如果所有属性都判断完毕，则返回 data 中样本数最多的标签
         if (len(attributeNames) == 0):
             return {"label": mostLabel, "value": value}
 
+        # case 3: 如果样本在所有属性上的取值都一致（无法进行继续决策），则同 case 2 返回样本数最多的标签
         sameOnAttributes = True
         for attr in attributeNames:
             divedeSet = ID3.classifyByKey(data, attr)
@@ -186,7 +187,6 @@ class ID3():
                 sameOnAttributes = False
                 break
 
-        # case 3: 如果样本在所有属性上的取值都一致（无法进行继续决策），则同 case 2 返回样本数最多的标签
         if (sameOnAttributes):
             return {"label": mostLabel, "value": value}
 
@@ -204,7 +204,8 @@ class ID3():
         for value in list(attributeRanges[bestAttr]):
             try:
                 _data = bestDeviding[value]
-                child = self.generateTree(_data, _attributeRanges, value)
+                child = self.generateTree(
+                    _data, _attributeRanges, value, labelName=labelName)
             except KeyError:
                 child = {"value": value, "label": mostLabel}
 
