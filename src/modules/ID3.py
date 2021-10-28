@@ -1,6 +1,7 @@
 import copy
 import math
 from json import dump
+from collections import Counter
 
 from src.modules.utils import distance
 
@@ -79,12 +80,19 @@ class ID3():
         return drop_duplicates(decisionList)
 
     @staticmethod
-    def checkPrecesion(data, tree, label_name="E"):
+    def checkPrecesion(data, tree, label_name="E", error_range=0):
         correct_num = 0
 
         if (tree["label"] is not None):
-            for item in data:
-                correct_num += 1 if tree["label"] == item[label_name] else 0
+            if error_range == 0:
+                for item in data:
+                    correct_num += 1 if tree["label"] == item[label_name] else 0
+            else:
+                for item in data:
+                    y = item[label_name]
+                    y_hat = tree["label"]
+                    correct_num += 1 if y - error_range <= y_hat <= y + error_range else 0
+
             return correct_num
 
         children = ID3.classifyByKey(data, tree["key"])
@@ -94,7 +102,9 @@ class ID3():
             for st in tree["children"]:
                 if st["value"] == value:
                     subtree = st
-            correct_num += ID3.checkPrecesion(child, subtree)
+                    break
+            correct_num += ID3.checkPrecesion(child, subtree,
+                                              label_name=label_name, error_range=error_range)
 
         return correct_num
 
@@ -212,3 +222,33 @@ class ID3():
             tree["children"].append(child)
 
         return tree
+
+    @staticmethod
+    def cut(tree, node, v_data):
+
+        can_cut = True
+
+        for child in node['children']:
+            if child['label'] is None:
+                can_cut = False
+                ID3.cut(tree, child, v_data)
+
+        if not can_cut:
+            return
+
+        accuracy_b = ID3.checkPrecesion(v_data, tree)
+
+        children = node['children']
+        labels = [c['label'] for c in node['children']]
+        del node['children']
+        node['label'] = max(set(labels), key=labels.count)
+
+        accuracy_a = ID3.checkPrecesion(v_data, tree)
+
+        if accuracy_a < accuracy_b:
+            node['children'] = children
+            node['label'] = None
+        else:
+            ID3.cut(tree, tree, v_data)
+
+        return
