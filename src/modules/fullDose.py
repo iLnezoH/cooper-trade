@@ -18,7 +18,7 @@ class FullDoseDT():
         else:
             self.years = [str(y) for y in years]
         self.fillingMethod = filling
-        self.data, self.train_data, self.test_data = self._init_data()
+        self.data, self.train_data, self.validate_data, self.test_data = self._init_data()
         self.decision_tree = None
 
     def _init_data(self):
@@ -39,6 +39,8 @@ class FullDoseDT():
         try:
             with open('src/data/network' + str(self.fillingMethod) + '/' + file_name + '-train-nodes.json') as f:
                 train_data = json.load(f)
+            with open('src/data/network' + str(self.fillingMethod) + '/' + file_name + '-validate-nodes.json') as f:
+                validate_data = json.load(f)
             with open('src/data/network' + str(self.fillingMethod) + '/' + file_name + '-test-nodes.json') as f:
                 test_data = json.load(f)
         except:
@@ -47,15 +49,25 @@ class FullDoseDT():
                 math.ceil(len(data) * 0.6),
                 replace=False
             )
-            test_index = np.delete(np.arange(len(data)), train_index)
+            remain_index = np.delete(np.arange(len(data)), train_index)
+            validate_index = rng.choice(
+                np.arange(len(remain_index)),
+                math.ceil(len(remain_index)/2),
+                replace=False
+            )
+            test_index = np.delete(
+                np.arange(len(remain_index)), validate_index)
             train_data = data[train_index]
+            validate_data = data[remain_index[validate_index]]
             test_data = data[test_index]
             with open('src/data/network' + str(self.fillingMethod) + '/' + file_name + '-train-nodes.json', 'w') as f:
                 json.dump(list(train_data), f)
+            with open('src/data/network' + str(self.fillingMethod) + '/' + file_name + '-validate-nodes.json', 'w') as f:
+                json.dump(list(validate_data), f)
             with open('src/data/network' + str(self.fillingMethod) + '/' + file_name + '-test-nodes.json', 'w') as f:
                 json.dump(list(test_data), f)
 
-        return data, train_data, test_data
+        return data, train_data, validate_data, test_data
 
     def train(self, label_name="E"):
         dt = ID3()
@@ -89,4 +101,6 @@ class FullDoseDT():
         return ID3.generateList(self.decision_tree)
 
     def cut(self):
-        return ID3.cut(self.decision_tree, self.decision_tree, self.test_data)
+        ID3.cut(self.decision_tree, self.decision_tree, self.validate_data)
+        ID3.saveDesicionTree(self.decision_tree, 'outputs/tree-' +
+                             ','.join(self.years) + '.json')

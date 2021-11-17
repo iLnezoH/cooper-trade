@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>弧线流向图</title>
+</head>
+<script charset="utf-8"
+    src="https://map.qq.com/api/gljs?v=1.exp&key=M62BZ-MVOW6-5R5SM-MO47C-MKOX5-HOFA6&libraries=visualization"></script>
+
+<style type="text/css">
+    html,
+    body {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #container {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+
+<body onload="initMap()">
+    <div id="container"></div>
+    <!--<script src="https://mapapi.qq.com/web/lbs/visualizationApi/demo/data/arc.js"></script>-->
+    <script charset="utf-8" src="./mock/locs.js"></script>
+    <script charset="utf-8" src="./mock/net_data_11.js"></script>
+    <script>
+        arcData = []
+        net_data_11.forEach((edge, i) => {
+            exporter = locs[edge[0]]
+            importer = locs[edge[1]]
+            const line = {
+                from: {
+                    lat: exporter.locs[0],
+                    lng: exporter.locs[1]
+                },
+                to: {
+                    lat: importer.locs[0],
+                    lng: importer.locs[1]
+                },
+            }
+            arcData.push(line)
+        })
+        console.log(arcData)
+
+        function initMap() {
+            var center = new TMap.LatLng(37.80787, 112.269029);
+            var data = arcData;
+            //初始化地图
+            var map = new TMap.Map("container", {
+                zoom: 1,//设置地图缩放级别
+                pitch: 30,
+                center: center,//设置地图中心点坐标
+                mapStyleId: "style3", //个性化样式
+                baseMap: {
+                    type: "vector",
+                    features: ["base", "building3d"], // 隐藏矢量文字
+                },
+            });
+            //初始化弧线图并添加至map图层
+            new TMap.visualization.Arc({
+                mode: 'vertical', // 弧线平面与地平面垂直
+                width: 1
+            })
+                .addTo(map)
+                .setData(data);//设置数据
+        }
+    </script>
+</body>
+
+</html>

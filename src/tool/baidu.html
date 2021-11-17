@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>MapVGL</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #map_container {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+    <script src="//api.map.baidu.com/api?v=1.0&type=webgl&ak=1XjLLEhZhQNUzd93EjU5nOGQ"></script>
+    <script src="//mapv.baidu.com/build/mapv.min.js"></script>
+    <script src="static/common.js"></script>
+    <script src="https://code.bdstatic.com/npm/mapvgl@1.0.0-beta.131/dist/mapvgl.min.js"></script>
+    <script src="https://code.bdstatic.com/npm/mapvgl@1.0.0-beta.131/dist/mapvgl.threelayers.min.js"></script>
+    <script src="mock/net_data_11.js"></script>
+    <script src="mock/locs.js"></script>
+    <script src="mock/getGeoJson.js"></script>
+
+</head>
+
+<body>
+    <div id="map_container"></div>
+    <script>
+        // 6322,2363
+
+        /* global BMapGL */
+
+        /* global mapv */
+
+        /* global mapvgl */
+
+        /* global initMap */
+
+        /* global purpleStyle */
+
+        var map = initMap({
+            tilt: 45,
+            heading: 0,
+            center: [111.858773, 27.848930],
+            zoom: 3,
+            style: purpleStyle
+        });
+
+        var curve = new mapvgl.BezierCurve();
+
+        var data = [];
+
+
+        lineGeoData = getGeoJson(net_data_11, locs).features
+        lineGeoData.forEach(item => {
+            exporter = item.geometry.coordinates[0]
+            startPoint = map.lnglatToMercator(exporter[0], exporter[1])
+            importer = item.geometry.coordinates[1]
+            endPoint = map.lnglatToMercator(importer[0], importer[1])
+
+            curve.setOptions({
+                start: [startPoint[0], startPoint[1]],
+                end: [endPoint[0], endPoint[1]],
+            })
+
+            var curveModelData = curve.getPoints(60);
+
+            data.push({
+                geometry: {
+                    type: 'LineString',
+                    coordinates: curveModelData
+                },
+                properties: {
+                    count: Math.random()
+                }
+            });
+        })
+
+        console.log(data)
+
+        var view = new mapvgl.View({
+            map: map
+        });
+
+        var lineLayer = new mapvgl.SimpleLineLayer({
+            blend: 'lighter',
+            // color: 'rgb(255, 153, 0, 0.6)' // 飞线颜色
+            color: 'rgb(100, 255, 255, 0.8)' // 飞线颜色
+        });
+        view.addLayer(lineLayer);
+        lineLayer.setData(data);
+
+        /*
+        var flylineLayer = new mapvgl.LineTripLayer({
+            style: 'chaos',
+            step: 0.3,
+            textureLength: 100,
+            color: 'rgba(33, 242, 214, 0.3)',
+            textureColor: function (data) {
+                // return data.properties.count > 0.5 ? '#ff0000' : '#56ccdd';
+                return 'red'
+            },
+            textureWidth: 20,
+            textureLength: 10
+        });
+        view.addLayer(flylineLayer);
+        flylineLayer.setData(data);
+        */
+    </script>
+</body>
+
+</html>

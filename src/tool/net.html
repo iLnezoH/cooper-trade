@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>世界航空线</title>
+    <style>
+        html,
+        body,
+        #container {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <script src="//webapi.amap.com/maps?v=2.0&key=e4e95784a955442455ffa26a6fa506e6"></script>
+    <script src="https://webapi.amap.com/loca?v=2.0.0&key=e4e95784a955442455ffa26a6fa506e6"></script>
+    <script src="mock/net_data_11.js"></script>
+    <script src="mock/locs.js"></script>
+    <script src="mock/getGeoJson.js"></script>
+    <script>
+        var lineGeoJson = getGeoJson(net_data_11, locs)
+        console.log(lineGeoJson)
+
+        var dis = new AMap.DistrictLayer.World({
+            zIndex: 10,
+            styles: {
+                'stroke-width': 0.8,
+                'city-stroke': '#fff',
+                'county-stroke': '#fff',
+                'province-stroke': '#fff',
+                'coastline-stroke': 'transparent',
+                'nation-stroke': '#fff',
+                'fill': "#34A5C7"
+            }
+        });
+
+        var map = new AMap.Map('container', {
+            layers: [dis],
+            zoom: 1,
+            pitch: 30,
+            viewMode: '3D'
+        });
+
+
+        var loca = new Loca.Container({
+            map,
+        });
+
+        var linkLayer = new Loca.LinkLayer({
+            zIndex: 20,
+            opacity: 1,
+            visible: true,
+            zooms: [2, 22],
+        });
+
+        lineGeoMap = new Loca.GeoJSONSource({
+            data: lineGeoJson,
+        });
+
+        console.log(lineGeoMap)
+        linkLayer.setSource(lineGeoMap);
+
+        linkLayer.setStyle({
+            lineColors: function (index, item) {
+                // return item.link.properties.type === 0 ? ['#25CDEA', '#12BFBF'] : ['#FFD87B', '#FF4F00'];
+                return ['red']
+            },
+            height: function (index, item) {
+                return item.distance / 4;
+            },
+            smoothSteps: function (index, item) {
+                return 200;
+            },
+        });
+        loca.add(linkLayer);
+
+
+    </script>
+</body>
+
+</html>

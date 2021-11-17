@@ -14,6 +14,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import json
 
+plt.rcParams['font.sans-serif'] = ['SimHei']
+plt.rcParams['axes.unicode_minus'] = False
+
 pd.set_option('expand_frame_repr', False)
 
 
@@ -23,7 +26,7 @@ class Report():
     def __init__(self, path, name, filling, attributes=None) -> None:
         self.name = name
         self.data = Data(path, name, filling)
-        self.net = Net(self.data)
+        self.net = Net(self.data.netData)
         self.G = self.net.G
         self._set_attributes(attributes)
         # self.decision_list = []
@@ -43,6 +46,7 @@ class Report():
                     "BC": {"layer": 6},
                     "DC": {"layer": 6},
                     "CC": {"layer": 6},
+                    "E": {"layer": 6}
                 }
 
         else:
@@ -56,8 +60,6 @@ class Report():
 
         except:
             nodes = self.net.sortedNodes
-            nodes = self.set_attributes(nodes)
-            nodes = self.cluster_nodes(nodes)
 
             degree_centralities = nx.degree_centrality(self.G)
             betweenness_centralities = nx.betweenness_centrality(self.G)
@@ -72,9 +74,30 @@ class Report():
                 node['BC'] = betweenness_centralities[node['code']]
                 node['CC'] = closeness_centralities[node['code']]
 
+            nodes = self.cluster_nodes(nodes)
+
             with open('src/data/network' + str(self.data.fillingMethod) + '/' + self.name + '-nodes.json', 'w') as f:
                 json.dump(nodes, f)
             return nodes
+
+    @staticmethod
+    def set_nodes_attributes(G):
+        nodes = [{'code': node} for node in G.nodes]
+
+        degree_centralities = nx.degree_centrality(G)
+        betweenness_centralities = nx.betweenness_centrality(G)
+        closeness_centralities = nx.closeness_centrality(G)
+        in_strengths = G.in_degree(weight="weight")
+        out_strengths = G.out_degree(weight="weight")
+
+        for node in nodes:
+            node['IS'] = in_strengths[node['code']]
+            node['OS'] = out_strengths[node['code']]
+            node['DC'] = degree_centralities[node['code']]
+            node['BC'] = betweenness_centralities[node['code']]
+            node['CC'] = closeness_centralities[node['code']]
+
+        return nodes
 
     def data_overview(self, path="src/data/2019-world-copper-2063-trade.csv"):
         return self.data.data
@@ -113,7 +136,7 @@ class Report():
             values["cluster"] = cluster
 
         # save attributes
-        with open('src/data/network' + str(self.data.fillingMethod) + '/' + self.name + '-attributes.json') as f:
+        with open('src/data/network' + str(self.data.fillingMethod) + '/' + self.name + '-attributes.json', 'w') as f:
             json.dump(self.attributes, f)
 
         return nodes
@@ -321,7 +344,7 @@ class Report():
         plt.ylabel(ylabel)
 
 
-def show_cluster_list(reports, label_name="label"):
+def show_cluster_list(reports, label_name="E"):
     def join_value(value):
         length = len(value)
         if length < 10:
@@ -378,3 +401,11 @@ def show_hierarchical_risk_bar(reports):
     axes.spines['top'].set_visible(False)
 
     plt.show()
+
+
+def get_all_E(reports):
+    Es = []
+    for report in reports:
+        Es += [node['E'] for node in report.net.sortedNodes]
+
+    return Es

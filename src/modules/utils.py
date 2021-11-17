@@ -1,5 +1,7 @@
 import math
 
+from networkx.classes.function import neighbors
+
 
 def get_a_list(value):
     """ Always return a lsit: if 'value' is a list, just return itselft, else return [value] 
@@ -31,7 +33,7 @@ def getEntropy(ps):
     return sum(pLogP)
 
 
-def getStrength(G, node, l=0.75):
+def getStrength(G, node, l=None):
     """ get strength of node in net directed and weighted G
 
     result = l * in_strength + (1 - l) * out_strength
@@ -50,12 +52,19 @@ def getStrength(G, node, l=0.75):
     in_strength = sum([data[2] for data in in_edges])
     out_strength = sum([data[2] for data in out_edges])
 
+    if l is None:
+        return in_strength + out_strength
+
     return l * in_strength + (1 - l) * out_strength
 
 
-def getAdjacencyDegree(G, node, theta=0.75, l=0.75):
+def getAdjacencyDegree(G, node, theta=None, l=None):
     successors = G.successors(node)
     predecessors = G.predecessors(node)
+
+    if theta is None:
+        neighbors = set((*successors, *predecessors))
+        return sum([getStrength(G, node, None) for node in neighbors])
 
     in_degree = sum([getStrength(G, node, l) for node in predecessors])
     out_degree = sum([getStrength(G, node, l) for node in successors])
@@ -63,11 +72,11 @@ def getAdjacencyDegree(G, node, theta=0.75, l=0.75):
     return theta * in_degree + (1 - theta) * out_degree
 
 
-def getSelectionProbability(G, i, j, theta=0.75, l=0.75):
+def getSelectionProbability(G, i, j, theta=None, l=None):
     return getStrength(G, i, l) / getAdjacencyDegree(G, j, theta, l)
 
 
-def getAdjacencyEntropy(G, i, theta=0.75, l=0.75):
+def getAdjacencyEntropy(G, i, theta=None, l=None):
     successors = G.successors(i)
     predecessors = G.predecessors(i)
 

@@ -215,7 +215,7 @@ class ID3():
             try:
                 _data = bestDeviding[value]
                 child = self.generateTree(
-                    _data, _attributeRanges, value, labelName=labelName)
+                    _data, _attributeRanges, value=value, labelName=labelName)
             except KeyError:
                 child = {"value": value, "label": mostLabel}
 

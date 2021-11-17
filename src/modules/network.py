@@ -28,7 +28,7 @@ class Net():
     def _generateNet(self, data):
 
         G = nx.DiGraph()
-        netData = data.netData
+        netData = data
 
         for line in netData:
             exportNode = int(line[0])
@@ -64,80 +64,39 @@ class Net():
 
         return E0
 
-    def getStrength(self, node, l=0.75):
-        return getStrength(self.G, node, l)
-
-    def getAdjacencyDegree(self, node, theta=0.75, l=0.75):
-        return getAdjacencyDegree(self.G, node, theta, l)
-
-    def getSelectionProbability(self, i, j, theta=0.75, l=0.75):
-        return getSelectionProbability(self.G, i, j, theta, l)
-
-    def getAdjacencyEntropy(self, i, theta=0.75, l=0.75):
-        return getAdjacencyEntropy(self.G, i, theta, l)
-
-    def getStrengths(self, l=0.75):
-        if (self._strengths is not None):
-            return self._strengths
+    @staticmethod
+    def getStrengths(G, l=None):
         strengths = {}
-        for node in self.G.nodes:
-            strengths[node] = self.getStrength(node, l)
+        for node in G.nodes:
+            strengths[node] = getStrength(G, node, l)
 
-        self._strengths = strengths
+        return strengths
 
-        return self._strengths
+    @staticmethod
+    def getAdjacencyDegrees(G, theta=None, l=None):
 
-    def getAdjacencyDegrees(self, theta=0.75, l=0.75):
-        if self._adjacencyDegrees is not None:
-            return self._adjacencyDegrees
+        adjacencyDegrees = {}
+        # strengths = self.getStrengths(l)
 
-        _adjacencyDegrees = {}
-        strengths = self.getStrengths(l)
+        for node in G.nodes:
+            adjacencyDegrees[node] = getAdjacencyDegree(G, node, theta, l)
 
-        for node in self.G.nodes:
-            successors = self.G.successors(node)
-            predecessors = self.G.predecessors(node)
+        return adjacencyDegrees
 
-            in_strengths = sum([strengths[in_node]
-                               for in_node in predecessors])
-            out_strengths = sum([strengths[out_node]
-                                for out_node in successors])
-
-            _adjacencyDegrees[node] = theta * \
-                in_strengths + (1 - theta) * out_strengths
-
-        self._adjacencyDegrees = _adjacencyDegrees
-
-        return _adjacencyDegrees
-
-    def getAdjacencyEntropies(self, theta=0.75, l=0.75):
-        if (self._Es is not None):
-            return self._Es
+    @staticmethod
+    def getAdjacencyEntropies(G, theta=None, l=None):
         Es = {}
-
-        strengths = self.getStrengths()
-        adjacencyDegrees = self.getAdjacencyDegrees()
-
-        for i in self.G.nodes:
-            neighbors = self.getNeighbors(i)
-            E = 0
-            strength = strengths[i]
-            for neighbor in neighbors:
-                if strength == 0:
-                    continue
-                p = strength / adjacencyDegrees[neighbor]
-                E += abs(p * math.log(p, 2))
-
-            Es[i] = E
+        for i in G.nodes:
+            Es[i] = getAdjacencyEntropy(G, i, theta, l)
 
         return Es
 
     @property
     def sortedNodes(self):
-        entropiesDict = self.getAdjacencyEntropies()
+        entropiesDict = Net.getAdjacencyEntropies(self.G)
         entropiesArr = [
             {
-                "name": self.data.getCountryName(code),
+                "name": self.countries[str(code)],
                 "code": code,
                 "E": E
             } for code, E in entropiesDict.items()
@@ -182,7 +141,7 @@ class Net():
     def draw(self):
         G = self.G
 
-        nodeStrength = list(G.degree(weight="tradeValue"))
+        nodeStrength = list(G.degree(weight="weight"))
 
         sortedNodeStrenght = sorted(nodeStrength, key=lambda item: item[1])
 
@@ -199,7 +158,8 @@ class Net():
         plt.figure(figsize=(30, 20))
         pos = nx.random_layout(G)
         # pos = nx.spiral_layout(G)
-        nx.draw(G, pos, with_labels=False, node_size=node_sizes)
+        nx.draw(G, pos, with_labels=False, node_size=node_sizes,
+                connectionstyle='arc3, rad = 0.1')
 
         node_labels = nx.get_node_attributes(G, 'label')
         nx.draw_networkx_labels(G, pos, labels=node_labels, font_size=20)
@@ -209,16 +169,15 @@ class Net():
 
         plt.show()
 
-    def removeTest(self, to_remove_series=None):
-        G = nx.DiGraph.copy(self.G)
+    @staticmethod
+    def removeTest(G, to_remove):
+        G = nx.DiGraph.copy(G)
         connected_components_num_series = [
-            len(list(nx.weakly_connected_components(G)))]
-        for node in to_remove_series:
-            G.remove_node(node)
+            len(list(nx.weakly_connected_components(G))) / len(G.nodes)]
+
+        while len(G.nodes) > 1:
+            G.remove_node(to_remove(G))
             connected_components_num_series.append(
-                len(list(nx.weakly_connected_components(G))))
+                len(list(nx.weakly_connected_components(G))) / len(G.nodes))
 
-        max_num = max(connected_components_num_series)
-
-        # return [item / max_num for item in connected_components_num_series]
         return connected_components_num_series

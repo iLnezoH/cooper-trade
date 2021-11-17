@@ -95,7 +95,6 @@ class Data():
         if self._averagePrice is None:
             logs = self._getNetData(0)
             sums = np.sum(logs, axis=0)
-            print(sums)
 
             self._averagePrice = sums[2] / sums[3]
         return self._averagePrice
@@ -149,12 +148,12 @@ class Data():
 
     def _getNetData(self, fillingMethod=None):
         """ merge data from importer and partner and process *TradeQuantity* Nan value
-        Args: 
-            hanlde_nan: 0 | 1 | 2, 
+        Args:
+            hanlde_nan: 0 | 1 | 2,
                 0: drop nan
                 1: replace TradeQuantity nan with NetWeight and others 0;
                 2: replace TradeQuantity nan with NetWeight and remianing nan with TradeValue/avaragePrice
-        Returns: merged and processed data 
+        Returns: merged and processed data
         """
         if fillingMethod is None:
             fillingMethod = self.fillingMethod
@@ -242,8 +241,64 @@ class Data():
                 get_mean(list(value["Trade Quantity"].values()))
 
         netData = [[k[0], k[1], v['Trade Value'], v['Trade Quantity']]
-                   for k, v in tradeRecords.items()]
+                   for k, v in tradeRecords.items() if v['Trade Quantity'] > 0]
         np.savetxt('src/data/network' + str(fillingMethod) +
                    '/' + self.name + '.csv', netData, delimiter=',')
 
         return netData
+
+    def save_gephi_edges(self):
+        data = self.netData
+
+        tableHead = ["source", "target", "weight"]
+
+        tableBody = [
+            [
+                str(int(v[0])),
+                str(int(v[1])),
+                str(int(v[3]))
+            ] for v in data]
+        table = [tableHead] + tableBody
+        with open('src/data/network' + str(self.fillingMethod) +
+                  '/' + self.name + '-gephi-edges.csv', 'w', encoding="utf8") as f:
+            csv_txt = "\n".join([','.join(line) for line in table])
+            f.write(csv_txt)
+
+    def save_gephi_nodes(self):
+        data = self.netData
+
+        tableHead = ["id", "label"]
+
+        codes = set()
+        for log in data:
+            codes.add(int(log[0]))
+            codes.add(int(log[1]))
+
+        tableBody = [
+            [
+                str(code),
+                "\"" + self.getCountryName(code) + "\""
+            ] for code in codes]
+        table = [tableHead] + tableBody
+        with open('src/data/network' + str(self.fillingMethod) +
+                  '/' + self.name + '-gephi-nodes.csv', 'w', encoding="utf8") as f:
+            csv_txt = "\n".join([','.join(line) for line in table])
+            f.write(csv_txt)
+
+    def save_csv_table(self):
+        data = self.netData
+        tableHead = ["SN", "Exporter Code", "Exporter",
+                     "Importer Code", "Importer", "Trade Quantity (kg)"]
+
+        tableBody = [
+            [
+                str(i + 1),
+                str(int(v[0])), "\"" + self.getCountryName(int(v[0])) + "\"",
+                str(int(v[1])), "\"" + self.getCountryName(int(v[1])) + "\"",
+                str(int(v[3]))
+            ] for i, v in enumerate(data)]
+        table = [tableHead] + tableBody
+        with open('src/data/network' + str(self.fillingMethod) +
+                  '/' + self.name + '-table.csv', 'w', encoding="utf8") as f:
+            csv_txt = "\n".join([','.join(line) for line in table])
+            f.write(csv_txt)
