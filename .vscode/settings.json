@@ -1,5 +1,5 @@
 {
   "python.pythonPath": "C:\\Program Files\\Python39\\python.exe",
   "jupyter.jupyterServerType": "local",
-  "svg.preview.background": "custom"
+  "svg.preview.background": "dark-transparent"
 }
