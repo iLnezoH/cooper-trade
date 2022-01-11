@@ -4,6 +4,7 @@ import collections
 import math
 
 from networkx.algorithms.swap import connected_double_edge_swap
+from networkx.classes.function import subgraph
 
 from src.modules.utils import getEntropy, getAdjacencyDegree, getStrength, getSelectionProbability, getAdjacencyEntropy
 
@@ -23,11 +24,12 @@ class Net():
         with open('src/data/database/country.json') as f:
             self.countries = json.load(f)
 
-        self.G = self._generateNet(data)
+        self._G = self._generateNet(data)
+        self.G = self._big_connected_graph()
 
     def _generateNet(self, data):
 
-        G = nx.DiGraph()
+        _G = nx.DiGraph()
         netData = data
 
         for line in netData:
@@ -35,12 +37,16 @@ class Net():
             importNode = int(line[1])
             # G.add_node(line[0], label=data.getCountryName(line[0]))
             # G.add_node(line[1], label=data.getCountryName(line[1]))
-            G.add_node(exportNode, label=self.countries[str(exportNode)])
-            G.add_node(importNode, label=self.countries[str(importNode)])
+            _G.add_node(exportNode, label=self.countries[str(exportNode)])
+            _G.add_node(importNode, label=self.countries[str(importNode)])
 
-            G.add_edge(exportNode, importNode,
-                       weight=line[3])
-        return G
+            _G.add_edge(exportNode, importNode,
+                        weight=line[3])
+        return _G
+
+    def _big_connected_graph(self):
+        g = max(nx.weakly_connected_components(self._G), key=len)
+        return self._G.subgraph(g)
 
     def freshGraph(self):
         self._strengths = None
