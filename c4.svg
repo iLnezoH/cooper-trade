@@ -1,0 +1,3409 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="583.7625pt" height="573.590625pt" viewBox="0 0 583.7625 573.590625" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2022-01-19T16:53:58.420888</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.5.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 573.590625 
+L 583.7625 573.590625 
+L 583.7625 0 
+L 0 0 
+L 0 573.590625 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 32.9625 550.8 
+L 576.5625 550.8 
+L 576.5625 7.2 
+L 32.9625 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pbd2b2518c9)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAiAAAAIgCAYAAAC8idIcAAALbUlEQVR4nO3YP6uedx3H8fvI7VHwJPQftIaIHm1xEEooBNo6FV1KdXBwccji6hMoOApdHQQHEaEIIil0rGAclUDBzaUIiUtOh0IOSRA9NDkO0geQ4ff+hquv1yP4XFx/eF+/g903f3i+26BXX/r69IRlbn58MD1hiR+8tMlHcbfb7Xb/OPnC9IQl3nplPz1hiePLh9MTlnnmwsPpCUu89vKd6QnL/OK3z05PWGKbX0UA4IkmQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAIDcfnrAKjc/PpiesMzx0Tav7ZP759MTlnnrlW2+ardPzqYnLHF8+XB6wjJ/+fC/0xMWuTQ9YJmf//TO9IQlnIAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAuf30APg8uH1yNj1hiTeuHk1PWOLuvekFPK7XXr4zPWGZX/3x+ekJSzgBAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHL76QGrHB8dTE9Y5taD8+kJSzx/NL0A/u/N1+9OT1jmD3/6yvSEJX7/wdemJyxz+uDf0xOWcAICAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJDbTw+Az4M3rh5NT1jimQsPpycs8c7vvjg9YZkr3z6cnrDEm6/fnZ6wzK/f+9L0hCWcgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAC5/fSAVW49OJ+esMzx0cH0hEW2e89evPyf6QlL/Ob9T6cnLPHUhe3+m53eO5uesMQHf3t6esIy37v6cHrCEtt9ywCAJ5YAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHL76QHwmRcvbbeH33n30+kJS7x9bZufkD/f3O6zePvkbHrCElcuHk5P4DFt9y0DAJ5YAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHL76QHwmdP7j6YnLPP2tW2+atdvbPOefePSl6cnLPPJR2fTE5Y4vbfN69rtdrtrP/vr9IQlnIAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAOQECAOQECACQEyAAQE6AAAA5AQIA5AQIAJATIABAToAAADkBAgDkBAgAkBMgAEBOgAAAuf30gFWOjw6mJyxz68H59IQlfvmjzT6Ou+s3Hk1PWOL0/kav697Z9AQe01MXD6cnLHPz71emJyzhBAQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAILefHrDKd776aHrCOifb7MbrN7Z7z378/W3es+9e+ef0hCWe+8m3pics8+oL0wvWePri9IJ1PvrXNi9um19FAOCJJkAAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACAnQACAnAABAHICBADICRAAICdAAICcAAEAcgIEAMgJEAAgJ0AAgJwAAQByAgQAyAkQACD3P3tCbhUqeAw4AAAAAElFTkSuQmCC" id="image230bd65909" transform="scale(1 -1)translate(0 -544)" x="32.9625" y="-6.8" width="544" height="544"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m5a4e5ec2f6" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="60.1425" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 1 -->
+      <g transform="translate(57.797187 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-31" d="M 2464 365 
+Q 2298 371 2045 377 
+Q 1792 384 1523 384 
+Q 1254 384 1001 377 
+Q 749 371 582 365 
+L 582 550 
+L 979 608 
+Q 1203 659 1203 858 
+L 1203 3840 
+L 442 3347 
+L 333 3546 
+Q 442 3616 608 3718 
+Q 774 3821 960 3942 
+Q 1146 4064 1331 4192 
+Q 1517 4320 1670 4448 
+L 1882 4448 
+L 1882 858 
+Q 1882 634 2106 602 
+L 2464 550 
+L 2464 365 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-31"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="114.5025" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 2 -->
+      <g transform="translate(112.157187 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-32" d="M 2726 365 
+Q 2496 371 2227 377 
+Q 1958 384 1542 384 
+Q 1120 384 777 381 
+Q 435 378 211 365 
+Q 230 518 262 659 
+Q 294 800 377 957 
+Q 461 1114 605 1299 
+Q 749 1485 992 1734 
+L 1229 1978 
+Q 1478 2227 1625 2412 
+Q 1773 2598 1849 2748 
+Q 1926 2899 1945 3033 
+Q 1965 3168 1965 3322 
+Q 1965 3622 1779 3801 
+Q 1594 3981 1280 3981 
+Q 954 3981 746 3769 
+Q 538 3558 461 3162 
+L 262 3238 
+Q 352 3827 694 4137 
+Q 1037 4448 1549 4448 
+Q 1779 4448 1984 4384 
+Q 2189 4320 2342 4195 
+Q 2496 4070 2589 3888 
+Q 2682 3706 2682 3469 
+Q 2682 3219 2592 3008 
+Q 2502 2797 2348 2608 
+Q 2195 2419 1993 2246 
+Q 1792 2074 1574 1907 
+L 1382 1754 
+Q 1216 1619 1030 1427 
+Q 845 1235 685 979 
+L 2074 979 
+Q 2234 979 2317 1011 
+Q 2400 1043 2448 1116 
+Q 2496 1190 2531 1302 
+Q 2566 1414 2624 1568 
+L 2822 1568 
+L 2726 365 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-32"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="168.8625" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 3 -->
+      <g transform="translate(166.517187 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-33" d="M 576 3430 
+L 474 3526 
+Q 550 3731 646 3900 
+Q 742 4070 876 4192 
+Q 1011 4314 1193 4381 
+Q 1376 4448 1619 4448 
+Q 1779 4448 1939 4409 
+Q 2099 4371 2224 4288 
+Q 2349 4205 2425 4083 
+Q 2502 3962 2502 3789 
+Q 2502 3539 2281 3289 
+Q 2061 3040 1683 2822 
+Q 1939 2842 2153 2771 
+Q 2368 2701 2518 2560 
+Q 2669 2419 2752 2214 
+Q 2835 2010 2835 1760 
+Q 2835 1446 2707 1174 
+Q 2579 902 2355 704 
+Q 2131 506 1833 394 
+Q 1536 282 1203 282 
+Q 762 282 518 403 
+Q 275 525 275 717 
+Q 275 787 323 854 
+Q 371 922 457 950 
+Q 544 979 653 950 
+Q 762 922 890 800 
+Q 986 704 1053 640 
+Q 1120 576 1174 541 
+Q 1229 506 1277 490 
+Q 1325 474 1389 474 
+Q 1581 474 1725 570 
+Q 1869 666 1965 826 
+Q 2061 986 2105 1184 
+Q 2150 1382 2150 1587 
+Q 2150 1997 1955 2198 
+Q 1760 2400 1498 2400 
+Q 1331 2400 1206 2345 
+Q 1082 2291 954 2182 
+L 845 2330 
+Q 909 2387 979 2444 
+Q 1050 2502 1126 2560 
+Q 1478 2822 1676 3030 
+Q 1875 3238 1875 3437 
+Q 1875 3686 1731 3824 
+Q 1587 3962 1306 3962 
+Q 1101 3962 902 3843 
+Q 704 3725 576 3430 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-33"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="223.2225" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 4 -->
+      <g transform="translate(220.877187 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-34" d="M 2086 4448 
+L 2387 4448 
+L 2387 1843 
+L 2918 1843 
+L 2918 1434 
+L 2387 1434 
+L 2387 282 
+L 1670 282 
+L 1670 1434 
+L 122 1434 
+L 122 1760 
+L 966 2912 
+Q 1254 3296 1529 3680 
+Q 1805 4064 2086 4448 
+z
+M 1670 1843 
+L 1670 3469 
+Q 1453 3168 1289 2944 
+Q 1126 2720 992 2537 
+Q 858 2355 739 2188 
+Q 621 2022 493 1843 
+L 1670 1843 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-34"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="277.5825" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 5 -->
+      <g transform="translate(275.237187 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-35" d="M 2490 3763 
+L 1536 3763 
+Q 1286 3763 1094 3760 
+Q 902 3757 877 3744 
+L 819 2880 
+Q 960 2950 1145 2982 
+Q 1331 3014 1478 3014 
+Q 1805 3014 2051 2908 
+Q 2298 2803 2464 2627 
+Q 2630 2451 2713 2220 
+Q 2797 1990 2797 1741 
+Q 2797 1414 2662 1145 
+Q 2528 877 2310 685 
+Q 2093 493 1817 387 
+Q 1542 282 1254 282 
+Q 1107 282 934 310 
+Q 762 339 611 393 
+Q 461 448 361 528 
+Q 262 608 262 717 
+Q 262 794 313 854 
+Q 365 915 435 950 
+Q 506 986 582 986 
+Q 659 986 710 941 
+Q 864 813 963 723 
+Q 1062 634 1139 576 
+Q 1216 518 1286 492 
+Q 1357 467 1453 467 
+Q 1632 467 1766 550 
+Q 1901 634 1993 778 
+Q 2086 922 2134 1114 
+Q 2182 1306 2182 1523 
+Q 2182 1728 2118 1897 
+Q 2054 2067 1939 2192 
+Q 1824 2317 1667 2387 
+Q 1510 2458 1318 2458 
+Q 1101 2458 957 2410 
+Q 813 2362 723 2272 
+L 614 2272 
+L 736 4384 
+L 1542 4384 
+Q 1792 4384 1952 4384 
+Q 2112 4384 2205 4400 
+Q 2298 4416 2336 4451 
+Q 2374 4486 2387 4557 
+L 2547 4557 
+L 2490 3763 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-35"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="331.9425" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- 6 -->
+      <g transform="translate(329.597187 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-36" d="M 2458 4467 
+L 2509 4346 
+Q 2138 4141 1846 3926 
+Q 1555 3712 1356 3430 
+Q 1158 3149 1056 2761 
+Q 954 2374 954 1824 
+Q 954 1645 973 1414 
+Q 992 1184 1053 976 
+Q 1114 768 1235 627 
+Q 1357 486 1562 486 
+Q 1824 486 1987 739 
+Q 2150 992 2150 1562 
+Q 2150 2042 1996 2282 
+Q 1843 2522 1555 2522 
+Q 1434 2522 1318 2470 
+L 1267 2637 
+Q 1370 2682 1482 2704 
+Q 1594 2726 1747 2726 
+Q 2278 2726 2560 2425 
+Q 2842 2125 2842 1626 
+Q 2842 1318 2736 1072 
+Q 2630 826 2451 650 
+Q 2272 474 2035 378 
+Q 1798 282 1530 282 
+Q 1190 282 944 403 
+Q 698 525 534 739 
+Q 371 954 294 1242 
+Q 218 1530 218 1862 
+Q 218 2426 394 2864 
+Q 570 3302 874 3622 
+Q 1178 3942 1587 4150 
+Q 1997 4358 2458 4467 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-36"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="386.3025" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 7 -->
+      <g transform="translate(383.957187 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-37" d="M 358 4384 
+L 2822 4384 
+L 2822 4275 
+Q 2714 4083 2522 3596 
+Q 2330 3110 2042 2310 
+Q 1485 736 1427 384 
+L 1043 384 
+Q 1120 717 1222 1065 
+Q 1325 1414 1462 1817 
+Q 1600 2221 1779 2691 
+Q 1958 3162 2189 3731 
+L 634 3731 
+Q 467 3731 461 3648 
+L 410 3379 
+L 269 3379 
+L 358 4384 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-37"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="440.6625" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 8 -->
+      <g transform="translate(438.317187 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-38" d="M 1069 2368 
+Q 282 2758 282 3424 
+Q 282 3622 368 3804 
+Q 454 3987 617 4131 
+Q 781 4275 1005 4361 
+Q 1229 4448 1510 4448 
+Q 1760 4448 1968 4377 
+Q 2176 4307 2326 4185 
+Q 2477 4064 2560 3901 
+Q 2643 3738 2643 3552 
+Q 2643 3366 2588 3232 
+Q 2534 3098 2438 2992 
+Q 2342 2886 2201 2793 
+Q 2061 2701 1888 2598 
+Q 2202 2445 2381 2297 
+Q 2560 2150 2646 2006 
+Q 2733 1862 2752 1718 
+Q 2771 1574 2771 1434 
+Q 2771 1190 2665 979 
+Q 2560 768 2384 614 
+Q 2208 461 1971 371 
+Q 1734 282 1466 282 
+Q 1184 282 950 362 
+Q 717 442 550 576 
+Q 384 710 294 892 
+Q 205 1075 205 1280 
+Q 205 1434 246 1584 
+Q 288 1734 390 1875 
+Q 493 2016 659 2137 
+Q 826 2259 1069 2368 
+z
+M 1683 2707 
+Q 1920 2854 2022 3046 
+Q 2125 3238 2125 3526 
+Q 2125 3827 1968 4019 
+Q 1811 4211 1472 4211 
+Q 1158 4211 1011 4035 
+Q 864 3859 864 3597 
+Q 864 3334 1046 3126 
+Q 1229 2918 1683 2707 
+z
+M 1254 2266 
+Q 1107 2176 1011 2077 
+Q 915 1978 860 1866 
+Q 806 1754 784 1622 
+Q 762 1491 762 1331 
+Q 762 941 976 710 
+Q 1190 480 1517 480 
+Q 2163 480 2163 1235 
+Q 2163 1414 2108 1555 
+Q 2054 1696 1942 1817 
+Q 1830 1939 1657 2048 
+Q 1485 2157 1254 2266 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-38"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="495.0225" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 9 -->
+      <g transform="translate(492.677187 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-39" d="M 1658 2022 
+Q 1485 1939 1299 1939 
+Q 1069 1939 864 2009 
+Q 659 2080 505 2221 
+Q 352 2362 265 2579 
+Q 179 2797 179 3091 
+Q 179 3386 281 3635 
+Q 384 3885 560 4067 
+Q 736 4250 969 4349 
+Q 1203 4448 1466 4448 
+Q 1747 4448 1984 4339 
+Q 2221 4230 2390 4022 
+Q 2560 3814 2656 3520 
+Q 2752 3226 2752 2861 
+Q 2752 2374 2582 1932 
+Q 2413 1491 2118 1142 
+Q 1824 794 1417 560 
+Q 1011 326 544 262 
+L 518 403 
+Q 915 506 1187 742 
+Q 1459 979 1628 1308 
+Q 1798 1638 1872 2051 
+Q 1946 2464 1946 2918 
+Q 1946 3194 1930 3446 
+Q 1914 3699 1866 3891 
+Q 1818 4083 1722 4195 
+Q 1626 4307 1466 4307 
+Q 1318 4307 1219 4204 
+Q 1120 4102 1059 3939 
+Q 998 3776 972 3571 
+Q 947 3366 947 3162 
+Q 947 2989 982 2806 
+Q 1018 2624 1088 2477 
+Q 1158 2330 1260 2234 
+Q 1363 2138 1498 2138 
+Q 1587 2138 1638 2157 
+L 1658 2022 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-39"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m5a4e5ec2f6" x="549.3825" y="550.8" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 10 -->
+      <g transform="translate(544.691875 565)scale(0.1 -0.1)">
+       <defs>
+        <path id="STSongti-SC-Black-30" d="M 1517 4448 
+Q 1792 4448 2045 4285 
+Q 2298 4122 2486 3840 
+Q 2675 3558 2787 3177 
+Q 2899 2797 2899 2362 
+Q 2899 1933 2790 1555 
+Q 2682 1178 2493 893 
+Q 2304 608 2054 445 
+Q 1805 282 1523 282 
+Q 1248 282 995 442 
+Q 742 602 550 880 
+Q 358 1158 246 1539 
+Q 134 1920 134 2355 
+Q 134 2797 246 3181 
+Q 358 3565 547 3846 
+Q 736 4128 985 4288 
+Q 1235 4448 1517 4448 
+z
+M 1517 518 
+Q 1869 518 1997 966 
+Q 2125 1414 2125 2362 
+Q 2125 3309 1993 3760 
+Q 1862 4211 1517 4211 
+Q 1171 4211 1040 3763 
+Q 909 3315 909 2362 
+Q 909 518 1517 518 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#STSongti-SC-Black-31"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11">
+      <defs>
+       <path id="mfffeaa624d" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="34.38" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 2011 -->
+      <g transform="translate(7.2 37.98)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="88.74" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <!-- 2012 -->
+      <g transform="translate(7.2 92.34)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-32" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="143.1" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <!-- 2013 -->
+      <g transform="translate(7.2 146.7)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-33" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="197.46" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <!-- 2014 -->
+      <g transform="translate(7.2 201.06)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-34" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="251.82" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <!-- 2015 -->
+      <g transform="translate(7.2 255.42)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-35" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="306.18" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <!-- 2016 -->
+      <g transform="translate(7.2 309.78)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-36" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="360.54" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <!-- 2017 -->
+      <g transform="translate(7.2 364.14)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-37" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="414.9" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <!-- 2018 -->
+      <g transform="translate(7.2 418.5)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-38" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="469.26" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <!-- 2019 -->
+      <g transform="translate(7.2 472.86)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-31" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-39" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#mfffeaa624d" x="32.9625" y="523.62" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <!-- 2020 -->
+      <g transform="translate(7.2 527.22)scale(0.1 -0.1)">
+       <use xlink:href="#STSongti-SC-Black-32"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="46.899994"/>
+       <use xlink:href="#STSongti-SC-Black-32" x="93.799988"/>
+       <use xlink:href="#STSongti-SC-Black-30" x="140.699982"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="text_21">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 37.284688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-43" d="M 3910 1459 
+Q 3891 1363 3872 1232 
+Q 3853 1101 3827 960 
+Q 3802 819 3773 684 
+Q 3744 550 3712 442 
+Q 3507 358 3200 320 
+Q 2893 282 2445 282 
+Q 1997 282 1590 416 
+Q 1184 550 873 806 
+Q 563 1062 377 1436 
+Q 192 1811 192 2298 
+Q 192 2784 358 3181 
+Q 525 3578 816 3859 
+Q 1107 4141 1500 4294 
+Q 1894 4448 2349 4448 
+Q 2720 4448 2989 4406 
+Q 3258 4365 3430 4314 
+Q 3635 4256 3770 4186 
+Q 3776 4109 3782 3971 
+Q 3789 3834 3792 3680 
+Q 3795 3526 3792 3385 
+Q 3789 3245 3789 3162 
+L 3603 3162 
+Q 3584 3347 3517 3529 
+Q 3450 3712 3318 3859 
+Q 3187 4006 2985 4096 
+Q 2784 4186 2496 4186 
+Q 2176 4186 1917 4083 
+Q 1658 3981 1475 3769 
+Q 1293 3558 1190 3228 
+Q 1088 2899 1088 2445 
+Q 1088 1933 1206 1574 
+Q 1325 1216 1526 989 
+Q 1728 762 2003 656 
+Q 2278 550 2598 550 
+Q 2816 550 2989 614 
+Q 3162 678 3299 793 
+Q 3437 909 3549 1078 
+Q 3661 1248 3763 1459 
+L 3910 1459 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-68" d="M 493 3859 
+Q 493 4045 374 4125 
+Q 256 4205 96 4237 
+L 96 4378 
+Q 160 4378 285 4397 
+Q 410 4416 554 4445 
+Q 698 4474 838 4515 
+Q 979 4557 1075 4608 
+L 1229 4608 
+L 1229 2394 
+Q 1395 2630 1577 2761 
+Q 1760 2893 2003 2925 
+Q 2054 2931 2102 2934 
+Q 2150 2938 2208 2938 
+Q 2566 2938 2764 2717 
+Q 2963 2496 2963 2067 
+L 2963 813 
+Q 2963 749 2988 688 
+Q 3014 627 3123 589 
+L 3302 525 
+L 3302 358 
+Q 3098 371 2909 377 
+Q 2720 384 2605 384 
+Q 2496 384 2285 377 
+Q 2074 371 1875 358 
+L 1875 525 
+L 2074 595 
+Q 2163 627 2195 688 
+Q 2227 749 2227 858 
+L 2227 1990 
+Q 2227 2202 2147 2323 
+Q 2067 2445 1830 2445 
+Q 1715 2445 1616 2397 
+Q 1517 2349 1440 2281 
+Q 1363 2214 1308 2134 
+Q 1254 2054 1229 1997 
+L 1229 858 
+Q 1229 787 1254 726 
+Q 1280 666 1350 634 
+L 1626 525 
+L 1626 358 
+Q 1523 371 1305 377 
+Q 1088 384 864 384 
+Q 640 384 451 377 
+Q 262 371 160 358 
+L 160 525 
+L 358 595 
+Q 435 627 464 697 
+Q 493 768 493 845 
+L 493 3859 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-69" d="M 986 4320 
+Q 1152 4320 1270 4195 
+Q 1389 4070 1389 3904 
+Q 1389 3757 1270 3635 
+Q 1152 3514 979 3514 
+Q 813 3514 701 3626 
+Q 589 3738 589 3904 
+Q 589 4070 704 4195 
+Q 819 4320 986 4320 
+z
+M 1632 358 
+Q 1530 371 1325 377 
+Q 1120 384 864 384 
+Q 608 384 403 377 
+Q 198 371 96 358 
+L 96 525 
+L 339 589 
+Q 538 627 538 826 
+L 538 1978 
+Q 538 2131 461 2201 
+Q 384 2272 154 2323 
+L 154 2477 
+Q 262 2502 403 2550 
+Q 544 2598 678 2659 
+Q 813 2720 928 2793 
+Q 1043 2867 1107 2944 
+Q 1152 2944 1190 2941 
+Q 1229 2938 1274 2938 
+L 1274 806 
+Q 1274 710 1302 662 
+Q 1331 614 1414 595 
+L 1632 525 
+L 1632 358 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-6e" d="M 3296 365 
+Q 2963 384 2556 384 
+Q 2150 384 1818 365 
+L 1818 525 
+L 2042 576 
+Q 2182 595 2182 826 
+L 2182 1901 
+Q 2182 2042 2172 2147 
+Q 2163 2253 2128 2326 
+Q 2093 2400 2019 2435 
+Q 1946 2470 1818 2470 
+Q 1670 2470 1507 2377 
+Q 1344 2285 1235 2157 
+L 1235 755 
+Q 1235 653 1389 614 
+L 1574 525 
+L 1574 365 
+Q 1517 371 1462 374 
+Q 1408 378 1344 381 
+Q 1280 384 1203 384 
+Q 1126 384 1011 384 
+L 813 384 
+Q 608 384 400 381 
+Q 192 378 96 365 
+L 96 525 
+L 371 589 
+Q 435 602 467 646 
+Q 499 691 499 781 
+L 499 2042 
+Q 499 2240 419 2310 
+Q 339 2381 134 2413 
+L 134 2534 
+Q 237 2560 374 2598 
+Q 512 2637 646 2697 
+Q 781 2758 896 2844 
+Q 1011 2931 1069 3053 
+L 1235 3053 
+L 1235 2432 
+Q 1427 2669 1651 2803 
+Q 1875 2938 2099 2938 
+Q 2470 2938 2694 2720 
+Q 2918 2502 2918 2061 
+L 2918 845 
+Q 2918 717 2950 659 
+Q 2982 602 3078 576 
+L 3296 525 
+L 3296 365 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-61" d="M 1152 288 
+Q 890 288 701 381 
+Q 512 474 393 634 
+Q 275 794 217 1011 
+Q 160 1229 160 1478 
+Q 160 1818 262 2080 
+Q 365 2342 537 2521 
+Q 710 2701 940 2793 
+Q 1171 2886 1427 2886 
+Q 1606 2886 1740 2860 
+Q 1875 2835 1965 2803 
+Q 2074 2771 2144 2726 
+L 2566 2963 
+L 2624 2944 
+L 2624 973 
+Q 2624 717 2842 730 
+Q 2893 730 2921 746 
+Q 2950 762 2976 774 
+Q 3002 794 3021 813 
+L 3059 723 
+Q 3008 602 2925 506 
+Q 2854 422 2736 355 
+Q 2618 288 2445 288 
+Q 2163 288 2044 457 
+Q 1926 627 1926 870 
+L 1926 1024 
+Q 1894 883 1833 752 
+Q 1773 621 1683 518 
+Q 1594 416 1462 352 
+Q 1331 288 1152 288 
+z
+M 1926 1760 
+Q 1926 1894 1913 2041 
+Q 1901 2189 1856 2313 
+Q 1811 2438 1718 2521 
+Q 1626 2605 1466 2605 
+Q 1376 2605 1277 2557 
+Q 1178 2509 1094 2400 
+Q 1011 2291 956 2102 
+Q 902 1914 902 1638 
+Q 902 1446 931 1273 
+Q 960 1101 1024 973 
+Q 1088 845 1181 771 
+Q 1274 698 1402 698 
+Q 1530 698 1626 781 
+Q 1722 864 1789 1001 
+Q 1856 1139 1891 1318 
+Q 1926 1498 1926 1690 
+L 1926 1760 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(99.665781 32.269375)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-52" d="M 160 544 
+L 365 582 
+Q 550 602 611 656 
+Q 672 710 672 915 
+L 672 3763 
+Q 672 3859 665 3932 
+Q 659 4006 624 4054 
+Q 589 4102 518 4131 
+Q 448 4160 320 4173 
+L 186 4186 
+Q 186 4237 182 4285 
+Q 179 4333 179 4384 
+Q 307 4384 377 4384 
+Q 448 4384 493 4387 
+Q 538 4390 573 4396 
+Q 608 4403 672 4403 
+L 1645 4448 
+Q 1709 4448 1769 4451 
+Q 1830 4454 1888 4454 
+Q 2227 4454 2528 4406 
+Q 2829 4358 3056 4240 
+Q 3283 4122 3417 3923 
+Q 3552 3725 3552 3430 
+Q 3552 3238 3497 3100 
+Q 3443 2963 3340 2851 
+Q 3238 2739 3088 2649 
+Q 2938 2560 2746 2464 
+L 3424 1312 
+Q 3578 1050 3686 912 
+Q 3795 774 3900 704 
+Q 4006 634 4124 611 
+Q 4243 589 4410 563 
+L 4410 378 
+Q 4275 384 4118 384 
+Q 3962 384 3782 384 
+Q 3693 384 3561 384 
+Q 3430 384 3302 384 
+Q 3174 384 3072 381 
+Q 2970 378 2938 378 
+L 2016 2125 
+Q 1952 2221 1878 2272 
+Q 1805 2323 1696 2323 
+L 1498 2323 
+L 1498 954 
+Q 1498 800 1558 729 
+Q 1619 659 1773 621 
+L 2086 544 
+L 2086 358 
+Q 1856 371 1597 377 
+Q 1338 384 1085 384 
+Q 832 384 592 377 
+Q 352 371 160 358 
+L 160 544 
+z
+M 1498 2573 
+Q 1824 2560 2045 2614 
+Q 2266 2669 2400 2768 
+Q 2534 2867 2592 3011 
+Q 2650 3155 2650 3328 
+Q 2650 3731 2458 3948 
+Q 2266 4166 1773 4166 
+Q 1722 4166 1638 4163 
+Q 1555 4160 1498 4154 
+L 1498 2573 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-65" d="M 2515 1888 
+L 928 1888 
+Q 915 1824 912 1811 
+Q 909 1798 909 1734 
+Q 909 1530 966 1360 
+Q 1024 1190 1129 1065 
+Q 1235 941 1385 870 
+Q 1536 800 1715 800 
+Q 1939 800 2128 861 
+Q 2317 922 2528 1126 
+L 2554 1030 
+Q 2477 883 2377 748 
+Q 2278 614 2137 512 
+Q 1997 410 1808 346 
+Q 1619 282 1363 282 
+Q 1094 282 870 374 
+Q 646 467 489 640 
+Q 333 813 246 1056 
+Q 160 1299 160 1600 
+Q 160 1901 253 2147 
+Q 346 2394 515 2570 
+Q 685 2746 928 2842 
+Q 1171 2938 1472 2938 
+Q 1747 2938 1939 2854 
+Q 2131 2771 2256 2627 
+Q 2381 2483 2441 2291 
+Q 2502 2099 2515 1888 
+z
+M 960 2125 
+L 1562 2125 
+Q 1734 2125 1734 2291 
+Q 1734 2477 1676 2608 
+Q 1619 2739 1446 2739 
+Q 1088 2739 960 2125 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-70" d="M 1254 2598 
+Q 1357 2682 1443 2746 
+Q 1530 2810 1622 2854 
+Q 1715 2899 1827 2921 
+Q 1939 2944 2086 2944 
+Q 2586 2944 2874 2621 
+Q 3162 2298 3162 1715 
+Q 3162 1389 3056 1133 
+Q 2950 877 2777 701 
+Q 2605 525 2377 432 
+Q 2150 339 1907 339 
+Q 1722 339 1552 377 
+Q 1382 416 1254 525 
+L 1254 -448 
+Q 1254 -538 1308 -582 
+Q 1363 -627 1523 -653 
+L 1907 -717 
+L 1907 -890 
+Q 1779 -877 1600 -870 
+Q 1421 -864 1139 -864 
+L 966 -864 
+Q 864 -864 739 -867 
+Q 614 -870 492 -873 
+Q 371 -877 265 -880 
+Q 160 -883 96 -890 
+L 96 -723 
+L 365 -672 
+Q 461 -653 489 -611 
+Q 518 -570 518 -448 
+L 518 2381 
+Q 518 2618 435 2624 
+L 122 2675 
+L 141 2765 
+Q 320 2810 470 2861 
+Q 621 2912 691 2944 
+Q 736 2963 806 2998 
+Q 877 3034 947 3075 
+Q 1018 3117 1075 3155 
+Q 1133 3194 1158 3226 
+L 1254 3226 
+L 1254 2598 
+z
+M 1254 2342 
+L 1254 1158 
+Q 1254 928 1376 777 
+Q 1498 627 1779 627 
+Q 2074 627 2230 880 
+Q 2387 1133 2387 1574 
+Q 2387 1786 2336 1968 
+Q 2285 2150 2192 2284 
+Q 2099 2419 1980 2496 
+Q 1862 2573 1728 2573 
+Q 1574 2573 1465 2509 
+Q 1357 2445 1254 2342 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-2e" d="M 704 294 
+Q 538 294 422 409 
+Q 307 525 307 691 
+Q 307 858 422 973 
+Q 538 1088 704 1088 
+Q 870 1088 985 973 
+Q 1101 858 1101 691 
+Q 1101 525 985 409 
+Q 870 294 704 294 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-20" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-6f" d="M 1504 282 
+Q 1165 282 915 381 
+Q 666 480 496 659 
+Q 326 838 243 1078 
+Q 160 1318 160 1606 
+Q 160 1901 243 2147 
+Q 326 2394 496 2570 
+Q 666 2746 928 2845 
+Q 1190 2944 1555 2944 
+Q 1920 2944 2179 2841 
+Q 2438 2739 2608 2556 
+Q 2778 2374 2858 2128 
+Q 2938 1882 2938 1594 
+Q 2938 1299 2838 1059 
+Q 2739 819 2556 646 
+Q 2374 474 2105 378 
+Q 1837 282 1504 282 
+z
+M 966 1562 
+Q 966 1082 1110 803 
+Q 1254 525 1536 525 
+Q 1811 525 1964 819 
+Q 2118 1114 2118 1600 
+Q 2118 2086 1974 2390 
+Q 1830 2694 1536 2694 
+Q 1248 2694 1107 2409 
+Q 966 2125 966 1562 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-66" d="M 1286 2835 
+L 2099 2816 
+L 2099 2592 
+L 1299 2566 
+L 1299 1024 
+Q 1299 819 1366 720 
+Q 1434 621 1568 595 
+L 1914 531 
+L 1914 365 
+Q 1510 384 1056 384 
+L 858 384 
+Q 640 384 419 381 
+Q 198 378 102 365 
+L 102 525 
+L 301 570 
+Q 397 589 448 611 
+Q 499 634 524 675 
+Q 550 717 556 787 
+Q 563 858 563 973 
+L 563 2490 
+Q 442 2515 96 2528 
+L 96 2624 
+Q 250 2688 339 2736 
+Q 429 2784 477 2822 
+Q 525 2861 537 2899 
+Q 550 2938 550 2982 
+Q 550 3040 563 3184 
+Q 576 3328 624 3510 
+Q 672 3693 761 3885 
+Q 851 4077 1001 4240 
+Q 1152 4403 1373 4505 
+Q 1594 4608 1907 4608 
+Q 1958 4608 2009 4605 
+Q 2061 4602 2112 4595 
+Q 2317 4563 2461 4476 
+Q 2605 4390 2605 4211 
+Q 2605 4026 2512 3917 
+Q 2419 3808 2234 3808 
+Q 2086 3808 2000 3881 
+Q 1914 3955 1856 4048 
+Q 1798 4141 1756 4214 
+Q 1715 4288 1670 4288 
+Q 1510 4288 1430 4195 
+Q 1350 4102 1315 3958 
+Q 1280 3814 1280 3635 
+Q 1280 3456 1280 3283 
+Q 1280 3110 1280 2998 
+Q 1280 2886 1286 2835 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(101.8775 42.3)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-4b" d="M 1875 358 
+Q 1754 371 1549 377 
+Q 1344 384 1050 384 
+Q 755 384 518 377 
+Q 282 371 160 358 
+L 160 557 
+L 467 614 
+Q 557 627 592 668 
+Q 627 710 627 826 
+L 627 3981 
+Q 627 4096 598 4121 
+Q 570 4147 467 4166 
+L 160 4224 
+L 160 4403 
+Q 179 4397 288 4393 
+Q 397 4390 531 4387 
+Q 666 4384 800 4384 
+Q 934 4384 1011 4384 
+Q 1075 4384 1196 4384 
+Q 1318 4384 1449 4387 
+Q 1581 4390 1699 4393 
+Q 1818 4397 1875 4403 
+L 1875 4224 
+L 1606 4166 
+Q 1510 4147 1478 4118 
+Q 1446 4090 1446 3981 
+L 1446 826 
+Q 1446 723 1481 681 
+Q 1517 640 1606 627 
+L 1875 557 
+L 1875 358 
+z
+M 4755 358 
+Q 4582 371 4345 377 
+Q 4109 384 3802 384 
+Q 3648 384 3462 384 
+Q 3277 384 3097 381 
+Q 2918 378 2764 371 
+Q 2611 365 2528 358 
+L 2528 550 
+L 2982 627 
+Q 3085 646 3075 688 
+Q 3066 730 2957 832 
+L 1798 1875 
+Q 1651 1997 1520 2096 
+Q 1389 2195 1280 2272 
+Q 1357 2304 1453 2365 
+Q 1549 2426 1648 2496 
+Q 1747 2566 1843 2646 
+Q 1939 2726 2016 2797 
+L 3034 3763 
+Q 3117 3840 3171 3888 
+Q 3226 3936 3254 3965 
+Q 3283 3994 3292 4013 
+Q 3302 4032 3302 4064 
+Q 3302 4122 3213 4134 
+L 2829 4198 
+L 2829 4403 
+Q 3008 4384 3610 4384 
+Q 4205 4384 4390 4403 
+L 4390 4198 
+Q 4243 4186 4131 4141 
+Q 4019 4096 3878 4032 
+Q 3738 3968 3568 3865 
+Q 3398 3763 3206 3578 
+L 2195 2598 
+L 3846 1126 
+Q 4026 986 4138 893 
+Q 4250 800 4301 762 
+Q 4358 717 4419 672 
+Q 4480 627 4544 614 
+L 4755 570 
+L 4755 358 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-72" d="M 109 358 
+L 109 461 
+L 301 518 
+Q 429 557 464 617 
+Q 499 678 499 845 
+L 499 2074 
+Q 499 2202 448 2266 
+Q 397 2330 205 2355 
+L 96 2368 
+L 96 2490 
+Q 218 2522 362 2576 
+Q 506 2630 643 2704 
+Q 781 2778 899 2874 
+Q 1018 2970 1094 3085 
+L 1210 3085 
+Q 1210 2899 1216 2739 
+Q 1222 2579 1235 2368 
+Q 1286 2477 1334 2560 
+Q 1382 2643 1485 2765 
+Q 1581 2880 1683 2909 
+Q 1786 2938 1869 2938 
+Q 2029 2938 2150 2842 
+Q 2272 2746 2272 2522 
+Q 2272 2317 2182 2192 
+Q 2093 2067 1914 2067 
+Q 1824 2067 1763 2118 
+Q 1702 2170 1660 2227 
+Q 1619 2285 1580 2336 
+Q 1542 2387 1504 2387 
+Q 1414 2387 1347 2265 
+Q 1280 2144 1254 1965 
+Q 1242 1888 1235 1827 
+Q 1229 1766 1235 1722 
+L 1235 832 
+Q 1235 685 1292 633 
+Q 1350 582 1523 531 
+L 1734 467 
+L 1734 365 
+Q 1594 378 1414 381 
+Q 1235 384 1075 384 
+L 928 384 
+Q 717 384 505 377 
+Q 294 371 109 358 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(159.277344 37.284688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-50" d="M 160 4384 
+Q 474 4384 685 4387 
+Q 896 4390 1005 4397 
+L 1933 4448 
+Q 2054 4454 2102 4454 
+Q 2150 4454 2176 4454 
+Q 2477 4454 2739 4387 
+Q 3002 4320 3194 4176 
+Q 3386 4032 3498 3808 
+Q 3610 3584 3610 3277 
+Q 3610 2995 3498 2784 
+Q 3386 2573 3203 2429 
+Q 3021 2285 2787 2214 
+Q 2554 2144 2317 2144 
+Q 2131 2144 1990 2195 
+Q 1850 2246 1728 2368 
+L 1741 2426 
+Q 1824 2394 1920 2384 
+Q 2016 2374 2086 2374 
+Q 2246 2374 2377 2419 
+Q 2509 2464 2605 2563 
+Q 2701 2662 2755 2828 
+Q 2810 2995 2810 3245 
+Q 2810 3667 2598 3932 
+Q 2387 4198 1952 4198 
+Q 1862 4198 1801 4195 
+Q 1741 4192 1690 4186 
+Q 1638 4179 1603 4169 
+Q 1568 4160 1536 4147 
+L 1536 864 
+Q 1536 768 1577 701 
+Q 1619 634 1760 608 
+L 2144 538 
+L 2144 358 
+Q 1875 371 1635 377 
+Q 1395 384 1222 384 
+Q 1024 384 816 377 
+Q 608 371 288 365 
+L 288 544 
+L 646 614 
+Q 742 634 774 685 
+Q 806 736 806 858 
+L 806 3744 
+Q 806 3987 656 4070 
+Q 506 4154 160 4192 
+L 160 4384 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-75" d="M 96 2822 
+L 1248 2822 
+L 1248 1293 
+Q 1248 986 1353 858 
+Q 1459 730 1645 730 
+Q 1798 730 1910 778 
+Q 2022 826 2150 934 
+L 2150 2413 
+Q 2150 2464 2144 2502 
+Q 2138 2541 2096 2569 
+Q 2054 2598 1958 2617 
+Q 1862 2637 1690 2656 
+L 1690 2822 
+L 2886 2822 
+L 2886 1005 
+Q 2886 909 2892 845 
+Q 2899 781 2934 745 
+Q 2970 710 3050 697 
+Q 3130 685 3277 678 
+Q 3277 640 3280 598 
+Q 3283 557 3283 518 
+L 2150 288 
+L 2150 774 
+Q 2042 659 1946 566 
+Q 1850 474 1747 410 
+Q 1645 346 1520 314 
+Q 1395 282 1229 282 
+Q 832 282 672 518 
+Q 512 755 512 1146 
+L 512 2419 
+Q 512 2477 499 2512 
+Q 486 2547 441 2576 
+Q 397 2605 317 2624 
+Q 237 2643 96 2669 
+L 96 2822 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(204.102969 37.284688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-41" d="M 1427 2048 
+L 941 800 
+Q 909 698 928 650 
+Q 947 602 1120 589 
+L 1542 557 
+L 1542 371 
+Q 1478 378 1283 381 
+Q 1088 384 755 384 
+Q 422 384 227 381 
+Q 32 378 -32 371 
+L -32 557 
+L 371 589 
+Q 582 608 666 826 
+L 2163 4608 
+L 2477 4608 
+L 3891 870 
+Q 3936 762 3974 723 
+Q 4013 685 4115 653 
+L 4467 544 
+L 4467 365 
+Q 4371 371 4160 377 
+Q 3949 384 3718 384 
+L 3181 384 
+Q 2669 384 2342 365 
+L 2342 544 
+L 2746 608 
+Q 2931 640 2956 685 
+Q 2982 730 2931 858 
+L 2490 2048 
+L 1427 2048 
+z
+M 2381 2342 
+L 2003 3539 
+L 1542 2342 
+L 2381 2342 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-73" d="M 1792 2093 
+Q 1773 2182 1737 2288 
+Q 1702 2394 1635 2483 
+Q 1568 2573 1459 2633 
+Q 1350 2694 1184 2694 
+Q 1107 2694 1033 2681 
+Q 960 2669 896 2637 
+Q 832 2605 793 2547 
+Q 755 2490 755 2400 
+Q 755 2304 806 2237 
+Q 858 2170 950 2122 
+Q 1043 2074 1174 2035 
+Q 1306 1997 1466 1952 
+Q 1677 1894 1811 1817 
+Q 1946 1741 2022 1645 
+Q 2099 1549 2128 1437 
+Q 2157 1325 2157 1197 
+Q 2157 941 2061 765 
+Q 1965 589 1805 483 
+Q 1645 378 1437 330 
+Q 1229 282 1011 282 
+Q 781 282 573 323 
+Q 365 365 218 448 
+L 154 1235 
+L 314 1235 
+Q 403 890 585 710 
+Q 768 531 1082 531 
+Q 1267 531 1417 620 
+Q 1568 710 1568 915 
+Q 1568 1101 1437 1187 
+Q 1306 1274 986 1350 
+Q 518 1459 332 1648 
+Q 147 1837 147 2170 
+Q 147 2362 240 2506 
+Q 333 2650 483 2746 
+Q 634 2842 822 2890 
+Q 1011 2938 1210 2938 
+Q 1408 2938 1600 2899 
+Q 1792 2861 1920 2784 
+L 1958 2093 
+L 1792 2093 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-74" d="M 1114 3469 
+L 1254 3469 
+Q 1254 3296 1257 3126 
+Q 1261 2957 1261 2784 
+L 2061 2803 
+L 2061 2502 
+L 1261 2477 
+L 1261 1325 
+Q 1261 1043 1331 908 
+Q 1402 774 1626 774 
+Q 1722 774 1837 796 
+Q 1952 819 2086 934 
+L 2144 845 
+Q 2099 755 2022 656 
+Q 1946 557 1834 473 
+Q 1722 390 1581 336 
+Q 1440 282 1261 282 
+Q 902 282 720 464 
+Q 538 646 538 1088 
+L 538 2464 
+Q 448 2464 365 2461 
+Q 282 2458 192 2458 
+Q 102 2458 99 2541 
+Q 96 2624 186 2662 
+Q 326 2720 444 2784 
+Q 563 2848 640 2912 
+Q 678 2944 745 2998 
+Q 813 3053 883 3123 
+Q 954 3194 1014 3283 
+Q 1075 3373 1114 3469 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-6c" d="M 1632 365 
+Q 1478 371 1276 377 
+Q 1075 384 864 384 
+Q 653 384 451 377 
+Q 250 371 96 365 
+L 96 531 
+L 390 608 
+Q 474 627 506 659 
+Q 538 691 538 787 
+L 538 3910 
+Q 538 4045 461 4109 
+Q 384 4173 122 4250 
+L 122 4397 
+Q 186 4410 307 4429 
+Q 429 4448 576 4473 
+Q 723 4499 870 4534 
+Q 1018 4570 1126 4608 
+L 1274 4608 
+L 1274 800 
+Q 1274 672 1299 643 
+Q 1325 614 1421 589 
+L 1632 531 
+L 1632 365 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <!-- Germany -->
+    <g style="fill: #ffffff" transform="translate(258.4325 37.275313)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-47" d="M 4800 2054 
+L 4506 2010 
+Q 4397 1990 4355 1955 
+Q 4314 1920 4314 1830 
+L 4314 1120 
+Q 4314 941 4304 838 
+Q 4294 736 4259 675 
+Q 4224 614 4147 579 
+Q 4070 544 3936 493 
+Q 3808 442 3645 403 
+Q 3482 365 3296 339 
+Q 3110 314 2915 298 
+Q 2720 282 2541 282 
+Q 2067 282 1638 413 
+Q 1210 544 890 800 
+Q 570 1056 381 1430 
+Q 192 1805 192 2291 
+Q 192 2854 400 3260 
+Q 608 3667 953 3932 
+Q 1299 4198 1753 4323 
+Q 2208 4448 2707 4448 
+Q 3558 4448 4128 4141 
+L 4179 3066 
+L 4026 3046 
+Q 3930 3283 3805 3491 
+Q 3680 3699 3520 3856 
+Q 3360 4013 3155 4102 
+Q 2950 4192 2688 4192 
+Q 2285 4192 1987 4057 
+Q 1690 3923 1498 3683 
+Q 1306 3443 1210 3107 
+Q 1114 2771 1114 2368 
+Q 1114 1990 1216 1654 
+Q 1318 1318 1520 1065 
+Q 1722 813 2019 665 
+Q 2317 518 2707 518 
+Q 2944 518 3101 569 
+Q 3258 621 3350 710 
+Q 3443 800 3478 915 
+Q 3514 1030 3514 1158 
+L 3514 1830 
+Q 3514 1933 3466 1965 
+Q 3418 1997 3315 2010 
+L 2854 2054 
+L 2854 2253 
+Q 3354 2227 3827 2227 
+Q 4301 2227 4800 2253 
+L 4800 2054 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-6d" d="M 3379 531 
+L 3565 570 
+Q 3718 602 3769 650 
+Q 3821 698 3821 838 
+L 3821 1920 
+Q 3821 2022 3808 2128 
+Q 3795 2234 3756 2320 
+Q 3718 2406 3644 2457 
+Q 3571 2509 3443 2509 
+Q 3283 2509 3136 2371 
+Q 2989 2234 2893 2054 
+L 2893 890 
+Q 2893 755 2918 684 
+Q 2944 614 3059 589 
+L 3258 525 
+L 3258 358 
+Q 2931 384 2553 384 
+Q 2176 384 1824 358 
+L 1824 525 
+L 1952 563 
+Q 2061 595 2109 662 
+Q 2157 730 2157 858 
+L 2157 1914 
+Q 2157 2016 2137 2125 
+Q 2118 2234 2076 2317 
+Q 2035 2400 1961 2454 
+Q 1888 2509 1773 2509 
+Q 1664 2509 1577 2467 
+Q 1491 2426 1424 2358 
+Q 1357 2291 1309 2211 
+Q 1261 2131 1229 2061 
+L 1229 883 
+Q 1229 723 1270 665 
+Q 1312 608 1402 589 
+L 1664 525 
+L 1664 358 
+Q 1504 371 1302 377 
+Q 1101 384 889 384 
+Q 678 384 473 377 
+Q 269 371 96 358 
+L 96 525 
+L 256 563 
+Q 397 595 445 652 
+Q 493 710 493 845 
+L 493 2163 
+Q 493 2240 486 2294 
+Q 480 2349 448 2384 
+Q 416 2419 352 2438 
+Q 288 2458 173 2477 
+L 173 2579 
+Q 256 2598 384 2640 
+Q 512 2682 649 2739 
+Q 787 2797 912 2877 
+Q 1037 2957 1107 3053 
+L 1229 3053 
+L 1229 2438 
+Q 1491 2694 1670 2812 
+Q 1850 2931 2074 2938 
+Q 2394 2944 2589 2829 
+Q 2784 2714 2874 2394 
+Q 2976 2509 3065 2611 
+Q 3155 2714 3254 2784 
+Q 3354 2854 3475 2896 
+Q 3597 2938 3763 2938 
+Q 3955 2938 4105 2899 
+Q 4256 2861 4355 2758 
+Q 4454 2656 4505 2486 
+Q 4557 2317 4557 2061 
+L 4557 832 
+Q 4557 595 4659 576 
+L 4883 525 
+L 4883 358 
+Q 4723 371 4515 377 
+Q 4307 384 4096 384 
+Q 3885 384 3696 377 
+Q 3507 371 3379 365 
+L 3379 531 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-79" d="M 1376 -352 
+Q 1261 -634 1040 -765 
+Q 819 -896 570 -896 
+Q 499 -896 428 -880 
+Q 358 -864 307 -826 
+Q 262 -794 233 -746 
+Q 205 -698 205 -634 
+Q 205 -454 301 -400 
+Q 397 -346 531 -346 
+Q 666 -346 806 -381 
+Q 947 -416 1018 -416 
+Q 1050 -416 1094 -384 
+Q 1139 -352 1184 -297 
+Q 1229 -243 1257 -166 
+Q 1286 -90 1286 0 
+Q 1286 90 1254 205 
+Q 1222 314 1180 422 
+Q 1139 531 1101 621 
+L 262 2464 
+Q 198 2611 96 2650 
+L -32 2694 
+L -32 2854 
+Q 781 2784 1318 2854 
+L 1318 2694 
+Q 1146 2694 1133 2662 
+Q 1120 2630 1146 2566 
+L 1728 1088 
+L 2234 2336 
+Q 2266 2426 2262 2522 
+Q 2259 2618 2150 2643 
+L 1792 2726 
+L 1792 2854 
+Q 2355 2790 2970 2854 
+L 2970 2726 
+L 2765 2675 
+Q 2714 2662 2678 2640 
+Q 2643 2618 2611 2576 
+Q 2579 2534 2540 2460 
+Q 2502 2387 2458 2272 
+L 1376 -352 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-47"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="76.999985"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="119.399979"/>
+     <use xlink:href="#STSongti-SC-Black-6d" x="156.999969"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="234.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="284.099945"/>
+     <use xlink:href="#STSongti-SC-Black-79" x="337.09993"/>
+    </g>
+   </g>
+   <g id="text_26">
+    <!-- Philippines -->
+    <g style="fill: #ffffff" transform="translate(309.18625 37.284688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="111.999985"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="138.999969"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="165.999954"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="192.999939"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="244.899933"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="296.799927"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="323.799911"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="376.799896"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="419.19989"/>
+    </g>
+   </g>
+   <g id="text_27">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(375.647812 37.284688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_28">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(429.2875 37.284688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-53" d="M 2355 3373 
+Q 2266 3795 2051 3980 
+Q 1837 4166 1466 4166 
+Q 1197 4166 992 4025 
+Q 787 3885 787 3635 
+Q 787 3482 854 3373 
+Q 922 3264 1043 3184 
+Q 1165 3104 1331 3033 
+Q 1498 2963 1696 2880 
+Q 1990 2758 2198 2640 
+Q 2406 2522 2540 2371 
+Q 2675 2221 2739 2025 
+Q 2803 1830 2803 1549 
+Q 2803 1254 2694 1020 
+Q 2586 787 2384 624 
+Q 2182 461 1904 371 
+Q 1626 282 1293 282 
+Q 672 282 160 582 
+L 230 1600 
+L 371 1600 
+Q 384 1389 470 1206 
+Q 557 1024 697 886 
+Q 838 749 1017 672 
+Q 1197 595 1402 595 
+Q 1562 595 1712 636 
+Q 1862 678 1974 758 
+Q 2086 838 2153 956 
+Q 2221 1075 2221 1229 
+Q 2221 1427 2150 1558 
+Q 2080 1690 1942 1786 
+Q 1805 1882 1603 1962 
+Q 1402 2042 1146 2150 
+Q 858 2272 672 2406 
+Q 486 2541 380 2688 
+Q 275 2835 233 2998 
+Q 192 3162 192 3334 
+Q 192 3635 313 3846 
+Q 435 4058 633 4192 
+Q 832 4326 1078 4387 
+Q 1325 4448 1568 4448 
+Q 2125 4448 2496 4166 
+L 2470 3373 
+L 2355 3373 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_29">
+    <!-- Japan -->
+    <g style="fill: #ffffff" transform="translate(483.177187 37.275313)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-4a" d="M 1978 4237 
+L 1606 4179 
+Q 1517 4166 1491 4115 
+Q 1466 4064 1466 3942 
+L 1466 1293 
+Q 1466 851 1379 464 
+Q 1293 77 1133 -192 
+Q 1056 -320 925 -445 
+Q 794 -570 630 -672 
+Q 467 -774 288 -835 
+Q 109 -896 -70 -896 
+Q -160 -896 -259 -886 
+Q -358 -877 -441 -848 
+Q -525 -819 -579 -758 
+Q -634 -698 -634 -595 
+Q -634 -486 -554 -393 
+Q -474 -301 -358 -301 
+Q -250 -301 -150 -358 
+Q -51 -416 77 -512 
+Q 173 -582 278 -531 
+Q 384 -480 429 -410 
+Q 512 -282 557 -192 
+Q 602 -102 621 58 
+Q 640 218 643 493 
+Q 646 768 646 1267 
+L 646 3962 
+Q 646 4032 640 4073 
+Q 634 4115 608 4137 
+Q 582 4160 528 4173 
+Q 474 4186 371 4198 
+L 122 4237 
+L 122 4403 
+Q 160 4397 272 4393 
+Q 384 4390 531 4387 
+Q 678 4384 844 4384 
+Q 1011 4384 1171 4384 
+Q 1811 4384 1978 4403 
+L 1978 4237 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-4a"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="33.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="82.699982"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="134.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="183.899963"/>
+    </g>
+   </g>
+   <g id="text_30">
+    <!-- Canada -->
+    <g style="fill: #ffffff" transform="translate(533.562969 37.284688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-64" d="M 2054 3872 
+Q 2054 3994 2041 4067 
+Q 2029 4141 1977 4189 
+Q 1926 4237 1827 4275 
+Q 1728 4314 1555 4358 
+L 1555 4461 
+Q 1658 4467 1808 4480 
+Q 1958 4493 2112 4512 
+Q 2266 4531 2406 4553 
+Q 2547 4576 2630 4608 
+L 2790 4608 
+L 2790 883 
+Q 2790 768 2800 704 
+Q 2810 640 2854 611 
+Q 2899 582 2985 576 
+Q 3072 570 3226 563 
+L 3226 397 
+Q 3104 371 2941 348 
+Q 2778 326 2608 307 
+Q 2438 288 2291 272 
+Q 2144 256 2054 250 
+L 2054 672 
+Q 1856 512 1667 397 
+Q 1478 282 1216 282 
+Q 998 282 806 339 
+Q 614 397 461 582 
+Q 307 768 233 998 
+Q 160 1229 160 1498 
+Q 160 1862 281 2134 
+Q 403 2406 595 2585 
+Q 787 2765 1024 2851 
+Q 1261 2938 1491 2938 
+Q 1696 2938 1830 2890 
+Q 1965 2842 2054 2765 
+L 2054 3872 
+z
+M 2054 877 
+L 2054 1952 
+Q 2054 2086 2035 2211 
+Q 2016 2336 1965 2435 
+Q 1914 2534 1814 2592 
+Q 1715 2650 1555 2650 
+Q 1414 2650 1305 2570 
+Q 1197 2490 1120 2349 
+Q 1043 2208 1001 2022 
+Q 960 1837 960 1619 
+Q 960 1222 1107 966 
+Q 1254 710 1555 710 
+Q 1754 710 1856 755 
+Q 1958 800 2054 877 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="112.899979"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="165.899963"/>
+     <use xlink:href="#STSongti-SC-Black-64" x="215.199951"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="267.099945"/>
+    </g>
+   </g>
+   <g id="text_31">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 91.644688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_32">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(104.917344 91.644688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_33">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(158.207812 91.644688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_34">
+    <!-- Germany -->
+    <g style="fill: #ffffff" transform="translate(204.0725 91.635312)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-47"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="76.999985"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="119.399979"/>
+     <use xlink:href="#STSongti-SC-Black-6d" x="156.999969"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="234.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="284.099945"/>
+     <use xlink:href="#STSongti-SC-Black-79" x="337.09993"/>
+    </g>
+   </g>
+   <g id="text_35">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(258.462969 91.644688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+   <g id="text_36">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(317.105781 86.629375)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(319.3175 96.66)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_37">
+    <!-- USA -->
+    <g style="fill: #ffffff" transform="translate(376.907969 91.644688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-55" d="M 2099 4403 
+L 2099 4224 
+L 1715 4173 
+Q 1600 4160 1552 4086 
+Q 1504 4013 1504 3853 
+L 1504 1645 
+Q 1504 1126 1763 857 
+Q 2022 589 2522 589 
+Q 2829 589 3043 665 
+Q 3258 742 3395 921 
+Q 3533 1101 3593 1401 
+Q 3654 1702 3654 2150 
+L 3654 3846 
+Q 3654 4102 3392 4154 
+L 3014 4224 
+L 3014 4403 
+Q 3168 4384 3667 4384 
+Q 3917 4384 4150 4387 
+Q 4384 4390 4467 4403 
+L 4467 4224 
+L 4096 4141 
+Q 3955 4115 3955 3846 
+L 3955 1984 
+Q 3955 1146 3603 714 
+Q 3251 282 2458 282 
+Q 1600 282 1142 627 
+Q 685 973 685 1632 
+L 685 3872 
+Q 685 4026 653 4093 
+Q 621 4160 531 4173 
+L 160 4224 
+L 160 4403 
+Q 371 4390 643 4387 
+Q 915 4384 1184 4384 
+Q 1318 4384 1456 4384 
+Q 1594 4384 1718 4387 
+Q 1843 4390 1942 4393 
+Q 2042 4397 2099 4403 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-55"/>
+     <use xlink:href="#STSongti-SC-Black-53" x="72.299988"/>
+     <use xlink:href="#STSongti-SC-Black-41" x="118.599976"/>
+    </g>
+   </g>
+   <g id="text_38">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(429.2875 91.644688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_39">
+    <!-- Bulgaria -->
+    <g style="fill: #ffffff" transform="translate(477.558437 91.644688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-42" d="M 160 4173 
+L 160 4365 
+L 538 4384 
+Q 1139 4416 1523 4432 
+Q 1907 4448 2010 4448 
+Q 2285 4448 2563 4406 
+Q 2842 4365 3062 4262 
+Q 3283 4160 3420 3984 
+Q 3558 3808 3558 3539 
+Q 3558 3386 3491 3248 
+Q 3424 3110 3309 3001 
+Q 3194 2893 3037 2813 
+Q 2880 2733 2701 2694 
+Q 2963 2656 3187 2582 
+Q 3411 2509 3574 2381 
+Q 3738 2253 3830 2061 
+Q 3923 1869 3923 1594 
+Q 3923 1325 3776 1101 
+Q 3629 877 3376 717 
+Q 3123 557 2790 467 
+Q 2458 378 2086 378 
+Q 1734 378 1388 381 
+Q 1043 384 691 384 
+L 173 384 
+L 173 582 
+L 493 659 
+Q 608 691 662 755 
+Q 717 819 717 1005 
+L 717 3923 
+Q 717 3974 713 4006 
+Q 710 4038 681 4064 
+Q 653 4090 595 4106 
+Q 538 4122 429 4134 
+L 160 4173 
+z
+M 1510 2714 
+Q 1562 2701 1670 2697 
+Q 1779 2694 1990 2694 
+Q 2349 2694 2531 2905 
+Q 2714 3117 2714 3520 
+Q 2714 3686 2656 3811 
+Q 2598 3936 2499 4022 
+Q 2400 4109 2269 4153 
+Q 2138 4198 1997 4198 
+Q 1741 4198 1510 4141 
+L 1510 2714 
+z
+M 1510 2432 
+L 1510 1101 
+Q 1510 858 1689 736 
+Q 1869 614 2189 614 
+Q 2573 614 2793 854 
+Q 3014 1094 3014 1491 
+Q 3014 1978 2758 2218 
+Q 2502 2458 2003 2458 
+Q 1894 2458 1766 2451 
+Q 1638 2445 1510 2432 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-67" d="M 1152 403 
+Q 890 403 701 489 
+Q 512 576 393 726 
+Q 275 877 217 1088 
+Q 160 1299 160 1549 
+Q 160 1888 262 2137 
+Q 365 2387 537 2553 
+Q 710 2720 940 2803 
+Q 1171 2886 1427 2886 
+Q 1606 2886 1740 2860 
+Q 1875 2835 1965 2803 
+Q 2074 2771 2144 2726 
+L 2566 2963 
+L 2624 2944 
+L 2624 518 
+Q 2624 275 2525 67 
+Q 2426 -141 2253 -294 
+Q 2080 -448 1843 -537 
+Q 1606 -627 1325 -627 
+Q 973 -627 761 -579 
+Q 550 -531 435 -454 
+Q 320 -378 285 -285 
+Q 250 -192 250 -96 
+Q 250 38 336 112 
+Q 422 186 557 186 
+Q 691 186 761 144 
+Q 832 102 867 38 
+Q 902 -26 921 -99 
+Q 941 -173 982 -237 
+Q 1024 -301 1107 -342 
+Q 1190 -384 1344 -384 
+Q 1619 -384 1772 -192 
+Q 1926 0 1926 435 
+L 1926 1094 
+Q 1894 960 1833 835 
+Q 1773 710 1683 614 
+Q 1594 518 1462 460 
+Q 1331 403 1152 403 
+z
+M 1926 1760 
+Q 1926 1894 1913 2041 
+Q 1901 2189 1856 2313 
+Q 1811 2438 1718 2521 
+Q 1626 2605 1466 2605 
+Q 1376 2605 1277 2569 
+Q 1178 2534 1094 2435 
+Q 1011 2336 956 2160 
+Q 902 1984 902 1709 
+Q 902 1318 1024 1065 
+Q 1146 813 1402 813 
+Q 1530 813 1626 886 
+Q 1722 960 1789 1085 
+Q 1856 1210 1891 1379 
+Q 1926 1549 1926 1741 
+L 1926 1760 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="116.599976"/>
+     <use xlink:href="#STSongti-SC-Black-67" x="143.59996"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="186.099945"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="235.399933"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="272.999924"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="299.999908"/>
+    </g>
+   </g>
+   <g id="text_40">
+    <!-- India -->
+    <g style="fill: #ffffff" transform="translate(538.552031 91.644688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-49" d="M 723 794 
+L 723 3974 
+Q 723 4083 688 4128 
+Q 653 4173 563 4179 
+L 160 4237 
+L 160 4403 
+Q 224 4384 1504 4384 
+Q 1882 4384 2106 4403 
+L 2106 4230 
+L 1702 4173 
+Q 1613 4166 1577 4128 
+Q 1542 4090 1542 3974 
+L 1542 794 
+Q 1542 678 1574 646 
+Q 1606 614 1702 608 
+L 2106 576 
+L 2106 358 
+Q 1978 371 1738 377 
+Q 1498 384 1133 384 
+Q 768 384 528 377 
+Q 288 371 160 358 
+L 160 576 
+L 563 608 
+Q 659 621 691 653 
+Q 723 685 723 794 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-49"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="35.399994"/>
+     <use xlink:href="#STSongti-SC-Black-64" x="88.399979"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="140.299973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="167.299957"/>
+    </g>
+   </g>
+   <g id="text_41">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 146.004688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_42">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(103.847812 146.004688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_43">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(159.277344 146.004688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_44">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(208.385781 140.989375)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(210.5975 151.02)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_45">
+    <!-- Germany -->
+    <g style="fill: #ffffff" transform="translate(258.4325 145.995313)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-47"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="76.999985"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="119.399979"/>
+     <use xlink:href="#STSongti-SC-Black-6d" x="156.999969"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="234.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="284.099945"/>
+     <use xlink:href="#STSongti-SC-Black-79" x="337.09993"/>
+    </g>
+   </g>
+   <g id="text_46">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(312.822969 146.004688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+   <g id="text_47">
+    <!-- Bulgaria -->
+    <g style="fill: #ffffff" transform="translate(368.838437 146.004688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="116.599976"/>
+     <use xlink:href="#STSongti-SC-Black-67" x="143.59996"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="186.099945"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="235.399933"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="272.999924"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="299.999908"/>
+    </g>
+   </g>
+   <g id="text_48">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(429.2875 146.004688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_49">
+    <!-- USA -->
+    <g style="fill: #ffffff" transform="translate(485.627969 146.004688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-55"/>
+     <use xlink:href="#STSongti-SC-Black-53" x="72.299988"/>
+     <use xlink:href="#STSongti-SC-Black-41" x="118.599976"/>
+    </g>
+   </g>
+   <g id="text_50">
+    <!-- Mexico -->
+    <g style="fill: #ffffff" transform="translate(534.446562 146.004688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-4d" d="M 5933 365 
+Q 5702 371 5417 377 
+Q 5133 384 4909 384 
+L 4672 384 
+Q 4499 384 4240 381 
+Q 3981 378 3718 365 
+L 3718 557 
+L 4102 634 
+Q 4250 666 4288 730 
+Q 4326 794 4326 979 
+L 4326 3616 
+L 2758 333 
+L 1101 3571 
+L 1101 941 
+Q 1101 640 1293 621 
+L 1882 557 
+L 1882 365 
+Q 1498 384 1082 384 
+Q 666 384 160 365 
+L 160 557 
+L 512 621 
+Q 634 640 701 665 
+Q 768 691 803 726 
+Q 838 762 844 813 
+Q 851 864 851 941 
+L 851 4128 
+L 269 4198 
+L 269 4403 
+Q 371 4384 845 4384 
+Q 1082 4384 1299 4387 
+Q 1517 4390 1600 4403 
+L 3059 1638 
+L 4378 4403 
+Q 4531 4390 4742 4387 
+Q 4954 4384 5171 4384 
+Q 5389 4384 5590 4387 
+Q 5792 4390 5926 4403 
+L 5926 4198 
+L 5530 4115 
+Q 5344 4077 5273 4000 
+Q 5203 3923 5203 3738 
+L 5203 1024 
+Q 5203 826 5238 758 
+Q 5274 691 5389 666 
+L 5933 557 
+L 5933 365 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-78" d="M 2925 378 
+Q 2803 390 2585 387 
+Q 2368 384 2182 384 
+Q 2086 384 1980 384 
+Q 1875 384 1769 381 
+Q 1664 378 1574 371 
+Q 1485 365 1427 358 
+L 1427 493 
+L 1542 525 
+Q 1664 557 1686 611 
+Q 1709 666 1670 742 
+Q 1658 768 1642 793 
+Q 1626 819 1600 851 
+L 1229 1350 
+L 858 851 
+Q 787 762 787 698 
+Q 787 640 832 598 
+Q 877 557 1005 531 
+L 1197 493 
+L 1197 358 
+Q 941 384 611 384 
+Q 282 384 -32 358 
+L -32 493 
+L 147 538 
+Q 282 570 406 691 
+Q 531 813 672 1005 
+L 1088 1523 
+L 506 2342 
+Q 365 2509 288 2576 
+Q 211 2643 160 2656 
+L 6 2688 
+L 6 2842 
+Q 141 2822 621 2822 
+Q 864 2822 1085 2825 
+Q 1306 2829 1389 2842 
+L 1389 2694 
+L 1331 2682 
+Q 1229 2662 1232 2608 
+Q 1235 2554 1363 2368 
+L 1651 1958 
+L 1914 2298 
+Q 2003 2419 2003 2496 
+Q 2003 2618 1824 2656 
+L 1664 2688 
+L 1664 2842 
+Q 1709 2829 1785 2825 
+Q 1862 2822 1948 2819 
+Q 2035 2816 2118 2816 
+Q 2202 2816 2266 2816 
+Q 2528 2816 2643 2822 
+Q 2758 2829 2842 2835 
+L 2842 2688 
+L 2630 2650 
+Q 2560 2630 2505 2601 
+Q 2451 2573 2403 2528 
+Q 2355 2483 2300 2416 
+Q 2246 2349 2170 2253 
+L 1798 1786 
+L 2509 832 
+Q 2618 691 2682 630 
+Q 2746 570 2803 550 
+L 2925 512 
+L 2925 378 
+z
+" transform="scale(0.015625)"/>
+      <path id="STSongti-SC-Black-63" d="M 2464 986 
+Q 2394 870 2301 745 
+Q 2208 621 2077 518 
+Q 1946 416 1773 349 
+Q 1600 282 1382 282 
+Q 819 282 489 624 
+Q 160 966 160 1562 
+Q 160 1869 269 2121 
+Q 378 2374 570 2556 
+Q 762 2739 1021 2838 
+Q 1280 2938 1587 2938 
+Q 1933 2938 2157 2829 
+Q 2381 2720 2381 2515 
+Q 2381 2387 2313 2316 
+Q 2246 2246 2144 2246 
+Q 2048 2246 1958 2313 
+Q 1869 2381 1773 2457 
+Q 1677 2534 1577 2601 
+Q 1478 2669 1376 2669 
+Q 1235 2669 1139 2582 
+Q 1043 2496 982 2361 
+Q 922 2227 896 2064 
+Q 870 1901 870 1747 
+Q 870 1523 928 1360 
+Q 986 1197 1088 1088 
+Q 1190 979 1324 918 
+Q 1459 858 1606 838 
+Q 1837 800 2045 880 
+Q 2253 960 2419 1107 
+L 2464 986 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-4d"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="95.199982"/>
+     <use xlink:href="#STSongti-SC-Black-78" x="137.599976"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="182.799973"/>
+     <use xlink:href="#STSongti-SC-Black-63" x="209.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="250.299942"/>
+    </g>
+   </g>
+   <g id="text_51">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 200.364688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_52">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(103.847812 200.364688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_53">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(159.277344 200.364688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_54">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(204.102969 200.364688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+   <g id="text_55">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(266.2075 200.364688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_56">
+    <!-- Germany -->
+    <g style="fill: #ffffff" transform="translate(312.7925 200.355313)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-47"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="76.999985"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="119.399979"/>
+     <use xlink:href="#STSongti-SC-Black-6d" x="156.999969"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="234.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="284.099945"/>
+     <use xlink:href="#STSongti-SC-Black-79" x="337.09993"/>
+    </g>
+   </g>
+   <g id="text_57">
+    <!-- USA -->
+    <g style="fill: #ffffff" transform="translate(376.907969 200.364688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-55"/>
+     <use xlink:href="#STSongti-SC-Black-53" x="72.299988"/>
+     <use xlink:href="#STSongti-SC-Black-41" x="118.599976"/>
+    </g>
+   </g>
+   <g id="text_58">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(425.825781 195.349375)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(428.0375 205.38)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_59">
+    <!-- Bulgaria -->
+    <g style="fill: #ffffff" transform="translate(477.558437 200.364688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="116.599976"/>
+     <use xlink:href="#STSongti-SC-Black-67" x="143.59996"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="186.099945"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="235.399933"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="272.999924"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="299.999908"/>
+    </g>
+   </g>
+   <g id="text_60">
+    <!-- Canada -->
+    <g style="fill: #ffffff" transform="translate(533.562969 200.364688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="112.899979"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="165.899963"/>
+     <use xlink:href="#STSongti-SC-Black-64" x="215.199951"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="267.099945"/>
+    </g>
+   </g>
+   <g id="text_61">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 254.724688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_62">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(103.847812 254.724688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_63">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(159.277344 254.724688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_64">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(211.8475 254.724688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_65">
+    <!-- Germany -->
+    <g style="fill: #ffffff" transform="translate(258.4325 254.715313)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-47"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="76.999985"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="119.399979"/>
+     <use xlink:href="#STSongti-SC-Black-6d" x="156.999969"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="234.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="284.099945"/>
+     <use xlink:href="#STSongti-SC-Black-79" x="337.09993"/>
+    </g>
+   </g>
+   <g id="text_66">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(317.105781 249.709375)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(319.3175 259.74)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_67">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(367.182969 254.724688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+   <g id="text_68">
+    <!-- USA -->
+    <g style="fill: #ffffff" transform="translate(431.267969 254.724688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-55"/>
+     <use xlink:href="#STSongti-SC-Black-53" x="72.299988"/>
+     <use xlink:href="#STSongti-SC-Black-41" x="118.599976"/>
+    </g>
+   </g>
+   <g id="text_69">
+    <!-- Bulgaria -->
+    <g style="fill: #ffffff" transform="translate(477.558437 254.724688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="116.599976"/>
+     <use xlink:href="#STSongti-SC-Black-67" x="143.59996"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="186.099945"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="235.399933"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="272.999924"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="299.999908"/>
+    </g>
+   </g>
+   <g id="text_70">
+    <!-- Canada -->
+    <g style="fill: #ffffff" transform="translate(533.562969 254.724688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="112.899979"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="165.899963"/>
+     <use xlink:href="#STSongti-SC-Black-64" x="215.199951"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="267.099945"/>
+    </g>
+   </g>
+   <g id="text_71">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 309.084688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_72">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(104.917344 309.084688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_73">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(158.207812 309.084688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_74">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(211.8475 309.084688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_75">
+    <!-- Japan -->
+    <g style="fill: #ffffff" transform="translate(265.737187 309.075312)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4a"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="33.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="82.699982"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="134.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="183.899963"/>
+    </g>
+   </g>
+   <g id="text_76">
+    <!-- Canada -->
+    <g style="fill: #ffffff" transform="translate(316.122969 309.084688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="112.899979"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="165.899963"/>
+     <use xlink:href="#STSongti-SC-Black-64" x="215.199951"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="267.099945"/>
+    </g>
+   </g>
+   <g id="text_77">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(371.465781 304.069375)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(373.6775 314.1)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_78">
+    <!-- Bulgaria -->
+    <g style="fill: #ffffff" transform="translate(423.198437 309.084688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="116.599976"/>
+     <use xlink:href="#STSongti-SC-Black-67" x="143.59996"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="186.099945"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="235.399933"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="272.999924"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="299.999908"/>
+    </g>
+   </g>
+   <g id="text_79">
+    <!-- India -->
+    <g style="fill: #ffffff" transform="translate(484.192031 309.084688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-49"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="35.399994"/>
+     <use xlink:href="#STSongti-SC-Black-64" x="88.399979"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="140.299973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="167.299957"/>
+    </g>
+   </g>
+   <g id="text_80">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(530.262969 309.084688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+   <g id="text_81">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 363.444687)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_82">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(104.917344 363.444687)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_83">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(158.207812 363.444687)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_84">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(211.8475 363.444687)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_85">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(262.745781 358.429375)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(264.9575 368.46)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_86">
+    <!-- Japan -->
+    <g style="fill: #ffffff" transform="translate(320.097187 363.435313)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4a"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="33.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="82.699982"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="134.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="183.899963"/>
+    </g>
+   </g>
+   <g id="text_87">
+    <!-- India -->
+    <g style="fill: #ffffff" transform="translate(375.472031 363.444687)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-49"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="35.399994"/>
+     <use xlink:href="#STSongti-SC-Black-64" x="88.399979"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="140.299973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="167.299957"/>
+    </g>
+   </g>
+   <g id="text_88">
+    <!-- USA -->
+    <g style="fill: #ffffff" transform="translate(431.267969 363.444687)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-55"/>
+     <use xlink:href="#STSongti-SC-Black-53" x="72.299988"/>
+     <use xlink:href="#STSongti-SC-Black-41" x="118.599976"/>
+    </g>
+   </g>
+   <g id="text_89">
+    <!-- Bulgaria -->
+    <g style="fill: #ffffff" transform="translate(477.558437 363.444687)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="116.599976"/>
+     <use xlink:href="#STSongti-SC-Black-67" x="143.59996"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="186.099945"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="235.399933"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="272.999924"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="299.999908"/>
+    </g>
+   </g>
+   <g id="text_90">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(530.262969 363.444687)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+   <g id="text_91">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 417.804688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_92">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(103.847812 417.804688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_93">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(159.277344 417.804688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_94">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(211.8475 417.804688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_95">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(262.745781 412.789375)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(264.9575 422.82)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_96">
+    <!-- Japan -->
+    <g style="fill: #ffffff" transform="translate(320.097187 417.795313)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4a"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="33.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="82.699982"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="134.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="183.899963"/>
+    </g>
+   </g>
+   <g id="text_97">
+    <!-- Bulgaria -->
+    <g style="fill: #ffffff" transform="translate(368.838437 417.804688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="116.599976"/>
+     <use xlink:href="#STSongti-SC-Black-67" x="143.59996"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="186.099945"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="235.399933"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="272.999924"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="299.999908"/>
+    </g>
+   </g>
+   <g id="text_98">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(421.542969 417.804688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+   <g id="text_99">
+    <!-- Brazil -->
+    <g style="fill: #ffffff" transform="translate(482.798281 417.804688)scale(0.1 -0.1)">
+     <defs>
+      <path id="STSongti-SC-Black-7a" d="M 2483 1242 
+L 2323 365 
+Q 2035 378 1702 381 
+Q 1370 384 1043 384 
+Q 397 384 64 365 
+L 64 454 
+L 1472 2618 
+L 1082 2598 
+Q 902 2598 771 2588 
+Q 640 2579 537 2534 
+Q 435 2490 345 2400 
+Q 256 2310 160 2150 
+L 77 2150 
+L 397 3136 
+L 518 3136 
+Q 486 3021 486 2944 
+Q 486 2867 550 2828 
+Q 614 2790 864 2797 
+L 2387 2822 
+L 2387 2688 
+L 1043 640 
+L 1216 640 
+Q 1510 640 1686 643 
+Q 1862 646 1971 700 
+Q 2080 755 2150 876 
+Q 2221 998 2310 1242 
+L 2483 1242 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="101.399979"/>
+     <use xlink:href="#STSongti-SC-Black-7a" x="150.699966"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="190.499954"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="217.499939"/>
+    </g>
+   </g>
+   <g id="text_100">
+    <!-- USA -->
+    <g style="fill: #ffffff" transform="translate(539.987969 417.804688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-55"/>
+     <use xlink:href="#STSongti-SC-Black-53" x="72.299988"/>
+     <use xlink:href="#STSongti-SC-Black-41" x="118.599976"/>
+    </g>
+   </g>
+   <g id="text_101">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 472.164688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_102">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(103.847812 472.164688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_103">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(159.277344 472.164688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_104">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(211.8475 472.164688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_105">
+    <!-- USA -->
+    <g style="fill: #ffffff" transform="translate(268.187969 472.164688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-55"/>
+     <use xlink:href="#STSongti-SC-Black-53" x="72.299988"/>
+     <use xlink:href="#STSongti-SC-Black-41" x="118.599976"/>
+    </g>
+   </g>
+   <g id="text_106">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(317.105781 467.149375)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(319.3175 477.18)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_107">
+    <!-- Japan -->
+    <g style="fill: #ffffff" transform="translate(374.457187 472.155313)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4a"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="33.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="82.699982"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="134.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="183.899963"/>
+    </g>
+   </g>
+   <g id="text_108">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(421.542969 472.164688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+   <g id="text_109">
+    <!-- Canada -->
+    <g style="fill: #ffffff" transform="translate(479.202969 472.164688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="112.899979"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="165.899963"/>
+     <use xlink:href="#STSongti-SC-Black-64" x="215.199951"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="267.099945"/>
+    </g>
+   </g>
+   <g id="text_110">
+    <!-- Brazil -->
+    <g style="fill: #ffffff" transform="translate(537.158281 472.164688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="101.399979"/>
+     <use xlink:href="#STSongti-SC-Black-7a" x="150.699966"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="190.499954"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="217.499939"/>
+    </g>
+   </g>
+   <g id="text_111">
+    <!-- China -->
+    <g style="fill: #ffffff" transform="translate(47.843281 526.524688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="196.699951"/>
+    </g>
+   </g>
+   <g id="text_112">
+    <!-- Spain -->
+    <g style="fill: #ffffff" transform="translate(103.1275 526.524688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-53"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="46.299988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="98.199982"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="147.499969"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="174.499954"/>
+    </g>
+   </g>
+   <g id="text_113">
+    <!-- Chile -->
+    <g style="fill: #ffffff" transform="translate(158.207812 526.524688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-68" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="116.699982"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="143.699966"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="170.699951"/>
+    </g>
+   </g>
+   <g id="text_114">
+    <!-- Rep. of -->
+    <g style="fill: #ffffff" transform="translate(208.385781 521.509375)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-52"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="71.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="113.799988"/>
+     <use xlink:href="#STSongti-SC-Black-2e" x="165.699982"/>
+     <use xlink:href="#STSongti-SC-Black-20" x="187.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="212.59996"/>
+     <use xlink:href="#STSongti-SC-Black-66" x="260.999954"/>
+    </g>
+    <!-- Korea -->
+    <g style="fill: #ffffff" transform="translate(210.5975 531.54)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4b"/>
+     <use xlink:href="#STSongti-SC-Black-6f" x="74.799988"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="123.199982"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="160.799973"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="203.199966"/>
+    </g>
+   </g>
+   <g id="text_115">
+    <!-- Peru -->
+    <g style="fill: #ffffff" transform="translate(267.997344 526.524688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-50"/>
+     <use xlink:href="#STSongti-SC-Black-65" x="58.899994"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="101.299988"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="138.899979"/>
+    </g>
+   </g>
+   <g id="text_116">
+    <!-- USA -->
+    <g style="fill: #ffffff" transform="translate(322.547969 526.524688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-55"/>
+     <use xlink:href="#STSongti-SC-Black-53" x="72.299988"/>
+     <use xlink:href="#STSongti-SC-Black-41" x="118.599976"/>
+    </g>
+   </g>
+   <g id="text_117">
+    <!-- Japan -->
+    <g style="fill: #ffffff" transform="translate(374.457187 526.515313)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-4a"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="33.399994"/>
+     <use xlink:href="#STSongti-SC-Black-70" x="82.699982"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="134.599976"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="183.899963"/>
+    </g>
+   </g>
+   <g id="text_118">
+    <!-- Canada -->
+    <g style="fill: #ffffff" transform="translate(424.842969 526.524688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-43"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="63.599991"/>
+     <use xlink:href="#STSongti-SC-Black-6e" x="112.899979"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="165.899963"/>
+     <use xlink:href="#STSongti-SC-Black-64" x="215.199951"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="267.099945"/>
+    </g>
+   </g>
+   <g id="text_119">
+    <!-- Brazil -->
+    <g style="fill: #ffffff" transform="translate(482.798281 526.524688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-42"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="63.799988"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="101.399979"/>
+     <use xlink:href="#STSongti-SC-Black-7a" x="150.699966"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="190.499954"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="217.499939"/>
+    </g>
+   </g>
+   <g id="text_120">
+    <!-- Australia -->
+    <g style="fill: #ffffff" transform="translate(530.262969 526.524688)scale(0.1 -0.1)">
+     <use xlink:href="#STSongti-SC-Black-41"/>
+     <use xlink:href="#STSongti-SC-Black-75" x="69.299988"/>
+     <use xlink:href="#STSongti-SC-Black-73" x="122.099976"/>
+     <use xlink:href="#STSongti-SC-Black-74" x="157.999969"/>
+     <use xlink:href="#STSongti-SC-Black-72" x="192.199966"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="229.799957"/>
+     <use xlink:href="#STSongti-SC-Black-6c" x="279.099945"/>
+     <use xlink:href="#STSongti-SC-Black-69" x="306.09993"/>
+     <use xlink:href="#STSongti-SC-Black-61" x="333.099915"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbd2b2518c9">
+   <rect x="32.9625" y="7.2" width="543.6" height="543.6"/>
+  </clipPath>
+ </defs>
+</svg>

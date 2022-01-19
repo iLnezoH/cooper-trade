@@ -13,6 +13,8 @@ import json
 
 
 class Net():
+    with open('src/data/database/country.json') as f:
+        countries = json.load(f)
     nx = nx
 
     def __init__(self, data) -> None:
@@ -21,8 +23,7 @@ class Net():
         self._strengths = None
         self._adjacencyDegrees = None
         self._Es = None
-        with open('src/data/database/country.json') as f:
-            self.countries = json.load(f)
+        self.countries = Net.countries
 
         self._G = self._generateNet(data)
         self.G = self._big_connected_graph()

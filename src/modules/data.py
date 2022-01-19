@@ -35,7 +35,8 @@ class Data():
     def _drop_union_data(self, data):
         union_codes = [
             "0", "490", "899", "975", "97", "568", "839", "581", "838", "837", "577",
-            0, 490, 899, 975, 97, 568, 839, 581, 838, 837, 577
+            0, 490, 899, 975, 97, 568, 839, 581, 838, 837, 577,
+            "528", 528  # 荷兰，15年数据异常！
         ]
 
         return data[~(data["Reporter Code"].isin(union_codes) | data["Partner Code"].isin(union_codes))]

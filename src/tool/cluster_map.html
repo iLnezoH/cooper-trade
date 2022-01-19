@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <script type="text/javascript">
+  </script>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+  <style type="text/css">
+    html,
+    body,
+    .map {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+
+    #container {
+      background-color: rgba(175, 200, 253) !important;
+      background-image: none;
+    }
+
+    .legend {
+      width: 100px;
+      position: absolute;
+      left: 10px;
+      bottom: 25px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .legend ul {
+      overflow: hidden;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .legend ul li {
+      float: left;
+      height: 30px;
+    }
+
+    .legend ul li a {
+      float: left;
+      color: #555;
+      font-size: 14px;
+      text-decoration: none;
+      height: 30px;
+      line-height: 30px;
+    }
+
+    .legend ul li span {
+      float: left;
+      width: 14px;
+      height: 14px;
+      margin: 8px;
+    }
+  </style>
+  <title>简易行政区图-世界</title>
+</head>
+
+<body>
+  <div id="container" class="map" tabindex="0"></div>
+
+  <div class="legend" id="legend">
+    <ul></ul>
+  </div>
+
+  <script language="javascript"
+    src="https://webapi.amap.com/maps?v=2.0&key=667d62c7f20e478af4a657a4c808b942&plugin=AMap.Scale,AMap.ToolBar"></script>
+  <script type="text/javascript"
+    src="https://a.amap.com/jsapi_demos/static/demo-center-v2/mock_data/con_virus.js"></script>
+  <script type="text/javascript">
+    var counts = [30000, 10000, 5000, 1000, 500, 100];
+    var color = ['#ffffb2', '#fed976', '#feb24c', '#fd8d3c', '#f03b20', '#bd0026'].reverse();
+    var dis = new AMap.DistrictLayer.World({
+      zIndex: 10,
+      styles: {
+        'stroke-width': 0.8,
+        'fill': function (d) {
+          var country = data.find(c => {
+            return c.name == d.NAME_CHN;
+          });
+          if (!country) {
+            return '#f0f0f0';
+          }
+          country = country.qz;
+          if (country > counts[0]) {
+            return color[0];
+          } else if (country > counts[1]) {
+            return color[1];
+          } else if (country > counts[2]) {
+            return color[2];
+          } else if (country > counts[3]) {
+            return color[3];
+          } else if (country > counts[4]) {
+            return color[4];
+          } else {
+            return color[5];
+          }
+        },
+        'city-stroke': '#fff',
+        'county-stroke': function (d) {
+          if (d.type === 'Nation_Border_China') {
+            return 'red';
+          }
+          return '#fff';
+        },
+        'province-stroke': '#fff',
+        'coastline-stroke': function (d) {
+          if (d.type === 'Coastline_China') {
+            return 'rgb(189,0,38)';
+          }
+          return 'rgba(0,0,0,0)';
+        },
+        'nation-stroke': function (d) {
+          if (d.type === 'Nation_Border_China') {
+            return '#f768a1';
+          }
+          return '#fff';
+        },
+      }
+    });
+
+    var map = new AMap.Map('container', {
+      layers: [
+        dis,
+      ],
+      center: [170.451348, 43.792165],
+      zoom: 2,
+      viewMode: '3D',
+      showLabel: false,
+    });
+    var ul = document.querySelector('.legend ul');
+    ul.innerHTML = '';
+    color.forEach((c, i) => {
+      ul.innerHTML +=
+        '<li><span style="background: ' + c + ';"></span><a> > ' + counts[i] + '</a></li>';
+    });
+    map.addControl(new AMap.Scale());
+    map.addControl(new AMap.ToolBar());
+    document.getElementsByClassName('amap-mcode')[0].innerHTML = '-GS(2019)756号'
+  </script>
+</body>
+
+</html>

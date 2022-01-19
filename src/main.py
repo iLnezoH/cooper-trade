@@ -1,3 +1,4 @@
+import copy
 from matplotlib import RcParams
 from networkx.algorithms import cluster
 from networkx.algorithms.centrality.betweenness import betweenness_centrality
@@ -14,7 +15,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import json
 
-plt.rcParams['font.sans-serif'] = ['SimHei']
+plt.rcParams['font.sans-serif'] = ['Songti SC', 'Times New Roman']
 plt.rcParams['axes.unicode_minus'] = False
 
 pd.set_option('expand_frame_repr', False)
@@ -347,20 +348,23 @@ class Report():
 def show_cluster_list(reports, label_name="E"):
     def join_value(value):
         length = len(value)
-        if length < 10:
+        if length < 4:
             return ",".join(value)
         else:
-            return ",".join(value[0:4]) + ",等" + str(length) + "项"
+            return ",".join(value[0:2]) + ",等" + str(length) + "项"
 
     res = []
     for _nodes in [r.nodes for r in reports]:
+        _nodes = copy.deepcopy(_nodes)
+        for node in _nodes:
+            node = {**node, "name": Net.countries[str(node["code"])]}
 
         label_group = pd.DataFrame(_nodes)
-        label_group[["code"]] = label_group[["code"]].astype('str')
+        # label_group[["code"]] = label_group[["code"]].astype('str')
         # res = label_group.groupby(label_name).apply(lambda x: ",".join(x["code"]))
 
         res.append(label_group.groupby(label_name).aggregate(
-            {"code": join_value}))
+            {"name": join_value}))
 
     return pd.concat(res, axis=1)
 
