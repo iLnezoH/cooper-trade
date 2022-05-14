@@ -80,7 +80,7 @@
           subtree.children.forEach(child => recursion(child, subtree.key))
         }
         subtree.name = `${key}: ${subtree.value}`
-        if (subtree.label) {
+        if (subtree.label !== null) {
           subtree.title = `label: ${subtree.label}`
           subtree.className = 'leaf-node'
         } else {

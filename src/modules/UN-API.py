@@ -18,7 +18,7 @@ def _get_UN_codes():
 
     UN_code = []
 
-    with open(os.path.join(data_dir, 'UN-code.json'), 'r', encoding='utf8')as fp:
+    with open(os.path.join(data_dir, 'database/UN-code.json'), 'r', encoding='utf8')as fp:
         UN_code = json.load(fp)['results']
 
     return UN_code[1:]
@@ -161,11 +161,14 @@ def format_data(file, to):
 
 
 years = ['2011', '2012', '2013', '2014', '2015',
-         '2016', '2017', '2018', '2019', '2020']
+         '2016', '2017', '2018', '2019', '2020',
+         '2021']
 
-for year in years[5:]:
+for year in years[-1:]:
     format_data(os.path.join(data_dir, 'year_origin_data', year + '.json'),
                 os.path.join(data_dir, 'format-' + year + '-world-copper-2063-trade.json'))
+
+# split_data_by_year(os.path.join(data_dir, 'response/2021(4-975).json'))
 
 # _merge_data(os.path.join(data_dir, 'tmp'))
 # split_data_by_year(os.path.join(data_dir, 'tmp/merged_data/merged_data.json'))
@@ -175,3 +178,4 @@ for year in years[5:]:
 
 # get_trade_data(['2011', '2012', '2013', '2014', '2015'], _get_UN_codes())
 # get_trade_data(['2016', '2017', '2018', '2019', '2020'], _get_UN_codes())
+# get_trade_data(['2021'], _get_UN_codes())
